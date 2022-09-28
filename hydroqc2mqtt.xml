@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>hydroqc2mqtt</Name>
+  <Repository>registry.gitlab.com/hydroqc/hydroqc2mqtt:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://hydroqc.ca/</Project>
+  <Overview>This project was created to provide a way to access Hydro-Québec account and winter credit data in Home-Assistant.&#xD;
+&#xD;
+This module use the hydroqc library to fetch all pertinent account information and winter credit signals to be sent to MQTT. It also provide Home-Assistant discovery topics to create all the relevant sensors in Home-Assistant.&#xD;
+&#xD;
+It also includes a separate logic that sends the hourly consumption statistics to Home-Assitant via websocket</Overview>
+  <Category>HomeAutomation:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/hydroqc-logo.png</Icon>
+  <ExtraParams>--restart=always</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1664399852</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="MQTT Username" Target="MQTT_USERNAME" Default="" Mode="" Description="Optional" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT Password" Target="MQTT_PASSWORD" Default="" Mode="" Description="Optional" Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="MQTT Host" Target="MQTT_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="MQTT Port" Target="MQTT_PORT" Default="1883" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">1883</Config>
+  <Config Name="Contract 0 Name" Target="HQ2M_CONTRACTS_0_NAME" Default="" Mode="" Description="Name of the contract, will appear in Home Assistant and in the hydroqc topics." Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Contract 0 Username" Target="HQ2M_CONTRACTS_0_USERNAME" Default="" Mode="" Description="Username for your HQ account" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Contract 0 Password" Target="HQ2M_CONTRACTS_0_PASSWORD" Default="" Mode="" Description="Your HQ account password" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Contract 0 Customer number" Target="HQ2M_CONTRACTS_0_CUSTOMER" Default="" Mode="" Description="Customer number (Num&#xE9;ro de client) from your invoice. 10 digits, you may need to add a leading 0 to the value Ex: &#x2018;987 654 321&#x2019; will be &#x2018;0987654321&#x2019;" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Contract 0 Account Number" Target="HQ2M_CONTRACTS_0_ACCOUNT" Default="" Mode="" Description="Account Number (Num&#xE9;ro de compte) from your invoice" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Contract 0 Contract number" Target="HQ2M_CONTRACTS_0_CONTRACT" Default="" Mode="" Description="Contract Number (Num&#xE9;ro de contrat) from your invoice. 10 digits, you may need to add a leading 0 to the value. Ex: &#x2018;123 456 789&#x2019; will be &#x2018;0123456789&#x2019;" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Contract 0 Homeassistant websocket URL" Target="HQ2M_CONTRACTS_0_HOME_ASSISTANT_WEBSOCKET_URL" Default="" Mode="" Description="URL to your Home-Assistant installation websocket API" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Contract 0 Homeassistant Token" Target="HQ2M_CONTRACTS_0_HOME_ASSISTANT_TOKEN" Default="" Mode="" Description="Long-lived Home-Assistant access token to be used to access the API" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Contract 0 Hourly sync consumption Flag" Target="HQ2M_CONTRACTS_0_SYNC_HOURLY_CONSUMPTION_ENABLED" Default="true" Mode="" Description="Enable importing hourly consumption from Hydro-Quebec (last 24h)" Type="Variable" Display="advanced" Required="true" Mask="false">true</Config>
+  <Config Name="Contract 0 Log Level" Target="HQ2M_CONTRACTS_0_LOG_LEVEL" Default="INFO" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">INFO</Config>
+  <Config Name="Contract 0 HTTP Log Level" Target="HQ2M_CONTRACTS_0_HTTP_LOG_LEVEL" Default="WARNING" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">WARNING</Config>
+</Container>
