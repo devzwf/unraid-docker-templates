@@ -40,9 +40,9 @@ It also includes a separate logic that sends the hourly consumption statistics t
   <Config Name="Contract 0 Hourly sync consumption Flag" Target="HQ2M_CONTRACTS_0_SYNC_HOURLY_CONSUMPTION_ENABLED" Default="true" Mode="" Description="Enable importing hourly consumption from Hydro-Quebec (last 24h)" Type="Variable" Display="advanced" Required="true" Mask="false">true</Config>
   <Config Name="Contract 0 Log Level" Target="HQ2M_CONTRACTS_0_LOG_LEVEL" Default="INFO" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">INFO</Config>
   <Config Name="Contract 0 HTTP Log Level" Target="HQ2M_CONTRACTS_0_HTTP_LOG_LEVEL" Default="WARNING" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">WARNING</Config>
-  <changes>### 2020.09.30
+  <Changes>### 2020.09.30
 - Update registry
 - add changelog
 ### 2022.09.29
--   Initial Release</changes>  
+-   Initial Release</Changes>  
 </Container>
