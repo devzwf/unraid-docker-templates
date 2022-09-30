@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>hydroqc2mqtt</Name>
   <Repository>registry.gitlab.com/hydroqc/hydroqc2mqtt:latest</Repository>
-  <Registry>https://https://registry.gitlab.com/hydroqc/hydroqc2mqtt</Registry>
+  <Registry>https://registry.gitlab.com/hydroqc/hydroqc2mqtt</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
