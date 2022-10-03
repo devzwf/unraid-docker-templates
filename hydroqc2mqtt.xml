@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/129079-support-devzwf-hydroqc2mqtt</Support>
   <Project>https://hydroqc.ca/</Project>
   <Overview>This project was created to provide a way to access Hydro-Québec account and winter credit data in Home-Assistant.&#xD;
 &#xD;
