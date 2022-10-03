@@ -1,4 +1,7 @@
-# devzwf's unraid docker templates
+<h1 align="center" id="heading"> devzwf's unraid docker templates </h1>
+
+<a href="https://github.com/devzwf/unraid-docker-templates/blob/main/CHANGELOG.MD"><img src="https://img.shields.io/badge/🔶-Changelog-blue" /></a> <a
+href="https://ko-fi.com/O5O0FG195"><img src="https://img.shields.io/badge/%E2%98%95-Buy%20me%20a%20coffee-red" /></a>
 
 Template for Docker Containers to use UnRaid
 
