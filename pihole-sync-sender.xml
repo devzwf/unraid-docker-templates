@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Pihole-Sync-Sender</Name>
+  <Repository>shirom/pihole-sync:latest</Repository>
+  <Registry>https://hub.docker.com/r/shirom/pihole-sync</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/ShiromMakkad/docker-pihole-sync</Project>
+  <Overview>A Docker Container To Sync Two Piholes.&#xD;
+&#xD;
+This is the Sender/Master, you will need a receiver/secondary on the host who is running the  receiver/secondary Pi-Hole.&#xD;
+&#xD;
+Note: after starting this container the first time please check the log for the public Key.&#xD;
+  </Overview>
+  <Category>Network:DNS</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1664767401</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Node Type" Target="NODE" Default="sender" Mode="" Description="This is where you should define if the container is the sender or the receiver" Type="Variable" Display="advanced-hide" Required="true" Mask="false">sender</Config>
+  <Config Name="Remote host IP" Target="REM_HOST" Default="" Mode="" Description="This is the IP address (or FQDN/Hostname) of the remote Pi that we're syncting to." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Remote SSH port" Target="REM_SSH_PORT" Default="22222" Mode="" Description="This is the non-standard SSH port that should be exposed on the container. Default of 22222 is probably fine. However, if you change this on the sender node, be sure to change the exposed port forward on the receiver node." Type="Variable" Display="advanced-hide" Required="true" Mask="false">22222</Config>
+  <Config Name="Root directory" Target="/root" Default="" Mode="rw" Description="This is the directory in which the SSH key file and the known hosts file will be stored, so it needs to be persistent." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Etc-ssh" Target="/etc/ssh" Default="" Mode="rw" Description="This is the directory in which the SSH server key files and the SSH daemon config will be stored, so it needs to be persistent." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pi-hole-sync/etc-ssh</Config>
+  <Config Name="Pi-Hole Path" Target="/mnt/etc-pihole" Default="" Mode="ro" Description="This is the /etc/pihole/ directory the Pi-Hole container writes to on the host filesystem. It is monitored and sychronized with the remote client directory. It should be set to the same as the /etc/pihole/ in the Pihole Docker container." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Pi-Hole DNSmasq path" Target="/mnt/etc-dnsmasq.d" Default="" Mode="ro" Description="This is the /etc/dnsmasq.d/ directory the Pi-Hole container writes to on the host filesystem. It is monitored and sychronized with the remote client directory. It should be set to the same as the /etc/dnsmasq.d/ in the Pihole Docker container." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Changes>### 2022.10.03
+-   Initial Release</Changes>
+</Container>
