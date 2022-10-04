@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/129117-support-devzwf-pihole-sync</Support>
   <Project>https://github.com/ShiromMakkad/docker-pihole-sync</Project>
   <Overview>A Docker Container To Sync Two Piholes.&#xD;
 &#xD;
@@ -33,6 +33,8 @@ Note: after starting this container the first time please check the log for the 
   <Config Name="Etc-ssh" Target="/etc/ssh" Default="" Mode="rw" Description="This is the directory in which the SSH server key files and the SSH daemon config will be stored, so it needs to be persistent." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Pi-Hole Path" Target="/mnt/etc-pihole" Default="" Mode="ro" Description="This is the /etc/pihole/ directory the Pi-Hole container writes to on the host filesystem. It is monitored and sychronized with the remote client directory. It should be set to the same as the /etc/pihole/ in the Pihole Docker container." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Pi-Hole DNSmasq path" Target="/mnt/etc-dnsmasq.d" Default="" Mode="ro" Description="This is the /etc/dnsmasq.d/ directory the Pi-Hole container writes to on the host filesystem. It is monitored and sychronized with the remote client directory. It should be set to the same as the /etc/dnsmasq.d/ in the Pihole Docker container." Type="Path" Display="always" Required="true" Mask="false"/>
-  <Changes>### 2022.10.03
--   Initial Release</Changes>
+  <Changes>### 2022.10.04
+- Adding support thread
+### 2022.10.03
+- Initial Release</Changes>
 </Container>
