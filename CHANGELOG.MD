@@ -2,13 +2,20 @@
 
 All major changes to this project will be documented here.
 
+## 2022-10-12
+
+### Changed
+
+- **Homebox**
+  - New addition
+
 ## 2022-10-03
 
 ### Changed
 
 - **PiHole Sync**
   - New addition
-- adding changelog file
+  - adding changelog file
 
 ## 2022-09-30
 

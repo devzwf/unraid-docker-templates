@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Homebox</Name>
+  <Repository>ghcr.io/hay-kot/homebox:latest</Repository>
+  <Registry>https://github.com/hay-kot/homebox/pkgs/container/homebox</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/hay-kot/homebox</Project>
+  <Overview>Homebox is the inventory and organization system built for the Home User! With a focus on simplicity and ease of use, Homebox is the perfect solution for your home inventory, organization, and management needs</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3100]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/homebox_logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1665594206</DateInstalled>
+  <DonateText/>If you like my work please </DonateText>
+  <DonateLink/>https://ko-fi.com/devzwf</DonateLink
+  <Requires/>
+  <Config Name="Data Dir" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Log Level" Target="HBOX_LOG_LEVEL" Default="info" Mode="" Description="log level to use, can be one of: trace, debug, info, warn, error, critical" Type="Variable" Display="always" Required="false" Mask="false">info</Config>
+  <Config Name="Log Format" Target="HBOX_LOG_FORMAT" Default="text" Mode="" Description="log format to use, can be one of: text, json" Type="Variable" Display="always" Required="false" Mask="false">text</Config>
+  <Config Name="Maximum fil upload size" Target="HBOX_WEB_MAX_UPLOAD_SIZE" Default="10" Mode="" Description="maximum file upload size supported in MB" Type="Variable" Display="always" Required="false" Mask="false">10</Config>
+  <Config Name="Web UI port" Target="7745" Default="3100" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3100</Config>
+  <Changes>### 2020.10.11
+-   Initial Release</Changes> 
+</Container>

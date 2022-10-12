@@ -10,10 +10,23 @@ The docker containers referenced in this repo point to Docker Containers maintai
 
 # Unraid Templates
 
+- [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
 - [pihole-sync-sender](#pihole-sync-sender)
 
 ---
+
+# Homebox
+
+![homebox](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/homebox_logo.png)
+
+Homebox is the inventory and organization system built for the Home User! With a focus on simplicity and ease of use, Homebox is the perfect solution for your home inventory, organization, and management needs.
+
+**Application Name:** Homebox
+
+**Application Site:** https://hay-kot.github.io/homebox/
+
+**[`^back to top^`](#unraid-templates)**
 
 # hydroqc2mqtt
 
