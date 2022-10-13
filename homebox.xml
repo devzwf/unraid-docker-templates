@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/129521-support-devzwf-homebox</Support>
   <Project>https://github.com/hay-kot/homebox</Project>
   <Overview>Homebox is the inventory and organization system built for the Home User! With a focus on simplicity and ease of use, Homebox is the perfect solution for your home inventory, organization, and management needs</Overview>
   <Category>Productivity: Tools:</Category>
@@ -26,6 +26,9 @@
   <Config Name="Log Format" Target="HBOX_LOG_FORMAT" Default="text" Mode="" Description="log format to use, can be one of: text, json" Type="Variable" Display="always" Required="false" Mask="false">text</Config>
   <Config Name="Maximum fil upload size" Target="HBOX_WEB_MAX_UPLOAD_SIZE" Default="10" Mode="" Description="maximum file upload size supported in MB" Type="Variable" Display="always" Required="false" Mask="false">10</Config>
   <Config Name="Web UI port" Target="7745" Default="3100" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3100</Config>
-  <Changes>### 2020.10.11
+  <Changes>### 2022.10.12 
+-   Fix Typo
+-   Add Support thread Link
+### 2022.10.11
 -   Initial Release</Changes> 
 </Container>
