@@ -4,6 +4,6 @@
   <Profile>
     Noname dude making some template to help.
   </Profile>
-  <DonateLink/>https://ko-fi.com/devzwf</DonateLink>
-  <DonateText/>If you like my work please consider Donating.</DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <DonateText>If you like my work please consider Donating.</DonateText>
 </Maintainer>

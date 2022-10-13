@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1665594206</DateInstalled>
-  <DonateText/>If you like my work please </DonateText>
-  <DonateLink/>https://ko-fi.com/devzwf</DonateLink>
+  <DonateText>If you like my work please </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="Data Dir" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Log Level" Target="HBOX_LOG_LEVEL" Default="info" Mode="" Description="log level to use, can be one of: trace, debug, info, warn, error, critical" Type="Variable" Display="always" Required="false" Mask="false">info</Config>
