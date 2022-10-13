@@ -7,6 +7,14 @@ All major changes to this project will be documented here.
 ### Changed
 
 - **Homebox**
+  - Fix incorrect xml
+  - Fix Webui Port
+
+## 2022-10-12
+
+### Changed
+
+- **Homebox**
   - New addition
 
 ## 2022-10-03
