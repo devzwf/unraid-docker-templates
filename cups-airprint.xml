@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Cups-Airprint</Name>
+  <Repository>chuckcharlie/cups-avahi-airprint:latest</Repository>
+  <Registry>https://hub.docker.com/r/chuckcharlie/cups-avahi-airprint</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/chuckcharlie/cups-avahi-airprint</Project>
+  <Overview>CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable.&#xD;
+CUPS supports printing to:&#xD;
+&#xD;
+AirPrint&#x2122; and IPP Everywhere&#x2122; printers,&#xD;
+Network and local (USB) printers with Printer Applications, and&#xD;
+Network and local (USB) printers with (legacy) PPD-based printer drivers.&#xD;
+&#xD;
+To add printers: visit the WebUI =&amp;gt; Administration =&amp;gt; Printers =&amp;gt; Add Printer&#xD;
+The default admin credential : admin/admin (please Change when setting up your container)</Overview>
+  <Category>Tools: Network:Other</Category>
+  <WebUI>http://[IP]:[PORT:631]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/cups-logo.png</Icon>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1666227770</DateInstalled>
+  <DonateText>If you like my work please </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="CUPS Admin Username" Target="CUPSADMIN" Default="admin" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>
+  <Config Name="CUPS Admin Password" Target="CUPSPASSWORD" Default="admin" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">admin</Config>
+  <Config Name=" Avahi service Configs" Target="/services" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Printer Configs " Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Logs" Target="/var/log/cups" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Changes>### 2022.10.19
+-   Initial Release</Changes>
+</Container>

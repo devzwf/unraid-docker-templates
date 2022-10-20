@@ -10,11 +10,25 @@ The docker containers referenced in this repo point to Docker Containers maintai
 
 # Unraid Templates
 
+- [Cups-Airprint](#cups-airprint)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
 - [pihole-sync-sender](#pihole-sync-sender)
 
 ---
+
+# CUPS-Airprint
+
+![CUPS-Airprint](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/cups_logo.png)
+
+CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable.
+This Image is based on openprinting
+
+**Application Name:** CUPS-Airprint
+**images repository** https://github.com/chuckcharlie/cups-avahi-airprint
+**Application Site:** https://openprinting.github.io/cups/index.html
+
+**[`^back to top^`](#unraid-templates)**
 
 # Homebox
 
