@@ -19,7 +19,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 
 # CUPS-Airprint
 
-![CUPS-Airprint](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/cups_logo.png)
+![CUPS-Airprint](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/cups-logo.png)
 
 CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable.
 This Image is based on openprinting
