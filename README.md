@@ -25,7 +25,9 @@ CUPS instance that is meant as an AirPrint relay for printers that are already o
 This Image is based on openprinting
 
 **Application Name:** CUPS-Airprint
-**images repository** https://github.com/chuckcharlie/cups-avahi-airprint
+
+**Images repository** https://github.com/chuckcharlie/cups-avahi-airprint
+
 **Application Site:** https://openprinting.github.io/cups/index.html
 
 **[`^back to top^`](#unraid-templates)**
