@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/129880-support-devzwf-cups-airprint</Support>
   <Project>https://github.com/chuckcharlie/cups-avahi-airprint</Project>
   <Overview>CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable.&#xD;
 CUPS supports printing to:&#xD;
@@ -34,6 +34,8 @@ The default admin credential : admin/admin (please Change when setting up your c
   <Config Name=" Avahi service Configs" Target="/services" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Printer Configs " Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Logs" Target="/var/log/cups" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Changes>### 2022.10.19
+  <Changes>### 2022.10.20 
+-   Add Support thread Link
+### 2022.10.19
 -   Initial Release</Changes>
 </Container>
