@@ -8,7 +8,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/130245-support-devzwf-speedtest-tracker</Support>
   <Project>https://github.com/alexjustesen/speedtest-tracker</Project>
   <Overview>A Docker image to check your internet speed using Ookla's Speedtest service. Build using Laravel and the Speedtest CLI.&#xD;
 Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.&#xD;
@@ -18,7 +18,7 @@ Speedtest Tracker is in active development, during this "alpha" phase expect thi
 default login :&#xD;
 Username : admin@example.com&#xD;
 Password : password</Overview>
-  <Category/>
+  <Category>Tools: Network:Other Status:Beta</Category>
   <WebUI>https://[IP]:[PORT:443]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/speedtest-tracker-icon.png</Icon>
