@@ -2,6 +2,13 @@
 
 All major changes to this project will be documented here.
 
+## 2022-10-28
+
+### Changed
+
+- **Speedtest-tracker**
+  - New addition
+
 ## 2022-10-12
 
 ### Changed

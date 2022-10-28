@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>speedtest-tracker</Name>
+  <Repository>ghcr.io/alexjustesen/speedtest-tracker:latest</Repository>
+  <Registry>https://github.com/alexjustesen/speedtest-tracker/pkgs/container/speedtest-tracker</Registry>
+  <Network>bridge</Network>
+  <Beta>True</Beta>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/alexjustesen/speedtest-tracker</Project>
+  <Overview>A Docker image to check your internet speed using Ookla's Speedtest service. Build using Laravel and the Speedtest CLI.&#xD;
+Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.&#xD;
+&#xD;
+Speedtest Tracker is in active development, during this "alpha" phase expect things to change and maybe break.&#xD;
+&#xD;
+default login :&#xD;
+Username : admin@example.com&#xD;
+Password : password</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:443]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/speedtest-tracker-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1666964914</DateInstalled>
+  <DonateText>If you like my work please </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WEBUI Port" Target="443" Default="9443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9443</Config>
+  <Config Name="PUID" Target="PUID" Default="1000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">1000</Config>
+  <Config Name="PGID" Target="PGID" Default="1000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">1000</Config>
+  <Config Name="Config Directory" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Changes>### 2022.10.28
+- Initial Release</Changes>
+</Container>

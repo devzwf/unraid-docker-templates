@@ -14,6 +14,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
 - [pihole-sync-sender](#pihole-sync-sender)
+- [speedtest-tracker](#speedtest-tracker)
 
 ---
 
@@ -69,5 +70,21 @@ This repo allows you to synchronize between two piholes where one is the master 
 **Application Name:** pihole-sync
 
 **Application Site:** https://github.com/ShiromMakkad/docker-pihole-sync
+
+**[`^back to top^`](#unraid-templates)**
+
+# speedtest-tracker
+
+![speedtest-tracker](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/speedtest-tracker-icon.png)
+
+A Docker image to check your internet speed using Ookla's Speedtest service. Build using Laravel and the Speedtest CLI.
+
+Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+
+**Application Name:** speedtest-tracker
+
+**Application Site:** https://github.com/alexjustesen/speedtest-tracker
+
+**Documentation** https://docs.speedtest-tracker.dev/
 
 **[`^back to top^`](#unraid-templates)**
