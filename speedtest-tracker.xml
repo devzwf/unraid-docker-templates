@@ -19,7 +19,7 @@ default login :&#xD;
 Username : admin@example.com&#xD;
 Password : password</Overview>
   <Category/>
-  <WebUI>http://[IP]:[PORT:443]/</WebUI>
+  <WebUI>https://[IP]:[PORT:443]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/speedtest-tracker-icon.png</Icon>
   <ExtraParams/>
