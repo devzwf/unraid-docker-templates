@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Binner</Name>
+  <Repository>devzwf/binner:latest</Repository>
+  <Registry>https://hub.docker.com/r/devzwf/binner</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/replaysMike/Binner</Project>
+  <Overview>Binner is a free open-source parts inventory tracking system you can run locally in Windows or Unix environments. It was created for makers (like myself), hobbyists or professionals to keep track of your parts inventory.</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>https://[IP]:[PORT:8090]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/binner-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1667448208</DateInstalled>
+  <DonateText>If you like my work please </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="DB Directory" Target="/app/db" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Logs Directory" Target="/app/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="WebUI" Target="8090" Default="8090" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8090</Config>
+  <Changes>### 2022.11.02
+-   Initial Release</Changes>
+</Container>

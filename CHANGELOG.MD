@@ -2,6 +2,13 @@
 
 All major changes to this project will be documented here.
 
+## 2022-11-02
+
+### Changed
+
+- **Binner**
+  - New addition
+
 ## 2022-10-28
 
 ### Changed

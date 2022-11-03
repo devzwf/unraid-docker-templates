@@ -10,6 +10,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 
 # Unraid Templates
 
+- [Binner](#binner)
 - [Cups-Airprint](#cups-airprint)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
@@ -17,6 +18,20 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [speedtest-tracker](#speedtest-tracker)
 
 ---
+
+# Binner
+
+![binner](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/binner-logo.png)
+
+Binner is a free open-source parts inventory tracking system you can run locally in Windows or Unix environments. It was created for makers (like myself), hobbyists or professionals to keep track of your parts inventory
+
+**Application Name:** Binner
+
+**Images repository** https://github.com/replaysMike/Binner
+
+**Application Site:** https://binner.io/
+
+**[`^back to top^`](#unraid-templates)**
 
 # CUPS-Airprint
 
