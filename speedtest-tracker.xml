@@ -26,7 +26,7 @@ Password : password</Overview>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1666964914</DateInstalled>
-  <DonateText>If you like my work please </DonateText>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="WEBUI Port" Target="443" Default="9443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9443</Config>

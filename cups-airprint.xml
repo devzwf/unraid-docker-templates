@@ -26,7 +26,7 @@ The default admin credential : admin/admin (please Change when setting up your c
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1666227770</DateInstalled>
-  <DonateText>If you like my work please </DonateText>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="CUPS Admin Username" Target="CUPSADMIN" Default="admin" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>

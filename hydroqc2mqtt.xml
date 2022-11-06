@@ -22,8 +22,8 @@ It also includes a separate logic that sends the hourly consumption statistics t
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1664399852</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="MQTT Username" Target="MQTT_USERNAME" Default="" Mode="" Description="Optional" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="MQTT Password" Target="MQTT_PASSWORD" Default="" Mode="" Description="Optional" Type="Variable" Display="always" Required="false" Mask="true"></Config>

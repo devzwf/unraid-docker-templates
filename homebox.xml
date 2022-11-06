@@ -18,7 +18,7 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1665594206</DateInstalled>
-  <DonateText>If you like my work please </DonateText>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="Data Dir" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>

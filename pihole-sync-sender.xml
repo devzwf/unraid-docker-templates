@@ -23,8 +23,8 @@ Note: after starting this container the first time please check the log for the 
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1664767401</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="Node Type" Target="NODE" Default="sender" Mode="" Description="This is where you should define if the container is the sender or the receiver" Type="Variable" Display="advanced-hide" Required="true" Mask="false">sender</Config>
   <Config Name="Remote host IP" Target="REM_HOST" Default="" Mode="" Description="This is the IP address (or FQDN/Hostname) of the remote Pi that we're syncting to." Type="Variable" Display="always" Required="true" Mask="false"/>
