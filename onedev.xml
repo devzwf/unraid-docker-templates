@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/130848-support-devzwf-onedev</Support>
   <Project>https://code.onedev.io/projects/160</Project>
   <Overview>OneDev is an all-in-one DevOps platform that features Git repository management with language-aware code search, issue management with custom states and fields, and a docker-first Kubernetes native build/CI engine. An alternative to GitLab, it is easier to use and maintain, with lots of unique features&#xD;
 &#xD;
@@ -29,6 +29,8 @@ https://code.onedev.io/projects/162/files</Overview>
   <Config Name="Docker Sock" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/var/run/docker.sock</Config>
   <Config Name="WebUI" Target="6610" Default="6610" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6610</Config>
   <Config Name="SSH Port" Target="6611" Default="6611" Mode="tcp" Description="" Type="Port" Display="advanced-hide" Required="true" Mask="false">6611</Config>
-  <Changes>### 2022.11.10
+  <Changes>### 2022.11.11
+-   Add support link
+### 2022.11.10
 -   Initial Release</Changes>
 </Container>
