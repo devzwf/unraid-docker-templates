@@ -14,6 +14,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Cups-Airprint](#cups-airprint)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
+- [Onedev](#onedev)
 - [pihole-sync-sender](#pihole-sync-sender)
 - [speedtest-tracker](#speedtest-tracker)
 
@@ -71,6 +72,20 @@ It also includes a separate logic that sends the hourly consumption statistics t
 **Application Name:** hydroqc2mqtt
 
 **Application Site:** https://hydroqc.ca/
+
+**[`^back to top^`](#unraid-templates)**
+
+# Onedev
+
+![onedev](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/onedev-logo.png)
+
+OneDev is an all-in-one DevOps platform that features Git repository management with language-aware code search, issue management with custom states and fields, and a docker-first Kubernetes native build/CI engine. An alternative to GitLab, it is easier to use and maintain, with lots of unique features
+
+**Application Name:** Onedev
+
+**Images repository** https://github.com/theonedev/onedev
+
+**Application Site:** https://code.onedev.io/projects/160
 
 **[`^back to top^`](#unraid-templates)**
 

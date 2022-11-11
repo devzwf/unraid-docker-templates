@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Onedev</Name>
+  <Repository>1dev/server</Repository>
+  <Registry>https://hub.docker.com/r/1dev/server</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://code.onedev.io/projects/160</Project>
+  <Overview>OneDev is an all-in-one DevOps platform that features Git repository management with language-aware code search, issue management with custom states and fields, and a docker-first Kubernetes native build/CI engine. An alternative to GitLab, it is easier to use and maintain, with lots of unique features&#xD;
+&#xD;
+OneDev by default uses an embedded database to store data. You may use environment variables  to connect to external database if desired.&#xD;
+See Documentation&#xD;
+https://code.onedev.io/projects/162/files</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:6610]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/onedev-logo.png</Icon>
+  <ExtraParams>--restart always</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1668134281</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the app, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Data Dir" Target="/opt/onedev" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Docker Sock" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="WebUI" Target="6610" Default="6610" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6610</Config>
+  <Config Name="SSH Port" Target="6611" Default="6611" Mode="tcp" Description="" Type="Port" Display="advanced-hide" Required="true" Mask="false">6611</Config>
+  <Changes>### 2022.11.10
+-   Initial Release</Changes>
+</Container>
