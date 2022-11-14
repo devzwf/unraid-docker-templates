@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/130953-support-devzwf-postfix-relay/</Support>
   <Project>https://github.com/loganmarchione/docker-postfixrelay</Project>
   <Overview>This runs Postfix (as a relay) in Docker.&#xD;
 Most home ISPs block port 25, so outbound emails must be relayed through an external SMTP server (e.g., Gmail).&#xD;
@@ -37,6 +37,8 @@ Your external SMTP server must be using encryption (i.e., plaintext is not allow
   <Config Name="SMTP password" Target="RELAY_PASS" Default="" Mode="" Description="Password to login to $RELAY_HOST&#13;&#10;If using Gmail 2FA, you will need to setup an app password" Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="Test Email address" Target="TEST_EMAIL" Default="" Mode="" Description="Address to receive test email&#13;&#10;If not set, test email will not be sent" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Domain from address" Target="MYORIGIN" Default="" Mode="" Description="Domain of the " Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Changes>### 2022.11.13
+  <Changes>### 2022.11.14
+- Adding support thread
+### 2022.11.13
 -   Initial Release</Changes>
 </Container>
