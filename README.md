@@ -16,6 +16,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [hydroqc2mqtt](#hydroqc2mqtt)
 - [Onedev](#onedev)
 - [pihole-sync-sender](#pihole-sync-sender)
+- [Postfix-Relay](#postfixrelay)
 - [speedtest-tracker](#speedtest-tracker)
 
 ---
@@ -100,6 +101,23 @@ This repo allows you to synchronize between two piholes where one is the master 
 **Application Name:** pihole-sync
 
 **Application Site:** https://github.com/ShiromMakkad/docker-pihole-sync
+
+**[`^back to top^`](#unraid-templates)**
+
+# postfixrelay
+
+![postfixrelay](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/postfix-logo.gif)
+
+    This runs Postfix (as a relay) in Docker.
+    - Most home ISPs block port 25, so outbound emails must be relayed through an external SMTP server (e.g., Gmail).
+    - This container acts as a single collections point for devices needing to send email.
+    - ⚠️ Postfix acts as an open relay. As such, this is not meant to be run on the internet, only on a trusted internal network! ⚠️
+    - You must already have a account on an external SMTP server (e.g., Gmail, AWS SES, etc...).
+    - Your external SMTP server must be using encryption (i.e., plaintext is not allowed)
+
+**Application Name:** Postfix-Relay
+
+**Application Site:** https://github.com/loganmarchione/docker-postfixrelay
 
 **[`^back to top^`](#unraid-templates)**
 
