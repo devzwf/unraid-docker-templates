@@ -2,6 +2,8 @@
 
 All major changes to this project will be documented here.
 
+## 2022-11-29
+
 ### Changed
 
 - **PiHole Sync Receiver**
