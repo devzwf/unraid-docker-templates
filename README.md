@@ -92,7 +92,7 @@ OneDev is an all-in-one DevOps platform that features Git repository management 
 
 **[`^back to top^`](#unraid-templates)**
 
-# pihole DoT/DoH
+# pihole-dot-doh
 
 ![pihole-dot-doh](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png)
 
