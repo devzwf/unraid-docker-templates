@@ -2,6 +2,13 @@
 
 All major changes to this project will be documented here.
 
+## 2022-12-06
+
+### Changed
+
+- **PiHole-DoT-DoH**
+  - New addition
+
 ## 2022-11-29
 
 ### Changed
