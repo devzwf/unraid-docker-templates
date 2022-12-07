@@ -31,7 +31,7 @@
   <WebUI>http://[IP]:[PORT:80]/admin</WebUI>
   <TemplateURL>https://github.com/devzwf/unraid-docker-templates/blob/main/pihole-dot-doh.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
-  <ExtraParams>--cap-add=NET_ADMIN --restart=unless-stopped --hostname irma</ExtraParams>
+  <ExtraParams>--cap-add=NET_ADMIN --restart=unless-stopped --hostname ns</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1670387701</DateInstalled>
