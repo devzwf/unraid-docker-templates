@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2022-12-12
+
+- **Postfix-Relay**
+  - add MYNETWORKS to be compatible with v1.3.0
+
 ## 2022-12-06
 
 ### Changed

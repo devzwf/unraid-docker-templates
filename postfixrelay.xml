@@ -36,8 +36,11 @@ Your external SMTP server must be using encryption (i.e., plaintext is not allow
   <Config Name="SMTP username" Target="RELAY_USER" Default="" Mode="" Description="Address to login to $RELAY_HOST" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="SMTP password" Target="RELAY_PASS" Default="" Mode="" Description="Password to login to $RELAY_HOST&#13;&#10;If using Gmail 2FA, you will need to setup an app password" Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="Test Email address" Target="TEST_EMAIL" Default="" Mode="" Description="Address to receive test email&#13;&#10;If not set, test email will not be sent" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Domain from address" Target="MYORIGIN" Default="" Mode="" Description="Domain of the " Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Changes>### 2022.11.14
+  <Config Name="Domain from address" Target="MYORIGIN" Default="" Mode="" Description="Domain of the from address" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Networks" Target="MYNETWORKS" Default="0.0.0.0/0" Mode="" Description="Networks that Postfix will forward mail for" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Changes>### 2022.12.12
+- add MYNETWORKS to be compatible with v1.3.0
+### 2022.11.14
 - Adding support thread
 ### 2022.11.13
 -   Initial Release</Changes>
