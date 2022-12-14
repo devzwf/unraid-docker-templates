@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2022.12.14
+
+- **PiHole Sync Receiver**
+  - Fix the default Node variable to be receiver
+
 ## 2022-12-12
 
 - **Postfix-Relay**
