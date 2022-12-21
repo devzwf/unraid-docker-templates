@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2022.12.22
+
+- **PiHole-DoT-DoH**
+  - populate the following path (pihole config, dnsmasq config, DoT DoH config)
+
 ## 2022.12.14
 
 - **PiHole Sync Receiver**
