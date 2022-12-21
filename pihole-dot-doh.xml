@@ -57,6 +57,6 @@
   <Config Name="DNSMASQ Listening" Target="DNSMASQ_LISTENING" Default="all" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
   <Changes>### 2022.12.22
 - populate the following path (pihole config, dnsmasq config, DoT DoH config)
-  ### 2022.12.06
+### 2022.12.06
 - Initial Release</Changes>
 </Container>
