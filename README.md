@@ -19,6 +19,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [pihole-sync-receiver](#pihole-sync-receiver)
 - [pihole-sync-sender](#pihole-sync-sender)
 - [Postfix-Relay](#postfixrelay)
+- [proxmox-backup-server](#proxmox-backup-server)
 - [speedtest-tracker](#speedtest-tracker)
 
 ---
@@ -146,6 +147,22 @@ This repo allows you to synchronize between two piholes where one is the master 
 **Application Name:** Postfix-Relay
 
 **Application Site:** https://github.com/loganmarchione/docker-postfixrelay
+
+**[`^back to top^`](#unraid-templates)**
+
+# proxmox-backup-server dockerfiles
+
+![proxmox-backup-server](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pbs-logo.jpg)
+
+    This is an unofficial compilation of Proxmox Backup Server to run it in a container for AMD64 and ARM64.
+
+    Running in a container might result in some functions not working properly. Feel free to create an issue to debug those.
+
+**Application Name:** proxmox-backup-server
+
+**Application Site:** https://github.com/ayufan/pve-backup-server-dockerfiles
+
+**Documentation** https://pbs.proxmox.com/docs/
 
 **[`^back to top^`](#unraid-templates)**
 

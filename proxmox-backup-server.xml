@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>proxmox-backup-server</Name>
+  <Repository>ayufan/proxmox-backup-server:v2.3.2</Repository>
+  <Beta>True</Beta>
+  <Registry>https://hub.docker.com/r/ayufan/proxmox-backup-server</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/ayufan/pve-backup-server-dockerfiles</Project>
+  <Overview>Proxmox Backup Server in a Container&#xD;
+This is an unofficial compilation of Proxmox Backup Server to run it in a container for AMD64 and ARM64.&#xD;
+&#xD;
+Running in a container might result in some functions not working properly. Feel free to create an issue to debug those.&#xD;
+&#xD;
+ login to https://:8007/ with admin / pbspbs. After that change a password.&#xD;
+&#xD;
+Note:&#xD;
+The core features should work, but there are ones do not work due to container architecture:&#xD;
+       ZFS: it is not installed in a container&#xD;
+       Shell: since the PVE (not PAM) authentication is being used, and since the shell access does not make sense in an ephemeral container environment&#xD;
+       PAM authentication: since containers are by definition ephemeral and no /etc/ configs are being persisted</Overview>
+  <Category>Backup:</Category>
+  <WebUI>https://[IP]:[PORT:8007]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pbs-logo.jpg</Icon>
+  <ExtraParams>--restart unless-stopped --memory=2g --mount type=tmpfs,destination=/run</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1672682418</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="pbs_etc" Target="/etc/proxmox-backup" Default="/mnt/user/appdata/pbs/etc" Mode="rw" Description="ETC" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/pbs/etc</Config>
+  <Config Name="pbs_logs" Target="/var/log/proxmox-backup" Default="/mnt/user/appdata/pbs/logs" Mode="rw" Description="Logs Directory" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/pbs/logs</Config>
+  <Config Name="pbs_lib" Target="/var/lib/proxmox-backup" Default="/mnt/user/appdata/pbs/lib" Mode="rw" Description="Lib Directory" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/pbs/lib</Config>
+  <Config Name="Backup Dir" Target="/backups" Default="" Mode="rw" Description="Backup Directory (Datastore)" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/pbs_backup/</Config>
+  <Config Name="TZ" Target="TZ" Default="America/Toronto" Mode="" Description="TZ" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
+  <Changes>### 2023.01.02
+- Initial Release</Changes>
+</Container>
