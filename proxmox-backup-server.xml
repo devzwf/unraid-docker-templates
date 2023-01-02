@@ -8,7 +8,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/133141-support-devzwf-proxmox-backup-server-dockerfiles/</Support>
   <Project>https://github.com/ayufan/pve-backup-server-dockerfiles</Project>
   <Overview>Proxmox Backup Server in a Container&#xD;
 This is an unofficial compilation of Proxmox Backup Server to run it in a container for AMD64 and ARM64.&#xD;
