@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/137727-support-devzwf-esphome-libretuya/</Support>
   <Project>https://github.com/kuba2k2/libretuya-esphome</Project>
   <Overview>Because ESPHome does not natively support running on non-ESP chips, you need to use a fork of the project.&#xD;
 and until the esphome devs merge this PR : https://github.com/esphome/esphome/pull/3509&#xD;
@@ -36,6 +36,8 @@ ESPHome Dashboard (GUI) - for new users, might be an easy way to go; config mana
   <Config Name="Cache Dir" Target="/cache" Default="/mnt/user/appdata/esphome-libretuya/cache" Mode="rw" Description="Cache Directory" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/esphome-libretuya/cache</Config>
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/etc/localtime</Config>
   <Config Name="UI" Target="6052" Default="6052" Mode="tcp" Description="set this to something not in use" Type="Port" Display="always" Required="true" Mask="false">6053</Config>
-  <Changes>### 2023.04.06
+  <Changes>### 2023.04.10
+- Update support thread
+### 2023.04.06
 -   Initial Release</Changes>
 </Container>
