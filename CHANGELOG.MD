@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2023.04.06
+
+- **ESPHome-LibreTuya**
+  - New addition
+
 ## 2023.01.02
 
 - **Proxmox-Backup-Server Dockerfiles**
