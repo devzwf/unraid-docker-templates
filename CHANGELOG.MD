@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2023.04.23
+
+- **Blocky**
+  - New addition
+
 ## 2023.04.06
 
 - **ESPHome-LibreTuya**

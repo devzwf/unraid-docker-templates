@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>blocky</Name>
+  <Repository>spx01/blocky</Repository>
+  <Beta>True</Beta>
+  <Registry>https://hub.docker.com/r/spx01/blocky</Registry>
+  <Network>br0</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/0xERR0R/blocky</Project>
+  <Overview>Blocky is a DNS proxy and ad-blocker for the local network written in Go&#xD;
+&#xD;
+Create new config.yaml with your configuration ( see https://0xerr0r.github.io/blocky/configuration/ for more details and all configuration options).</Overview>
+  <Category>Security: Tools: Network:DNS</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/blocky-logo.png</Icon>
+  <ExtraParams>--cap-add=NET_ADMIN --restart=unless-stopped --hostname blocky</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1682284867</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="" Description="Time Zone" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
+  <Config Name="Config File location" Target="BLOCKY_CONFIG_FILE" Default="/app/config/config.yml" Mode="" Description="Location of the config file in the container" Type="Variable" Display="always" Required="true" Mask="false">/app/config/config.yml</Config>
+  <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="Optional to synchronize the log timestamp with host" Type="Path" Display="always" Required="false" Mask="false">/etc/localtime</Config>
+  <Config Name="Config Dir" Target="/app/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/blocky/config</Config>
+  <Config Name="Logs Dir" Target="/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/blocky/logs</Config>
+  <Config Name="DNS Port TCP" Target="53" Default="53" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">53</Config>
+  <Config Name="DNS Port UDP" Target="53" Default="53" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">53</Config>
+  <Changes>### 2023.04.23
+-   Initial Release</Changes>
+</Container>

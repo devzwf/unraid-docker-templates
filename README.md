@@ -11,6 +11,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 # Unraid Templates
 
 - [Binner](#binner)
+- [Blocky](#blocky)
 - [Cups-Airprint](#cups-airprint)
 - [ESPHome-LibreTuya](#esphome-libretuya)
 - [homebox](#homebox)
@@ -36,6 +37,21 @@ Binner is a free open-source parts inventory tracking system you can run locally
 **Images repository** https://github.com/replaysMike/Binner
 
 **Application Site:** https://binner.io/
+
+**[`^back to top^`](#unraid-templates)**
+
+# Blocky
+
+![blocky](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/blocky-logo.png)
+
+Blocky is a DNS proxy and ad-blocker for the local network written in Go.
+Create new config.yaml with your configuration ( see https://0xerr0r.github.io/blocky/configuration/ for more details and all configuration options)
+
+**Application Name:** Blocky
+
+**Images repository** https://github.com/0xERR0R/blocky
+
+**Application Site:**https://0xerr0r.github.io/blocky
 
 **[`^back to top^`](#unraid-templates)**
 
