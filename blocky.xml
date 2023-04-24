@@ -8,7 +8,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/138318-support-devzwf-blocky/</Support>
   <Project>https://github.com/0xERR0R/blocky</Project>
   <Overview>Blocky is a DNS proxy and ad-blocker for the local network written in Go&#xD;
 &#xD;
@@ -32,5 +32,6 @@ Create new config.yaml with your configuration ( see https://0xerr0r.github.io/b
   <Config Name="DNS Port TCP" Target="53" Default="53" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">53</Config>
   <Config Name="DNS Port UDP" Target="53" Default="53" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">53</Config>
   <Changes>### 2023.04.23
+-   Update support thread
 -   Initial Release</Changes>
 </Container>
