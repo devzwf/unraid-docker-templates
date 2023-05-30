@@ -32,12 +32,12 @@ ESPHome Dashboard (GUI) - for new users, might be an easy way to go; config mana
   <DonateText>Don't donate to me! Instead, please donate to the creators of the apps, but if you insist </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
-  <Config Name="Config Dir" Target="/config" Default="/mnt/user/appdata/esphome-libretuya/config" Mode="rw" Description="Config directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/esphome-libretuya/config</Config>
-  <Config Name="Cache Dir" Target="/cache" Default="/mnt/user/appdata/esphome-libretuya/cache" Mode="rw" Description="Cache Directory" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/esphome-libretuya/cache</Config>
+  <Config Name="Config Dir" Target="/config" Default="/mnt/user/appdata/esphome-libretiny/config" Mode="rw" Description="Config directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/esphome-libretiny/config</Config>
+  <Config Name="Cache Dir" Target="/cache" Default="/mnt/user/appdata/esphome-libretiny/cache" Mode="rw" Description="Cache Directory" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/esphome-libretiny/cache</Config>
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/etc/localtime</Config>
   <Config Name="UI" Target="6052" Default="6052" Mode="tcp" Description="set this to something not in use" Type="Port" Display="always" Required="true" Mask="false">6053</Config>
   <Changes>### 2023.045.30
-- Renamed to esphome-libretiny
+- Renamed from esphome-libretuya to esphome-libretiny
 ### 2023.04.10
 - Update support thread
 ### 2023.04.06
