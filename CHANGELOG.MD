@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2023.09.06
+
+- **Speedtest Tracker**
+  - add Support for MySQL/Mariadb or Postgres to fix issue https://github.com/alexjustesen/speedtest-tracker/issues/701
+
 ## 2023.04.23
 
 - **Blocky**
