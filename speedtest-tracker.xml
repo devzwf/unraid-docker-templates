@@ -15,6 +15,7 @@ Speedtest Tracker is a self-hosted internet performance tracking application tha
 &#xD;
 Speedtest Tracker is in active development, during this "alpha" phase expect things to change and maybe break.&#xD;
 &#xD;
+Important note : the dev had dropped SQLite as the default database. It's still supported for those using it but for new installs, strongly recommending MySQL/Mariadb or Postgres.&#xD;
 default login :&#xD;
 Username : admin@example.com&#xD;
 Password : password</Overview>
@@ -33,6 +34,15 @@ Password : password</Overview>
   <Config Name="PUID" Target="PUID" Default="1000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">1000</Config>
   <Config Name="PGID" Target="PGID" Default="1000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">1000</Config>
   <Config Name="Config Directory" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Changes>### 2022.10.28
+  <Config Name="Database" Target="DB_CONNECTION" Default="mysql" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">mysql</Config>
+  <Config Name="Database Host" Target="DB_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Database Port" Target="DB_PORT" Default="3306" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">3306</Config>
+  <Config Name="Database Name" Target="DB_DATABASE" Default="speedtest_tracker" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">speedtest_tracker</Config>
+  <Config Name="Database Username" Target="DB_USERNAME" Default="speedtest" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">speedtest</Config>
+  <Config Name="Database Password" Target="DB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="" Description="Time zone" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
+  <Changes>### 2023.09.06
+- add Support for MySQL/Mariadb or Postgres to fix issue https://github.com/alexjustesen/speedtest-tracker/issues/701
+### 2022.10.28
 - Initial Release</Changes>
 </Container>
