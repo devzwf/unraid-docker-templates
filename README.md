@@ -13,7 +13,6 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Binner](#binner)
 - [Blocky](#blocky)
 - [Cups-Airprint](#cups-airprint)
-- [ESPHome-LibreTuya](#esphome-libretuya)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
 - [Onedev](#onedev)
@@ -67,21 +66,6 @@ This Image is based on openprinting
 **Images repository** https://github.com/chuckcharlie/cups-avahi-airprint
 
 **Application Site:** https://openprinting.github.io/cups/index.html
-
-**[`^back to top^`](#unraid-templates)**
-
-# ESPHome-LibreTuya
-
-![esphome-libretuya](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/libretuya-logo.png)
-
-Because ESPHome does not natively support running on non-ESP chips, you need to use a fork of the project.
-and until the esphome devs merge this PR : https://github.com/esphome/esphome/pull/3509
-
-**Application Name:** ESPHome-LibreTuya
-
-**Images repository** https://github.com/libretuya
-
-**Application Site:** https://docs.libretuya.ml/
 
 **[`^back to top^`](#unraid-templates)**
 
