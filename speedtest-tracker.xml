@@ -40,8 +40,11 @@ Password : password</Overview>
   <Config Name="Database Name" Target="DB_DATABASE" Default="speedtest_tracker" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">speedtest_tracker</Config>
   <Config Name="Database Username" Target="DB_USERNAME" Default="speedtest" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">speedtest</Config>
   <Config Name="Database Password" Target="DB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="App Key" Target="APP_KEY" Default="" Mode="" Description="Key used to encrypt and decrypt data. To create your own key to persist run php artisan key:generate --show from within the running container." Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="" Description="Time zone" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
-  <Changes>### 2023.09.06
+  <Changes>### 2023.10.07
+- add APP_KEY variable since it is now require for v13.x + see https://docs.speedtest-tracker.dev/faqs#i-get-a-warning-on-container-start-up-that-the-app_key-is-missing
+### 2023.09.06
 - add Support for MySQL/Mariadb or Postgres to fix issue https://github.com/alexjustesen/speedtest-tracker/issues/701
 ### 2022.10.28
 - Initial Release</Changes>
