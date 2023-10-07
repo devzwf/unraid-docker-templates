@@ -2,6 +2,15 @@
 
 All major changes to this project will be documented here.
 
+## 2023.10.07
+
+- **Speedtest Tracker**
+
+  - add APP_KEY variable since it is now require for v13.x + see https://docs.speedtest-tracker.dev/faqs#i-get-a-warning-on-container-start-up-that-the-app_key-is-missing
+
+- **ESPHome-LibreTuya / ESPHome-LibreTiny **
+  - Remove since merge now in ESPHome
+
 ## 2023.09.06
 
 - **Speedtest Tracker**
