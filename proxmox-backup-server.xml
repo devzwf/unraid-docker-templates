@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>proxmox-backup-server</Name>
-  <Repository>ayufan/proxmox-backup-server:v2.3.2</Repository>
+  <Repository>ayufan/proxmox-backup-server:latest</Repository>
   <Beta>True</Beta>
   <Registry>https://hub.docker.com/r/ayufan/proxmox-backup-server</Registry>
   <Network>host</Network>
@@ -38,6 +38,8 @@ The core features should work, but there are ones do not work due to container a
   <Config Name="pbs_lib" Target="/var/lib/proxmox-backup" Default="/mnt/user/appdata/pbs/lib" Mode="rw" Description="Lib Directory" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/pbs/lib</Config>
   <Config Name="Backup Dir" Target="/backups" Default="" Mode="rw" Description="Backup Directory (Datastore)" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/pbs_backup/</Config>
   <Config Name="TZ" Target="TZ" Default="America/Toronto" Mode="" Description="TZ" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
-  <Changes>### 2023.01.02
+  <Changes>### 20023.10.08
+- Update to latest container image
+### 2023.01.02
 - Initial Release</Changes>
 </Container>

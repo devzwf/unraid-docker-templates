@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2023.10.08
+
+- **Proxmox-Backup-Server Dockerfiles**
+  - Update to latest container image
+
 ## 2023.10.07
 
 - **Speedtest Tracker**
