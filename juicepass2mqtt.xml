@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Juicepass2mqtt</Name>
-  <Repository>devzwf/juicepass2mqtt:2023.11.0:latest</Repository>
+  <Repository>devzwf/juicepass2mqtt:latest</Repository>
   <Beta>True</Beta>
   <Registry>https://hub.docker.com/r/devzwf/juicepass2mqtt</Registry>
   <Network>bridge</Network>
