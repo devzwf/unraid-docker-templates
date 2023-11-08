@@ -15,6 +15,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Cups-Airprint](#cups-airprint)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
+- [juicepass2mqtt](#juicepass2mqtt)
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
 - [pihole-sync-receiver](#pihole-sync-receiver)
@@ -92,6 +93,20 @@ It also includes a separate logic that sends the hourly consumption statistics t
 **Application Name:** hydroqc2mqtt
 
 **Application Site:** https://hydroqc.ca/
+
+**[`^back to top^`](#unraid-templates)**
+
+# juicepass2mqtt
+
+![juicepass2mqtt](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/juicenet.png)
+
+This tool will publish Juicebox data from a UDP proxy to MQTT discoverable by HomeAssistant.
+Hopefully we won't need this if EnelX fixes their API!
+It is required that both your JuiceBox and the machine you are running juicepassproxy on have internal static IPs on your intranet.
+
+**Application Name:** juicepass2mqtt
+
+**Application Site:** https://github.com/snicker/juicepassproxy
 
 **[`^back to top^`](#unraid-templates)**
 

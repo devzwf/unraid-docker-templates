@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Juicepass2mqtt</Name>
+  <Repository>devzwf/juicepass2mqtt:2023.11.0:latest</Repository>
+  <Beta>True</Beta>
+  <Registry>https://hub.docker.com/r/devzwf/juicepass2mqtt</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/147636-support-devzwf-juicepass2mqtt-juicepassproxy</Support/>
+  <Project>https://github.com/snicker/juicepassproxy</Project>
+  <Overview>This tool will publish Juicebox data from a UDP proxy to MQTT discoverable by HomeAssistant.&#xD;
+Hopefully we won't need this if EnelX fixes their API!&#xD;
+It is required that both your JuiceBox and the machine you are running juicepassproxy on have internal static IPs on your intranet.</Overview>
+  <Category>HomeAutomation: Tools: Network:Proxy Network:Other</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/juicenet.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1699473726</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="UDP Port" Target="8047" Default="8047" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">8047</Config>
+  <Config Name="JUICEBOX IP" Target="JUICEBOX_LOCAL_IP" Default="" Mode="" Description="[Recommended]If defined, it will attempt to get the EnelX Server and Port using Telnet. If unsuccessful, it will default to the EnelX Server and Port below." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SRC" Target="SRC" Default="127.0.0.1" Mode="" Description="If not defined, it will attempt to get the Local Docker IP. If unsuccessful, it will default to 127.0.0.1." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DST" Target="DST" Default="54.161.185.130" Mode="" Description="If not defined, it will attempt to get the IP of the EnelX Server. If unsuccessful, it will default to 54.161.185.130." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT Server" Target="MQTT_HOST" Default="127.0.0.1" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT Port" Target="MQTT_PORT" Default="1883" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1883</Config>
+  <Config Name="MQTT User" Target="MQTT_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT Password" Target="MQTT_PASS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="Debug Mode" Target="DEBUG" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Changes>### 2023.11.08
+- Initial Release</Changes>
+</Container>
