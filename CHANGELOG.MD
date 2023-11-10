@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2023.11.09
+
+- **wallos**
+  - New addition
+
 ## 2023.11.08
 
 - **Juicepass2mqtt**

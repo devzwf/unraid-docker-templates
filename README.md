@@ -23,6 +23,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Postfix-Relay](#postfixrelay)
 - [proxmox-backup-server](#proxmox-backup-server-dockerfiles)
 - [speedtest-tracker](#speedtest-tracker)
+- [walos](#wallos)
 
 ---
 
@@ -210,5 +211,17 @@ Speedtest Tracker is a self-hosted internet performance tracking application tha
 **Application Site:** https://github.com/alexjustesen/speedtest-tracker
 
 **Documentation** https://docs.speedtest-tracker.dev/
+
+**[`^back to top^`](#unraid-templates)**
+
+# wallos
+
+![wallos](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/wallos.png)
+
+Wallos is a powerful, open-source, and self-hostable web application designed to empower you in managing your finances with ease. Say goodbye to complicated spreadsheets and expensive financial software – Wallos simplifies the process of tracking expenses and helps you gain better control over your financial life.
+
+**Application Name:** wallos
+
+**Application Site:** https://github.com/ellite/Wallos
 
 **[`^back to top^`](#unraid-templates)**
