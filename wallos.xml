@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>https://forums.unraid.net/topic/147706-support-devzwf-wallos</Support>
+  <Support>https://forums.unraid.net/topic/147706-support-devzwf-wallos</Support>
   <Overview>Wallos is a powerful, open-source, and self-hostable web application designed to empower you in managing your finances with ease. Say goodbye to complicated spreadsheets and expensive financial software &#x2013; Wallos simplifies the process of tracking expenses and helps you gain better control over your financial life.</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
