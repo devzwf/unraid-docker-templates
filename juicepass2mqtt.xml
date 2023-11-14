@@ -25,6 +25,8 @@ It is required that both your JuiceBox and the machine you are running juicepass
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="UDP Port" Target="8047" Default="8047" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">8047</Config>
+  <Config Name="Config Dir" Target="/config" Default="/mnt/user/appdata/Juicepass2mqtt/config" Mode="rw" Description="Config Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/Juicepass2mqtt/config</Config>
+  <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/etc/localtime</Config>
   <Config Name="JUICEBOX IP" Target="JUICEBOX_LOCAL_IP" Default="" Mode="" Description="[Recommended]If defined, it will attempt to get the EnelX Server and Port using Telnet. If unsuccessful, it will default to the EnelX Server and Port below." Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="MQTT Server" Target="MQTT_HOST" Default="127.0.0.1" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="MQTT Port" Target="MQTT_PORT" Default="1883" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1883</Config>
