@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Juicepass2mqtt</Name>
-  <Repository>devzwf/juicepass2mqtt:latest</Repository>
+  <Repository>ghcr.io/snicker/juicepassproxy:latest</Repository>
   <Beta>True</Beta>
-  <Registry>https://hub.docker.com/r/devzwf/juicepass2mqtt</Registry>
+  <Registry>https://github.com/snicker/juicepassproxy/pkgs/container/juicepassproxy</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -25,14 +25,15 @@ It is required that both your JuiceBox and the machine you are running juicepass
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="UDP Port" Target="8047" Default="8047" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">8047</Config>
-  <Config Name="JUICEBOX IP" Target="JUICEBOX_LOCAL_IP" Default="" Mode="" Description="[Recommended]If defined, it will attempt to get the EnelX Server and Port using Telnet. If unsuccessful, it will default to the EnelX Server and Port below." Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="SRC" Target="SRC" Default="127.0.0.1" Mode="" Description="If not defined, it will attempt to get the Local Docker IP. If unsuccessful, it will default to 127.0.0.1." Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="DST" Target="DST" Default="54.161.185.130" Mode="" Description="If not defined, it will attempt to get the IP of the EnelX Server. If unsuccessful, it will default to 54.161.185.130." Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="MQTT Server" Target="MQTT_HOST" Default="127.0.0.1" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="JUICEBOX IP" Target="JUICEBOX_LOCAL_IP" Default="" Mode="" Description="[Recommended]If defined, it will attempt to get the EnelX Server and Port using Telnet. If unsuccessful, it will default to the EnelX Server and Port below." Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="MQTT Server" Target="MQTT_HOST" Default="127.0.0.1" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="MQTT Port" Target="MQTT_PORT" Default="1883" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1883</Config>
-  <Config Name="MQTT User" Target="MQTT_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="MQTT Password" Target="MQTT_PASS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="MQTT User" Target="MQTT_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="MQTT Password" Target="MQTT_PASS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true"/>
   <Config Name="Debug Mode" Target="DEBUG" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
-  <Changes>### 2023.11.08
+  <Changes>### 2023.11.14
+- Update to the official docker images
+- Update the config env accordingly
+### 2023.11.08
 - Initial Release</Changes>
 </Container>

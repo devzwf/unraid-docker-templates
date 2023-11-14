@@ -2,6 +2,12 @@
 
 All major changes to this project will be documented here.
 
+## 2023.11.14
+
+- **Juicepass2mqtt**
+  - Update to the official docker image
+  - Update the config env accordingly
+
 ## 2023.11.09
 
 - **wallos**
