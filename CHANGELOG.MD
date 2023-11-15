@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2023.11.15
+
+- **Juicepass2mqtt**
+  - add UPDATE_UDPC and JPP_HOST for those who do have a lan wide dns rewriter in their DHCP
+
 ## 2023.11.14
 
 - **Juicepass2mqtt**

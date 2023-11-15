@@ -28,12 +28,16 @@ It is required that both your JuiceBox and the machine you are running juicepass
   <Config Name="Config Dir" Target="/config" Default="/mnt/user/appdata/Juicepass2mqtt/config" Mode="rw" Description="Config Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/Juicepass2mqtt/config</Config>
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/etc/localtime</Config>
   <Config Name="JUICEBOX IP" Target="JUICEBOX_LOCAL_IP" Default="" Mode="" Description="[Recommended]If defined, it will attempt to get the EnelX Server and Port using Telnet. If unsuccessful, it will default to the EnelX Server and Port below." Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Update UDPC" Target="UPDATE_UDPC" Default="false" Mode="" Description="Default: false. If true, will continually update the JuiceBox via telnet to point to JuicePass Proxy." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="JPP Host" Target="JPP_HOST" Default="" Mode="" Description="Required if Update UDPC is True. This is the IP or Hostname of the machine where JuicePass Proxy is running (not the IP of the Docker Container)" Type="Variable" Display="always" Required="truefalse" Mask="false"></Config>
   <Config Name="MQTT Server" Target="MQTT_HOST" Default="127.0.0.1" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="MQTT Port" Target="MQTT_PORT" Default="1883" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1883</Config>
   <Config Name="MQTT User" Target="MQTT_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="MQTT Password" Target="MQTT_PASS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true"/>
   <Config Name="Debug Mode" Target="DEBUG" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
-  <Changes>### 2023.11.14
+  <Changes>### 2023.11.15
+- add UPDATE_UDPC and  JPP_HOST for those who do have a lan wide dns  rewriter in their DHCP
+### 2023.11.14
 - Update to the official docker images
 - Update the config env accordingly
 ### 2023.11.08
