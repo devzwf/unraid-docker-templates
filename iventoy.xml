@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>iventoy</Name>
+  <Repository>devzwf/iventoy:latest</Repository>
+  <Registry>https://hub.docker.com/r/devzwf/iventoy</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support/>
+  <Project>https://www.iventoy.com/en/index.html</Project>
+  <Overview>iVentoy is an enhanced version of the PXE server.&#xD;
+With iVentoy you can boot and install OS on multiple machines at the same time through the network.&#xD;
+iVentoy is extremely easy to use, without complicated configuration, just put the ISO file in the specified location and select PXE boot in the client machine.&#xD;
+iVentoy supports x86 Legacy BIOS, IA32 UEFI, x86_64 UEFI and ARM64 UEFI mode at the same time.&#xD;
+iVentoy support 110+ common types of OS (Windows/WinPE/Linux/VMware) </Overview>
+  <Category>Productivity: Tools: Network:Other</Category>
+  <WebUI>http://[IP]:[PORT:26000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/iventoy.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1700117391</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="TFTP Server Port" Target="69" Default="69" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">69</Config>
+  <Config Name="WEB UI" Target="26000" Default="26000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">26000</Config>
+  <Config Name="PXE HTTP port" Target="16000" Default="16000" Mode="tcp" Description="iVentoy PXE Service HTTP Server Port" Type="Port" Display="always" Required="true" Mask="false">16000</Config>
+  <Config Name="Config dir" Target="/app/data" Default="/mnt/user/appdata/iventoy/config" Mode="rw" Description="Config Dir" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/iventoy/config</Config>
+  <Config Name="Isos dir" Target="/app/isos" Default="" Mode="rw" Description="Isos Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/isos/</Config>
+  <Config Name="Log dir" Target="/app/log" Default="/mnt/user/appdata/iventoy/log" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/iventoy/log</Config>
+  <Config Name="User dir" Target="/app/user" Default="/mnt/user/appdata/iventoy/user" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/iventoy/user</Config>
+  <Changes>### 2023.11.15
+- Initial Release</Changes>
+</Container>
