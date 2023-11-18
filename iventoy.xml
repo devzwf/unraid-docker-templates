@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/148096-support-devzwf-iventoy</Support>
   <Project>https://www.iventoy.com/en/index.html</Project>
   <Overview>iVentoy is an enhanced version of the PXE server.&#xD;
 With iVentoy you can boot and install OS on multiple machines at the same time through the network.&#xD;
@@ -32,6 +32,8 @@ iVentoy support 110+ common types of OS (Windows/WinPE/Linux/VMware) </Overview>
   <Config Name="Isos dir" Target="/app/isos" Default="" Mode="rw" Description="Isos Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/isos/</Config>
   <Config Name="Log dir" Target="/app/log" Default="/mnt/user/appdata/iventoy/log" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/iventoy/log</Config>
   <Config Name="User dir" Target="/app/user" Default="/mnt/user/appdata/iventoy/user" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/iventoy/user</Config>
-  <Changes>### 2023.11.15
+  <Changes>### 2023.11.18
+- Add Support forum
+### 2023.11.15
 - Initial Release</Changes>
 </Container>
