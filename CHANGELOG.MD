@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2023.11.18
+
+- **iventoy**
+  - Add support forum
+  
 ## 2023.11.15
 
 - **iventoy**
