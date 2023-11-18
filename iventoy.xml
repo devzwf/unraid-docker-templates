@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/148096-support-devzwf-iventoy</Support>
   <Project>https://www.iventoy.com/en/index.html</Project>
   <Overview>iVentoy is an enhanced version of the PXE server.&#xD;
 With iVentoy you can boot and install OS on multiple machines at the same time through the network.&#xD;
