@@ -6,6 +6,7 @@ All major changes to this project will be documented here.
 
 - **iventoy**
   - Add support forum
+  - Fix Iso Directory
   
 ## 2023.11.15
 
