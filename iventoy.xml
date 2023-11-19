@@ -29,11 +29,12 @@ iVentoy support 110+ common types of OS (Windows/WinPE/Linux/VMware) </Overview>
   <Config Name="WEB UI" Target="26000" Default="26000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">26000</Config>
   <Config Name="PXE HTTP port" Target="16000" Default="16000" Mode="tcp" Description="iVentoy PXE Service HTTP Server Port" Type="Port" Display="always" Required="true" Mask="false">16000</Config>
   <Config Name="Config dir" Target="/app/data" Default="/mnt/user/appdata/iventoy/config" Mode="rw" Description="Config Dir" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/iventoy/config</Config>
-  <Config Name="Isos dir" Target="/app/isos" Default="" Mode="rw" Description="Isos Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/isos/</Config>
+  <Config Name="Isos dir" Target="/app/iso" Default="" Mode="rw" Description="Isos Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/isos/</Config>
   <Config Name="Log dir" Target="/app/log" Default="/mnt/user/appdata/iventoy/log" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/iventoy/log</Config>
   <Config Name="User dir" Target="/app/user" Default="/mnt/user/appdata/iventoy/user" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/iventoy/user</Config>
   <Changes>### 2023.11.18
 - Add Support forum
+- Fix Iso Directory
 ### 2023.11.15
 - Initial Release</Changes>
 </Container>
