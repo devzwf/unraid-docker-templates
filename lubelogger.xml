@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>LubeLogger</Name>
+  <Repository>ghcr.io/hargata/lubelogger:latest</Repository>
+  <Registry>https://github.com/hargata/lubelog/pkgs/container/lubelogger</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/hargata/lubelog</Project>
+  <Overview>A self-hosted, open-source vehicle service records and maintainence tracker.</Overview>
+  <Category>Tools: Other:</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/lubelogger_logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1704731947</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Config Directory" Target="/App/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/config</Config>
+  <Config Name="Data Directory" Target="/App/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/data</Config>
+  <Config Name="Documents directory" Target="/App/wwwroot/documents" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lublogger/documents</Config>
+  <Config Name="Images directory" Target="/App/wwwroot/images" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lublogger/images</Config>
+  <Config Name="Logs Directory" Target="/App/log" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lublogger/log</Config>
+  <Config Name="Keys Directory" Target="/root/.aspnet/DataProtection-Keys" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/keys</Config>
+  <Config Name="LC_ALL" Target="LC_ALL" Default="en_US.UTF-8" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">en_US.UTF-8</Config>
+  <Config Name="LANG" Target="LANG" Default="en_US.UTF-8" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">en_US.UTF-8</Config>
+  <Changes>### 2024.01.08
+-   Initial Release</Changes>
+</Container>

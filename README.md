@@ -17,6 +17,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [hydroqc2mqtt](#hydroqc2mqtt)
 - [iventoy](#iventoy)
 - [juicepass2mqtt](#juicepass2mqtt)
+- [LubeLogger](#lubelogger)
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
 - [pihole-sync-receiver](#pihole-sync-receiver)
@@ -125,6 +126,20 @@ It is required that both your JuiceBox and the machine you are running juicepass
 **Application Name:** juicepass2mqtt
 
 **Application Site:** https://github.com/snicker/juicepassproxy
+
+**[`^back to top^`](#unraid-templates)**
+
+# LubeLogger
+
+![lubelogger](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/lubelogger_logo.png)
+
+A self-hosted, open-source vehicle service records and maintainence tracker.
+
+**Application Name:** LubeLogger
+
+**Images repository** https://github.com/hargata/lubelog
+
+**Application Site:** https://github.com/hargata/lubelog
 
 **[`^back to top^`](#unraid-templates)**
 

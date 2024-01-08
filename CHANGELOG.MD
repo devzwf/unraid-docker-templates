@@ -2,12 +2,17 @@
 
 All major changes to this project will be documented here.
 
+## 2024.01.08
+
+- **LubeLogger**
+  - New addition
+
 ## 2023.11.18
 
 - **iventoy**
   - Add support forum
   - Fix Iso Directory
-  
+
 ## 2023.11.15
 
 - **iventoy**
