@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>WebNUT</Name>
+  <Repository>devzwf/webnut-docker:latest</Repository>
+  <Registry>https://hub.docker.com/r/devzwf/webnut-docker</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/teknologist/docker-webnut</Project>
+  <Overview>webNUT (UPS network monitoring web ui) dockerized.&#xD;
+Please create a config.py file.&#xD;
+ie:&#xD;
+from .webnut import NUTServerie:&#xD;
+ie:&#xD;
+servers = [ie:&#xD;
+    NUTServer('<IP of NUT Server1>', 3493, User, Pass),ie:&#xD;
+    NUTServer('<IP of NUT Server2>', 3493, User, Pass)ie:&#xD;
+]</Overview>
+  <Category>Tools: Other: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:6543]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/nut-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1664916438</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="CONFIG FILE" Target="/app/webNUT/webnut/config.py" Default="" Mode="ro" Description="Configuration file. MAKE SURE THIS FILE EXIST BEFORE START THE CONTAINER" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Webui Port" Target="6543" Default="6543" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6543</Config>
+  <Changes>### 2022.10.07
+- Initial Release</Changes>
+</Container>

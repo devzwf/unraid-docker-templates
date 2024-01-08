@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Pihole-unbound</Name>
+  <Repository>ghcr.io/mariomare22/docker-pihole-unbound:latest</Repository>
+  <Registry>https://github.com/mariomare22/docker-pihole-unbound/pkgs/container/docker-pihole-unbound</Registry>
+  <Network>br0</Network>
+  <MyIP></MyIP>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support></Support>
+  <Project>https://docs.pi-hole.net/guides/dns/unbound/</Project>
+  <Overview>&#xD;
+    Pi-Hole - let's block those pesky ads! deployment runs both Pi-Hole and Unbound in a single container.&#xD;
+    &#xD;
+    YOU MUST ASSIGN A STATIC IP TO THE DOCKER FOR PIHOLE TO WORK.&#xD;
+    &#xD;
+    The base image for the container is the official Pi-Hole container, with an extra build step added to install the Unbound resolver directly into to the container based on instructions provided directly by the Pi-Hole team.&#xD;
+    &#xD;
+    Otherwise, same instructions as official Pi-Hole.&#xD;
+    &#xD;
+        NOTE 1: Port 53 can only be used with custom br0/br1 network and a static IP address.&#xD;
+    &#xD;
+        NOTE 2: DNS lookup rarely ever works with ports other than 53 i.e. see note above about static IP.&#xD;
+    &#xD;
+        NOTE 3: UnRaid network settings DNS server cannot point to a docker IP.&#xD;
+    &#xD;
+  </Overview>
+  <Category>Security: Other: Network:DNS Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:80]/admin</WebUI>
+  <TemplateURL>https://github.com/devzwf/unraid-docker-templates/blob/main/pihole-unbound.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
+  <ExtraParams>--cap-add=NET_ADMIN --restart=unless-stopped --hostname pihole</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1670387701</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="DNS Port TCP" Target="53" Default="53" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">53</Config>
+  <Config Name="DNS Port UDP" Target="53" Default="53" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">53</Config>
+  <Config Name="HTTP Port" Target="80" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">80</Config>
+  <Config Name="HTTPS Port" Target="443" Default="443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">443</Config>
+  <Config Name="pihole config" Target="/etc/pihole/" Default="/mnt/user/appdata/pihole-dot-doh/pihole/" Mode="rw,slave" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pihole-dot-doh/pihole/</Config>
+  <Config Name="dnsmasq config" Target="/etc/dnsmasq.d/" Default="/mnt/user/appdata/pihole-dot-doh/dnsmasq.d/" Mode="rw,slave" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pihole-dot-doh/dnsmasq.d/</Config>
+  <Config Name="Unbound config" Target="/etc/unbound/unbound.conf.d" Default="/mnt/user/appdata/pihole-dot-doh/unbound/" Mode="rw,slave" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pihole-dot-doh/unbound/</Config>
+  <Config Name="User interface theme" Target="WEBTHEME" Default="default-light" Mode="" Description="User interface theme to use." Type="Variable" Display="always" Required="true" Mask="false">127.1.1.1#5153</Config>
+  <Config Name="PIHOLE_DNS_" Target="PIHOLE_DNS_" Default="127.0.0.1#5335" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">127.2.2.2#5253</Config>
+  <Config Name="TimeZone" Target="TZ" Default="Europe/London" Mode="" Description="Set your timezone to make sure logs rotate at local midnight" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
+  <Config Name="Web Password" Target="WEBPASSWORD" Default="password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="FTLCONF_LOCAL_IPV4" Target="FTLCONF_LOCAL_IPV4" Default="" Mode="" Description="Set to your server's LAN IP, used by web block modes and lighttpd bind address." Type="Variable" Display="always" Required="false" Mask="false">eth0</Config>
+  <Config Name="REV_SERVER" Target="REV_SERVER" Default="false" Mode="" Description="Enable DNS conditional forwarding for device name resolution" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="REV_SERVER_DOMAIN" Target="REV_SERVER_DOMAIN" Default="" Mode="" Description="If conditional forwarding is enabled, set the domain of the local network router" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="REV_SERVER_TARGET" Target="REV_SERVER_TARGET" Default="" Mode="" Description="If conditional forwarding is enabled, set the IP of the local network router" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Config Name="REV_SERVER_CIDR" Target="REV_SERVER_CIDR" Default="" Mode="" Description="If conditional forwarding is enabled, set the reverse DNS zone (e.g. 192.168.0.0/24)" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
+  <Changes>### 2023.03.17
+- Initial Release</Changes>
+</Container>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>emqx</Name>
+  <Repository>emqx/emqx:5.0.8</Repository>
+  <Registry>https://hub.docker.com/r/emqx/emqx</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/emqx/emqx</Project>
+  <Overview>EMQX is an Open-source MQTT broker with a high-performance real-time message processing engine, powering event streaming for IoT devices at massive scale.&#xD;
+&#xD;
+As the most scalable MQTT broker, EMQX can help you connect any device, at any scale. Move and process your IoT data anywhere.</Overview>
+  <Category>HomeAutomation:</Category>
+  <WebUI>http://[IP]:[PORT:18083]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/emqx-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1664570180</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Web interface port" Target="18083" Default="18083" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">18083</Config>
+  <Config Name="Mqtt port" Target="1883" Default="1883" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">11883</Config>
+  <Config Name="Data" Target="/opt/emqx/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Etc" Target="/opt/emqx/etc" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Log" Target="/opt/emqx/log" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Changes>### 2020.09.30
+- Update registry
+- add changelog
+### 2022.09.30
+- Initial Release
+- EMQX Version 5.0.8</Changes>
+</Container>
