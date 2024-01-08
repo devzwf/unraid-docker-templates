@@ -2,7 +2,6 @@
 
 All major changes to this project will be documented here.
 
-<<<<<<< HEAD
 ## 2024.01.08
 
 - **LubeLogger**
@@ -12,7 +11,7 @@ All major changes to this project will be documented here.
 ## 2023.12.08
 - **Speedtest Tracker**
   - removed time zone environment variable
->>>>>>> 2ed7530d54d33d63add6c5475d1e5c24246a762e
+
 ## 2023.11.18
 
 - **iventoy**
