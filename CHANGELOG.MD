@@ -2,6 +2,10 @@
 
 All major changes to this project will be documented here.
 
+## 2024.01.10
+- **LubeLogger**
+  - Fix typo on the some path - thanks @C4ArtZ
+
 ## 2024.01.08
 
 - **LubeLogger**
