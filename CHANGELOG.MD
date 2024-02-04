@@ -2,11 +2,18 @@
 
 All major changes to this project will be documented here.
 
+## 2024.02.03
+
+- **tasks.md**
+  - New addition
+
 ## 2024.01.11
+
 - **LubeLogger**
   - Add support forum
 
 ## 2024.01.10
+
 - **LubeLogger**
   - Fix typo on the some path - thanks @C4ArtZ
 
@@ -16,6 +23,7 @@ All major changes to this project will be documented here.
   - New addition
 
 ## 2023.12.08
+
 - **Speedtest Tracker**
   - removed time zone environment variable
 

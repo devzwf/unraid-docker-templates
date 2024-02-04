@@ -25,6 +25,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Postfix-Relay](#postfixrelay)
 - [proxmox-backup-server](#proxmox-backup-server-dockerfiles)
 - [speedtest-tracker](#speedtest-tracker)
+- [tasks.md](#tasks-md)
 - [walos](#wallos)
 
 ---
@@ -243,6 +244,18 @@ Speedtest Tracker is a self-hosted internet performance tracking application tha
 **Application Site:** https://github.com/alexjustesen/speedtest-tracker
 
 **Documentation** https://docs.speedtest-tracker.dev/
+
+**[`^back to top^`](#unraid-templates)**
+
+# tasks.md
+
+![tasks.md](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/tasks_md_logo.png)
+
+A self-hosted, Markdown file based task management board.
+
+**Application Name:** tasks.md
+
+**Application Site:** https://github.com/BaldissaraMatheus/Tasks.md
 
 **[`^back to top^`](#unraid-templates)**
 

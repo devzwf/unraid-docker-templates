@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>tasks.md</Name>
+  <Repository>baldissaramatheus/tasks.md</Repository>
+  <Registry>https://hub.docker.com/r/baldissaramatheus/tasks.md</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/152354-support-devzwf-tasksmd/</Support>
+  <Project>https://github.com/BaldissaraMatheus/Tasks.md</Project>
+  <Overview>A self-hosted, Markdown file based task management board.</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/tasks_md_logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1707019207</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="PUID" Target="PUID" Default="1000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1000</Config>
+  <Config Name="PGID" Target="PGID" Default="1000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1000</Config>
+  <Config Name="Config Dir" Target="/config" Default="/mnt/user/appdata/tasks-md/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/tasks-md/config</Config>
+  <Config Name="Tasks Directory" Target="/tasks" Default="/mnt/user/appdata/tasks-md/tasks" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/tasks-md/tasks</Config>
+  <Config Name="Web UI port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+</Container>
