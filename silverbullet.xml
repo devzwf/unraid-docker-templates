@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>silverbullet</Name>
+  <Repository>zefhemel/silverbullet</Repository>
+  <Registry>https://hub.docker.com/r/zefhemel/silverbullet</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://silverbullet.md/</Project>
+  <Overview>SilverBullet is a note-taking application optimized for people with a [hacker mindset](https://en.wikipedia.org/wiki/Hacker). We all take notes. There&#x2019;s a million note taking applications out there. [Literally](https://www.noteapps.ca/). Wouldn&#x2019;t it be nice to have one where your notes are _more_ than plain text files? Where your notes essentially become a _database_ that you can query; that you can build custom knowledge applications on top of?</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL>https://github.com/devzwf/unraid-docker-templates/blob/main/silverbullet.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/silverbullet-logo.png</Icon>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1707762412</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the app, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="SB_USER" Target="SB_USER" Default="admin:admin" Mode="" Description="Please replace the password defined in `SB_USER` with something sensible such as `&amp;lt;username&amp;gt;:password`" Type="Variable" Display="always" Required="true" Mask="false">admin:admin</Config>
+  <Config Name="Data Directory" Target="/space" Default="/mnt/user/appdata/silverbullet/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/silverbullet/data</Config>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+</Container>

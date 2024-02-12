@@ -24,6 +24,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [pihole-sync-sender](#pihole-sync-sender)
 - [Postfix-Relay](#postfixrelay)
 - [proxmox-backup-server](#proxmox-backup-server-dockerfiles)
+- [silverbullet](#silverbullet)
 - [speedtest-tracker](#speedtest-tracker)
 - [tasks.md](#tasksmd)
 - [walos](#wallos)
@@ -228,6 +229,20 @@ This repo allows you to synchronize between two piholes where one is the master 
 **Application Site:** https://github.com/ayufan/pve-backup-server-dockerfiles
 
 **Documentation** https://pbs.proxmox.com/docs/
+
+**[`^back to top^`](#unraid-templates)**
+
+# silverbullet
+
+![silverbullet](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/silverbullet-icon.png)
+
+SilverBullet is a note-taking application optimized for people with a [hacker mindset](https://en.wikipedia.org/wiki/Hacker). We all take notes. There’s a million note taking applications out there. [Literally](https://www.noteapps.ca/). Wouldn’t it be nice to have one where your notes are _more_ than plain text files? Where your notes essentially become a _database_ that you can query; that you can build custom knowledge applications on top of?
+
+**Application Name:** silverbullet
+
+**Application Site:** https://github.com/silverbulletmd/silverbullet
+
+**Documentation** https://silverbullet.md/
 
 **[`^back to top^`](#unraid-templates)**
 

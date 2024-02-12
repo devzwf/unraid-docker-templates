@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2024.02.12
+
+- **silverbullet**
+  - New addition
+  
 ## 2024.02.03
 
 - **tasks.md**
