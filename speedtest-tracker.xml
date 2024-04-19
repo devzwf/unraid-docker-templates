@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>speedtest-tracker</Name>
-  <Repository>ghcr.io/alexjustesen/speedtest-tracker:latest</Repository>
+  <Repository>lscr.io/linuxserver/speedtest-tracker:latest</Repository>
   <Registry>https://github.com/alexjustesen/speedtest-tracker/pkgs/container/speedtest-tracker</Registry>
   <Network>bridge</Network>
   <Beta>True</Beta>
@@ -41,7 +41,9 @@ Password : password</Overview>
   <Config Name="Database Username" Target="DB_USERNAME" Default="speedtest" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">speedtest</Config>
   <Config Name="Database Password" Target="DB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"></Config>
   <Config Name="App Key" Target="APP_KEY" Default="" Mode="" Description="Key used to encrypt and decrypt data. To create your own key to persist run php artisan key:generate --show from within the running container." Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Changes>### 2023.12.08
+  <Changes>### 2024.04.19
+- update to the LSIO image
+### 2023.12.08
 - removed time zone environment variable
 ### 2023.10.07
 - add APP_KEY variable since it is now require for v13.x + see https://docs.speedtest-tracker.dev/faqs#i-get-a-warning-on-container-start-up-that-the-app_key-is-missing

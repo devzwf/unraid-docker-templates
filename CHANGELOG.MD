@@ -2,11 +2,16 @@
 
 All major changes to this project will be documented here.
 
+##
+
+- **Speedtest Tracker**
+  - Update to LSIO Image
+
 ## 2024.02.12
 
 - **silverbullet**
   - New addition
-  
+
 ## 2024.02.03
 
 - **tasks.md**
