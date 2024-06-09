@@ -13,6 +13,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Binner](#binner)
 - [Blocky](#blocky)
 - [Cups-Airprint](#cups-airprint)
+- [Glance](#glance)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
 - [iventoy](#iventoy)
@@ -72,6 +73,19 @@ This Image is based on openprinting
 **Images repository** https://github.com/chuckcharlie/cups-avahi-airprint
 
 **Application Site:** https://openprinting.github.io/cups/index.html
+
+**[`^back to top^`](#unraid-templates)**
+
+# Glance
+
+![glance](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/glance_logo.png)
+
+<p align="center"><em>What if you could see everything at a...</em></p>
+<h1 align="center">Glance</h1>
+
+**Application Name:** Glance
+
+**Application Site:** https://github.com/glanceapp/glance
 
 **[`^back to top^`](#unraid-templates)**
 

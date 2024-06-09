@@ -2,7 +2,12 @@
 
 All major changes to this project will be documented here.
 
-##
+## 2024.06.08
+
+- **glance**
+  - New addition
+
+## 2024.04.19
 
 - **Speedtest Tracker**
   - Update to LSIO Image
