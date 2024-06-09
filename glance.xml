@@ -22,8 +22,7 @@
   <DateInstalled>1717902672</DateInstalled>
   <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
-  <Requires><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Container expect a &quot;glance.yml&quot; file to be mounted at /app/glance.yml before running. 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See https://github.com/glanceapp/glance/blob/main/docs/configuration.md for more information.<br>&nbsp;&nbsp;&nbsp;&nbsp;</Requires>
+  <Requires>Container expect a &quot;glance.yml&quot; file to be mounted at /app/glance.yml before running. See https://github.com/glanceapp/glance/blob/main/docs/configuration.md for more information.</Requires>
   <Config Name="Timezone" Target="/etc/timezone" Default="/etc/timezone" Mode="ro" Description="" Type="Path" Display="always-hide" Required="true" Mask="false">/etc/timezone</Config>
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="" Type="Path" Display="always-hide" Required="true" Mask="false">/etc/localtime</Config>
   <Config Name="Config File" Target="/app/glance.yml" Default="" Mode="rw" Description="Configuration File &#13;&#10;MUST EXIST BEFORE FIRST RUN" Type="Path" Display="always" Required="true" Mask="false">/mnt/apps/appdata/glance/glance.yml</Config>
