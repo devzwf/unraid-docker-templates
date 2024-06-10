@@ -2,6 +2,12 @@
 
 All major changes to this project will be documented here.
 
+## 2024.06.09
+
+- **glance**
+  - Fix formating
+  - add support forum
+
 ## 2024.06.08
 
 - **glance**

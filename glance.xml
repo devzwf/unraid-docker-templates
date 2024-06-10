@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/167893-support-devzwf-glance/</Support>
   <Project>https://github.com/glanceapp/glance</Project>
   <Overview>What if you could see everything at a...&#xD;
 &#xD;
