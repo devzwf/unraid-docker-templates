@@ -41,7 +41,14 @@ Password : password</Overview>
   <Config Name="Database Username" Target="DB_USERNAME" Default="speedtest" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">speedtest</Config>
   <Config Name="Database Password" Target="DB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"></Config>
   <Config Name="App Key" Target="APP_KEY" Default="" Mode="" Description="Key used to encrypt and decrypt data. To create your own key to persist run php artisan key:generate --show from within the running container." Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Changes>### 2024.04.19
+  <config Name="Time Zone" Target="APP_TIMEZONE" Default="America/New_York" Mode="" Description="Time Zone" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <config Name="Display Time Zone" Target="DISPLAY_TIMEZONE" Default="America/New_York" Mode="" Description="Display Time Zone" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <config Name="Schedule" Target="SPEEDTEST_SCHEDULE" Default="0 * * * *" Mode="" Description="can be represented as a cron schedule same as before" Type="Variable" Display="always" Required="true" Mask="false">0 * * * *</Config>
+  <config Name="Servers" Target="SPEEDTEST_SERVERS" Default="" Mode="" Description="you can add one or many servers separated by a comma (i.e. 123456,654321,987654)." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <config Name="Pruning" Target="PRUNE_RESULTS_OLDER_THAN" Default="0" Mode="" Description="the default is 0 which disables result pruning, this value is in days." Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Changes>### 2024.06.19
+- Update for BREAKING CHANGES in 0.20.0 see https://github.com/alexjustesen/speedtest-tracker/releases/tag/v0.20.0
+### 2024.04.19
 - update to the LSIO image
 ### 2023.12.08
 - removed time zone environment variable
