@@ -4,6 +4,10 @@ All major changes to this project will be documented here.
 
 ## 2024.06.19
 
+- **Homebox**
+
+  - reflect the change of maintainer (new repo)
+
 - **Speedtest Tracker**
   - Deprecated this template , Use LSIO template
   - Update for BREAKING CHANGES in 0.20.0 see https://github.com/alexjustesen/speedtest-tracker/releases/tag/v0.20.0

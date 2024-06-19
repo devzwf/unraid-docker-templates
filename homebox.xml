@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Homebox</Name>
-  <Repository>ghcr.io/hay-kot/homebox:latest</Repository>
-  <Registry>https://github.com/hay-kot/homebox/pkgs/container/homebox</Registry>
+  <Repository>ghcr.io/sysadminsmedia/homebox:latest</Repository>
+  <Registry>https://github.com/sysadminsmedia/homebox</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/129521-support-devzwf-homebox</Support>
-  <Project>https://github.com/hay-kot/homebox</Project>
+  <Project>https://github.com/sysadminsmedia/homebox</Project>
   <Overview>Homebox is the inventory and organization system built for the Home User! With a focus on simplicity and ease of use, Homebox is the perfect solution for your home inventory, organization, and management needs</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:7745]/</WebUI>
@@ -26,7 +26,9 @@
   <Config Name="Log Format" Target="HBOX_LOG_FORMAT" Default="text" Mode="" Description="log format to use, can be one of: text, json" Type="Variable" Display="always" Required="false" Mask="false">text</Config>
   <Config Name="Maximum fil upload size" Target="HBOX_WEB_MAX_UPLOAD_SIZE" Default="10" Mode="" Description="maximum file upload size supported in MB" Type="Variable" Display="always" Required="false" Mask="false">10</Config>
   <Config Name="Web UI port" Target="7745" Default="3100" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3100</Config>
-  <Changes>### 2022.10.13
+  <Changes>### 2024.06.19
+- reflect the change of maintainer (new repo)
+### 2022.10.13
 - Fix incorrect xml
 - Fix Webui Port
 ### 2022.10.12 
