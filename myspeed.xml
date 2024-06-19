@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>MySpeed</Name>
+  <Repository>germannewsmaker/myspeed</Repository>
+  <Registry>https://hub.docker.com/r/germannewsmaker/myspeed</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://myspeed.dev/</Project>
+  <Overview>MySpeed is a Software that helps you keeping track of your network speed.&#xD;
+&#xD;
+It automatically creates speedtests based on your schedule and displays them in a list.</Overview>
+  <Category>Tools: Network:Other</Category>
+  <WebUI>http://[IP]:[PORT:5216]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/myspeed_logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1718813710</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Web UI" Target="5216" Default="5216" Mode="tcp" Description="Web UI port" Type="Port" Display="always" Required="false" Mask="false">5216</Config>
+  <Config Name="Data Dir" Target="/myspeed/data" Default="/mnt/user/appdata/myspeed" Mode="rw" Description="Data Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/myspeed</Config>
+  <Changes>### 2024.06.19
+- Initial Release</Changes>
+</Container>

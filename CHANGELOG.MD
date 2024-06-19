@@ -4,6 +4,10 @@ All major changes to this project will be documented here.
 
 ## 2024.06.19
 
+- **MySpeed.dev**
+
+  - New addition
+
 - **Homebox**
 
   - reflect the change of maintainer (new repo)
