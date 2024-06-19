@@ -19,6 +19,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [iventoy](#iventoy)
 - [juicepass2mqtt](#juicepass2mqtt)
 - [LubeLogger](#lubelogger)
+- [Myspedd.dev](#myspeed)
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
 - [pihole-sync-receiver](#pihole-sync-receiver)
@@ -156,6 +157,22 @@ A self-hosted, open-source vehicle service records and maintainence tracker.
 **Images repository** https://github.com/hargata/lubelog
 
 **Application Site:** https://github.com/hargata/lubelog
+
+**[`^back to top^`](#unraid-templates)**
+
+# Myspeed.dev
+
+![myspeed](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/myspeed_logo.png)
+
+MySpeed is a Software that helps you keeping track of your network speed.
+
+It automatically creates speedtests based on your schedule and displays them in a list.
+
+**Application Name:** Myspeed.dev
+
+**Images repository** https://github.com/gnmyt/myspeed
+
+**Application Site:** https://myspeed.dev/
 
 **[`^back to top^`](#unraid-templates)**
 
