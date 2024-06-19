@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/168514-support-devzwf-myspeeddev/</Support>
   <Project>https://myspeed.dev/</Project>
   <Overview>MySpeed is a Software that helps you keeping track of your network speed.&#xD;
 &#xD;
