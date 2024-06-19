@@ -19,7 +19,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [iventoy](#iventoy)
 - [juicepass2mqtt](#juicepass2mqtt)
 - [LubeLogger](#lubelogger)
-- [Myspedd.dev](#myspeed)
+- [Myspeed.dev](#myspeed)
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
 - [pihole-sync-receiver](#pihole-sync-receiver)
