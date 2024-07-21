@@ -2,6 +2,12 @@
 
 All major changes to this project will be documented here.
 
+## 2024.07.20
+
+- **Docmost**
+
+  - New addition
+
 ## 2024.06.19
 
 - **MySpeed.dev**

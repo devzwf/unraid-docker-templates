@@ -13,6 +13,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Binner](#binner)
 - [Blocky](#blocky)
 - [Cups-Airprint](#cups-airprint)
+- [Docmost](#docmost)
 - [Glance](#glance)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
@@ -74,6 +75,21 @@ This Image is based on openprinting
 **Images repository** https://github.com/chuckcharlie/cups-avahi-airprint
 
 **Application Site:** https://openprinting.github.io/cups/index.html
+
+**[`^back to top^`](#unraid-templates)**
+
+# Docmost
+
+![docmost](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/docmost-logo.png)
+
+Open-source collaborative wiki and documentation software
+Create, collaborate, and share knowledge seamlessly with Docmost.
+Ideal for managing your wiki, knowledge-base, documentation and a lot more.
+
+**Application Name:** Docmost
+**Images repository** https://github.com/docmost/docmost
+**Application Site:** https://docmost.com/
+**Application Documentation:** https://docmost.com/docs/
 
 **[`^back to top^`](#unraid-templates)**
 

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Docmost</Name>
+  <Repository>docmost/docmost:latest</Repository>
+  <Beta>True</Beta>
+  <Registry>https://hub.docker.com/r/docmost/docmost</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/docmost/docmost</Project>
+  <Overview>Open-source collaborative wiki and documentation software&#xD;
+Create, collaborate, and share knowledge seamlessly with Docmost.&#xD;
+Ideal for managing your wiki, knowledge-base, documentation and a lot more.&#xD;
+&#xD;
+Require before deploying:&#xD;
+   - Postgres &#xD;
+   - redis</Overview>
+  <Category>Productivity: Tools: Status:Beta</Category>
+  <WebUI>https://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/docmost-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1721530458</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Storage" Target="/app/data/storage" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/apps/appdata/docmost/data</Config>
+  <Config Name="Application URL" Target="APP_URL" Default="" Mode="" Description="The base URL of your application. It is optional, but useful for correct email links." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Application Secret" Target="APP_SECRET" Default="" Mode="" Description="A random key used for application security." Type="Variable" Display="always" Required="true" Mask="false">REPLACE_WITH_LONG_SECRET</Config>
+  <Config Name="Database URL" Target="DATABASE_URL" Default="" Mode="" Description="The connection URL for your PostgreSQL database.&#xD;Exemple : postgresql://docmost:STRONG_DB_PASSWORD@db:5432/docmost?schema=public" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Redis URL" Target="REDIS_URL" Default="" Mode="" Description="The connection URL for your Redis server.&#xD;exemple : redis://127.0.0.1:6379" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="The port on which the application will run." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Changes>### 2024.07.20
+-   Initial Release</Changes>
+</Container>
