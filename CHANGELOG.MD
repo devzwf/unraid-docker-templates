@@ -2,6 +2,12 @@
 
 All major changes to this project will be documented here.
 
+## 2024.07.21
+
+- **Docmost**
+
+  - add support forum
+
 ## 2024.07.20
 
 - **Docmost**

@@ -8,7 +8,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/170592-support-devzwf-docmost/</Support>
   <Project>https://github.com/docmost/docmost</Project>
   <Overview>Open-source collaborative wiki and documentation software&#xD;
 Create, collaborate, and share knowledge seamlessly with Docmost.&#xD;
@@ -34,6 +34,8 @@ Require before deploying:&#xD;
   <Config Name="Database URL" Target="DATABASE_URL" Default="" Mode="" Description="The connection URL for your PostgreSQL database.&#xD;Exemple : postgresql://docmost:STRONG_DB_PASSWORD@db:5432/docmost?schema=public" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Redis URL" Target="REDIS_URL" Default="" Mode="" Description="The connection URL for your Redis server.&#xD;exemple : redis://127.0.0.1:6379" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="The port on which the application will run." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
-  <Changes>### 2024.07.20
+  <Changes>### 2024.07.21
+- adding support forum
+### 2024.07.20
 -   Initial Release</Changes>
 </Container>
