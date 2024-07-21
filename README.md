@@ -87,8 +87,11 @@ Create, collaborate, and share knowledge seamlessly with Docmost.
 Ideal for managing your wiki, knowledge-base, documentation and a lot more.
 
 **Application Name:** Docmost
+
 **Images repository** https://github.com/docmost/docmost
+
 **Application Site:** https://docmost.com/
+
 **Application Documentation:** https://docmost.com/docs/
 
 **[`^back to top^`](#unraid-templates)**
