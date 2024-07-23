@@ -3,7 +3,7 @@
   <Name>M.I.M.O.S.A</Name>
   <Repository>devzwf/mimosa:latest</Repository>
   <Beta>True</Beta>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/devzwf/mimosa</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
