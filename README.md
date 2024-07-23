@@ -20,6 +20,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [iventoy](#iventoy)
 - [juicepass2mqtt](#juicepass2mqtt)
 - [LubeLogger](#lubelogger)
+- [M.I.M.O.S.A](#mimosa)
 - [Myspeed.dev](#myspeeddev)
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
@@ -176,6 +177,20 @@ A self-hosted, open-source vehicle service records and maintainence tracker.
 **Images repository** https://github.com/hargata/lubelog
 
 **Application Site:** https://github.com/hargata/lubelog
+
+**[`^back to top^`](#unraid-templates)**
+
+# M.I.M.O.S.A
+
+![mimosa](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/mimosa-logo.png)
+
+MIMOSA - short for "Mellow_Labs Inventory Management and Organization System Apparatus". Just like a refreshing mimosa, this system will make your life brighter and more organized!
+
+**Application Name:** M.I.M.O.S.A
+
+**Images repository** https://github.com/FireMarshmellow/M.I.M.O.S.A
+
+**Application Site:** https://github.com/FireMarshmellow/M.I.M.O.S.A
 
 **[`^back to top^`](#unraid-templates)**
 

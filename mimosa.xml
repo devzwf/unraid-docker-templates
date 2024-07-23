@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>M.I.M.O.S.A</Name>
+  <Repository>devzwf/mimosa:latest</Repository>
+  <Beta>True</Beta>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/FireMarshmellow/M.I.M.O.S.A</Project>
+  <Overview>MIMOSA - short for "Mellow_Labs Inventory Management and Organization System Apparatus". Just like a refreshing mimosa, this system will make your life brighter and more organized!&#xD;
+&#xD;
+Check the Videos :&#xD;
+Main Video: youtu.be/7C4i-2IqSS4&#xD;
+Step by step Video: https://youtu.be/QOd1apc0Lpo</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>https://[IP]:[PORT:5000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/mimosa-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1721755569</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Web UI" Target="5000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
+  <Config Name="Database Directory" Target="/app/db" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mimosa/db</Config>
+  <Config Name="Logs Directory" Target="/app/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mimosa/logs</Config>
+  <Config Name="Images directory" Target="/app/images" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mimosa/images</Config>
+  <Changes>### 2024.07.23
+-   Initial Release</Changes>
+</Container>
