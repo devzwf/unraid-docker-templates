@@ -8,7 +8,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/170875-support-devzwf-mimosa/</Support>
   <Project>https://github.com/FireMarshmellow/M.I.M.O.S.A</Project>
   <Overview>MIMOSA - short for "Mellow_Labs Inventory Management and Organization System Apparatus". Just like a refreshing mimosa, this system will make your life brighter and more organized!&#xD;
 &#xD;
