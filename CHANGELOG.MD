@@ -2,6 +2,12 @@
 
 All major changes to this project will be documented here.
 
+## 2024.07.27
+
+- **M.I.M.O.S.A**
+
+  - Fix a typo in WEBUI 
+
 ## 2024.07.23
 
 - **M.I.M.O.S.A**

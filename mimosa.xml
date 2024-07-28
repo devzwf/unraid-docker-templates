@@ -16,7 +16,7 @@ Check the Videos :&#xD;
 Main Video: youtu.be/7C4i-2IqSS4&#xD;
 Step by step Video: https://youtu.be/QOd1apc0Lpo</Overview>
   <Category>Productivity: Tools:</Category>
-  <WebUI>https://[IP]:[PORT:5000]</WebUI>
+  <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/mimosa-logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
@@ -30,6 +30,8 @@ Step by step Video: https://youtu.be/QOd1apc0Lpo</Overview>
   <Config Name="Database Directory" Target="/app/db" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mimosa/db</Config>
   <Config Name="Logs Directory" Target="/app/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mimosa/logs</Config>
   <Config Name="Images directory" Target="/app/images" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mimosa/images</Config>
-  <Changes>### 2024.07.23
+  <Changes>### 2024.07.27
+-   Fix a typo in WEBUI 
+### 2024.07.23
 -   Initial Release</Changes>
 </Container>
