@@ -31,6 +31,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [silverbullet](#silverbullet)
 - [speedtest-tracker](#speedtest-tracker)
 - [tasks.md](#tasksmd)
+- [Vouchervault](#vouchervault)
 - [walos](#wallos)
 
 ---
@@ -336,6 +337,20 @@ A self-hosted, Markdown file based task management board.
 **Application Name:** tasks.md
 
 **Application Site:** https://github.com/BaldissaraMatheus/Tasks.md
+
+**[`^back to top^`](#unraid-templates)**
+
+# Vouchervault
+
+![vouchervault](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/vouchervault-logo.png)
+
+Django web application to store and manage vouchers, coupons, loyalty and gift cards digitally
+
+**Application Name:** Vouchervault
+
+**Images repository** https://github.com/l4rm4nd/VoucherVault
+
+**Application Site:** https://github.com/l4rm4nd/VoucherVault
 
 **[`^back to top^`](#unraid-templates)**
 
