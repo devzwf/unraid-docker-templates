@@ -9,7 +9,13 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/l4rm4nd/VoucherVault</Project>
-  <Overview>Django web application to store and manage vouchers, coupons, loyalty and gift cards digitally</Overview>
+  <Overview>Django web application to store and manage vouchers, coupons, loyalty and gift cards digitally&#xD;
+&#xD;
+Once the container is up and running, you can access the web portal at http://127.0.0.1:8000.&#xD;
+&#xD;
+The default username is admin. The default password is auto-generated.&#xD;
+&#xD;
+You can obtain the auto-generated password via the Docker container logs .</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
@@ -27,8 +33,10 @@
   <Config Name="REDIS HOST" Target="REDIS_HOST" Default="redis" Mode="" Description="Redis Host" Type="Variable" Display="always" Required="true" Mask="false">redis</Config>
   <Config Name="Web UI" Target="8000" Default="8000" Mode="tcp" Description="Web Ui " Type="Port" Display="always" Required="true" Mask="false">8000</Config>
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/etc/localtime</Config>
-  <Config Name="Timezone" Target="/etc/timezone" Default="/etc/timezone" Mode="ro" Description="Timezone" Type="Path" Display="always" Required="true" Mask="false">/etc/timezone</Config>
   <Config Name="Database Dir" Target="/opt/app/database" Default="" Mode="rw" Description="Database Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/vouchervault/db</Config>
-  <Changes>### 2024.07.28
+  <Changes>### 2024.07.29
+- Update description
+- fix issue with /etc/timezone
+### 2024.07.28
 -   Initial Release</Changes>
 </Container>

@@ -2,6 +2,12 @@
 
 All major changes to this project will be documented here.
 
+## 2024.07.29
+
+- **Vouchervault**
+  - Update description
+  - fix issue with /etc/timezone
+
 ## 2024.07.28
 
 - **Vouchervault**
