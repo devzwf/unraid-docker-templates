@@ -2,6 +2,15 @@
 
 All major changes to this project will be documented here.
 
+## 2024.08.04
+
+- **Vouchervault**
+  - Bump to 1.4.x
+  - removed the `REDIS_HOST` environment variable, as it is deprecated
+  - add the new env `REDIS_URL` with the value `redis://redis:6379/0`
+  - add link to instructions
+  - Add support forum
+
 ## 2024.07.29
 
 - **Vouchervault**
