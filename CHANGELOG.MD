@@ -11,6 +11,11 @@ All major changes to this project will be documented here.
   - add link to instructions
   - Add support forum
 
+## 2024.08.05
+  
+- **Vouchervault**  
+  - Bump to 1.5.x
+  
 ## 2024.07.29
 
 - **Vouchervault**
