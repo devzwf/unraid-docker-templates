@@ -38,7 +38,7 @@ for more instructions please  have a look to : https://github.com/l4rm4nd/Vouche
   <Config Name="Web UI" Target="8000" Default="8000" Mode="tcp" Description="Web Ui " Type="Port" Display="always" Required="true" Mask="false">8000</Config>
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/etc/localtime</Config>
   <Config Name="Database Dir" Target="/opt/app/database" Default="" Mode="rw" Description="Database Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/vouchervault/db</Config>
-  <Changes> ### 2024.08.05
+  <Changes>### 2024.08.05
 - Bump to 1.5.x
 ### 2024.08.04
 - Bump to 1.4.x
