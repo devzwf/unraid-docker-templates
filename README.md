@@ -28,6 +28,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [pihole-sync-sender](#pihole-sync-sender)
 - [Postfix-Relay](#postfixrelay)
 - [proxmox-backup-server](#proxmox-backup-server-dockerfiles)
+- [proxmox-datacenter-manager](#proxmox-datacenter-manager)
 - [silverbullet](#silverbullet)
 - [speedtest-tracker](#speedtest-tracker)
 - [tasks.md](#tasksmd)
@@ -297,6 +298,22 @@ This repo allows you to synchronize between two piholes where one is the master 
 **Documentation** https://pbs.proxmox.com/docs/
 
 **[`^back to top^`](#unraid-templates)**
+
+# proxmox-datacenter-manager
+
+![proxmox-datacenter-manager](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pdm-logo.jpg)
+
+     This a unofficial dockerized version of the [Proxmox Datacenter Manager](https://forum.proxmox.com/threads/proxmox-datacenter-manager-first-alpha-release.159323) (PDM)
+     
+     This is an Alpha preview
+
+**Application Name:** proxmox-datacenter-manager
+
+**Application Site:** https://forum.proxmox.com/threads/proxmox-datacenter-manager-first-alpha-release.159323
+
+
+**[`^back to top^`](#unraid-templates)**
+
 
 # silverbullet
 

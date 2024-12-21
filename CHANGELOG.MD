@@ -2,6 +2,12 @@
 
 All major changes to this project will be documented here.
 
+## 2024.12.21
+
+- **Proxmox Datacenter Manager**
+  
+  - New addition
+
 ## 2024.08.04
 
 - **Vouchervault**
