@@ -34,4 +34,6 @@ default login  : root:pdmpdm   (please change)</Overview>
   <Config Name="Logs" Target="/var/log/proxmox-datacenter-manager" Default="/mnt/user/appdata/proxmox-datacenter-manager/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/proxmox-datacenter-manager/logs</Config>
   <Config Name="Cgroup" Target="/sys/fs/cgroup" Default="/sys/fs/cgroup" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/sys/fs/cgroup</Config>
   <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
+  <Changes>### 2024.12.21
+- Initial Release</Changes>
 </Container>
