@@ -9,14 +9,16 @@
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
   <Support>https://forums.unraid.net/topic/183027-support-devzwf-proxmox-datacenter-manager/</Support>
-  <Project>https://forum.proxmox.com/threads/proxmox-datacenter-manager-first-alpha-release.159323/</Project>
+  <Project>https://github.com/proxmox/proxmox-datacenter-manager</Project>
   <Overview>Proxmox Datacenter Manager&#xD;
 &#xD;
 The Datacenter Manager project has been developed with the objective of providing a centralized overview of all your individual nodes and clusters. It also enables basic management like migrations of virtual guests without any cluster network requirements.&#xD;
 &#xD;
  ALPHA PREVIW&#xD;
 &#xD;
-default login  : root:pdmpdm   (please change)</Overview>
+default login  : root:pdmpdm   (please change)&#xD;
+&#xD;
+more info : https://forum.proxmox.com/threads/proxmox-datacenter-manager-first-alpha-release.159323</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
   <TemplateURL/>
@@ -25,8 +27,8 @@ default login  : root:pdmpdm   (please change)</Overview>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1734760535</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="PDM_TIMEZONE" Target="PDM_TIMEZONE" Default="America/Toronto" Mode="" Description="Timezone" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
   <Config Name="Config" Target="/etc/proxmox-datacenter-manager" Default="/mnt/user/appdata/proxmox-datacenter-manager/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/proxmox-datacenter-manager/config</Config>
@@ -35,5 +37,7 @@ default login  : root:pdmpdm   (please change)</Overview>
   <Config Name="Cgroup" Target="/sys/fs/cgroup" Default="/sys/fs/cgroup" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/sys/fs/cgroup</Config>
   <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
   <Changes>### 2024.12.21
+- update project link
+### 2024.12.20
 - Initial Release</Changes>
 </Container>
