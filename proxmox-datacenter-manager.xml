@@ -11,10 +11,15 @@
   <Support>https://forums.unraid.net/topic/183027-support-devzwf-proxmox-datacenter-manager/</Support>
   <Project>https://github.com/proxmox/proxmox-datacenter-manager</Project>
   <Overview>Proxmox Datacenter Manager&#xD;
+A stand-alone API + GUI product with the following main features for multiple instances of Proxmox VE, Proxmox Backup Server and potentially also Proxmox Mail Gateway in one central place:&#xD;
+&#xD;
+     * - Status and Health overview for the core resources. E.g., for PVE/PBS/PMG hosts, PVE guests or PBS backups&#xD;
+     * - Basic Management of the core resources.&#xD;
+     * - Connect those separate instances. E.g., cross-cluster VM live-migration.&#xD;
 &#xD;
 The Datacenter Manager project has been developed with the objective of providing a centralized overview of all your individual nodes and clusters. It also enables basic management like migrations of virtual guests without any cluster network requirements.&#xD;
 &#xD;
- ALPHA PREVIW&#xD;
+ ALPHA PREVIEW&#xD;
 &#xD;
 default login  : root:pdmpdm   (please change)&#xD;
 &#xD;
@@ -37,7 +42,8 @@ more info : https://forum.proxmox.com/threads/proxmox-datacenter-manager-first-a
   <Config Name="Cgroup" Target="/sys/fs/cgroup" Default="/sys/fs/cgroup" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/sys/fs/cgroup</Config>
   <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
   <Changes>### 2024.12.21
-- update project link
+- Update project link
+- Update description
 ### 2024.12.20
 - Initial Release</Changes>
 </Container>
