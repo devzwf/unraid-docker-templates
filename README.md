@@ -22,6 +22,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [LubeLogger](#lubelogger)
 - [M.I.M.O.S.A](#mimosa)
 - [Myspeed.dev](#myspeeddev)
+- [nebula-sync](#nebula-sync)
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
 - [pihole-sync-receiver](#pihole-sync-receiver)
@@ -209,6 +210,28 @@ It automatically creates speedtests based on your schedule and displays them in 
 **Images repository** https://github.com/gnmyt/myspeed
 
 **Application Site:** https://myspeed.dev/
+
+**[`^back to top^`](#unraid-templates)**
+
+# nebula-sync
+
+![nebula-sync](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png)
+
+Synchronize Pi-hole v6.x configuration to replicas.
+
+This project is not a part of the official Pi-hole project, but uses the api provided by Pi-hole instances to perform the synchronization actions.
+
+Features
+* Full sync: Use Pi-hole Teleporter for full synchronization.
+* Manual sync: Selective feature synchronization.
+* Cron schedule: Run on chron schedule.
+
+*** REQUIRE PI-HOLE V6 ***
+Reminder Pihole V6 is still under heavy development 
+
+**Application Name:** nebula-sync
+
+**Application Site:** https://github.com/lovelaze/nebula-sync
 
 **[`^back to top^`](#unraid-templates)**
 

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>nebula-sync</Name>
+  <Repository>ghcr.io/lovelaze/nebula-sync:latest</Repository>
+  <Registry>https://github.com/lovelaze/nebula-sync/pkgs/container/nebula-sync</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/lovelaze/nebula-sync</Project>
+  <Overview>Synchronize Pi-hole v6.x configuration to replicas.&#xD;
+&#xD;
+This project is not a part of the official Pi-hole project, but uses the api provided by Pi-hole instances to perform the synchronization actions.&#xD;
+&#xD;
+Features&#xD;
+* Full sync: Use Pi-hole Teleporter for full synchronization.&#xD;
+* Manual sync: Selective feature synchronization.&#xD;
+* Cron schedule: Run on chron schedule.&#xD;
+&#xD;
+<B>*** REQUIRE PI-HOLE V6 ***</B>&#xD;
+Reminder Pihole V6 is still under heavy development </Overview>
+  <Category>Tools: Network:DNS</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1735252128</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Primary Pi-hole" Target="PRIMARY" Default="" Mode="" Description="Specifies the primary Pi-hole configuration&#13;&#10;ie: http://ph1.example.com|password" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Replicas" Target="REPLICAS" Default="" Mode="" Description="Specifies the list of replica Pi-hole configurations&#13;&#10;ie: http://ph2.example.com|password,http://ph3.example.com|password" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Sync mode" Target="FULL_SYNC" Default="true" Mode="" Description="Specifies whether to perform a full synchronization&#13;&#10;can be true or false (aka manual)" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
+  <Config Name="Timezone" Target="TZ" Default="America/Toronto" Mode="" Description="Specifies the timezone for logs and cron" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
+  <Config Name="Cron schedule" Target="CRON" Default="0 * * * *" Mode="" Description="Specifies the cron schedule for synchronization" Type="Variable" Display="always" Required="false" Mask="false">0 * * * *</Config>
+  <Changes>### 2022.12.26
+- Initial Release</Changes>
+</Container>
