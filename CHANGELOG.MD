@@ -2,6 +2,12 @@
 
 All major changes to this project will be documented here.
 
+## 2024.12.25
+
+- **Proxmox Datacenter Manager**
+
+  - remove privileges and it is not needed
+
 ## 2024.12.21
 
 - **Proxmox Datacenter Manager**

@@ -7,7 +7,7 @@
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
-  <Privileged>true</Privileged>
+  <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/183027-support-devzwf-proxmox-datacenter-manager/</Support>
   <Project>https://github.com/proxmox/proxmox-datacenter-manager</Project>
   <Overview>Proxmox Datacenter Manager&#xD;
@@ -41,7 +41,9 @@ more info : https://forum.proxmox.com/threads/proxmox-datacenter-manager-first-a
   <Config Name="Logs" Target="/var/log/proxmox-datacenter-manager" Default="/mnt/user/appdata/proxmox-datacenter-manager/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/proxmox-datacenter-manager/logs</Config>
   <Config Name="Cgroup" Target="/sys/fs/cgroup" Default="/sys/fs/cgroup" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/sys/fs/cgroup</Config>
   <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
-  <Changes>### 2024.12.21
+  <Changes>### 2024.12.25
+- remove privileges mode as not needed
+### 2024.12.21
 - Update project link
 - Update description
 ### 2024.12.20
