@@ -1,6 +1,13 @@
 # Change Log
 
 All major changes to this project will be documented here.
+
+## 2024.12.27
+
+- **Nebula-sync**
+
+  - Add support forum
+    
 ## 2024.12.26
 
 - **Nebula-sync**

@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/183511-support-devzwf-nebula-sync/</Support>
   <Project>https://github.com/lovelaze/nebula-sync</Project>
   <Overview>Synchronize Pi-hole v6.x configuration to replicas.&#xD;
 &#xD;
@@ -36,6 +36,8 @@ Reminder Pihole V6 is still under heavy development </Overview>
   <Config Name="Sync mode" Target="FULL_SYNC" Default="true" Mode="" Description="Specifies whether to perform a full synchronization&#13;&#10;can be true or false (aka manual)" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
   <Config Name="Timezone" Target="TZ" Default="America/Toronto" Mode="" Description="Specifies the timezone for logs and cron" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
   <Config Name="Cron schedule" Target="CRON" Default="0 * * * *" Mode="" Description="Specifies the cron schedule for synchronization" Type="Variable" Display="always" Required="false" Mask="false">0 * * * *</Config>
-  <Changes>### 2022.12.26
+  <Changes>### 2024.12.27
+- adding support forum
+### 2024.12.26
 - Initial Release</Changes>
 </Container>
