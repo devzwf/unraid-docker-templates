@@ -18,7 +18,7 @@ Features&#xD;
 * Manual sync: Selective feature synchronization.&#xD;
 * Cron schedule: Run on chron schedule.&#xD;
 &#xD;
-<B>*** REQUIRE PI-HOLE V6 ***</B>&#xD;
+*** REQUIRE PI-HOLE V6 ***&#xD;
 Reminder Pihole V6 is still under heavy development </Overview>
   <Category>Tools: Network:DNS</Category>
   <WebUI/>
