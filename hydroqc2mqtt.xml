@@ -38,9 +38,14 @@ It also includes a separate logic that sends the hourly consumption statistics t
   <Config Name="Contract 0 Homeassistant websocket URL" Target="HQ2M_CONTRACTS_0_HOME_ASSISTANT_WEBSOCKET_URL" Default="" Mode="" Description="URL to your Home-Assistant installation websocket API" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Contract 0 Homeassistant Token" Target="HQ2M_CONTRACTS_0_HOME_ASSISTANT_TOKEN" Default="" Mode="" Description="Long-lived Home-Assistant access token to be used to access the API" Type="Variable" Display="always" Required="true" Mask="true"></Config>
   <Config Name="Contract 0 Hourly sync consumption Flag" Target="HQ2M_CONTRACTS_0_SYNC_HOURLY_CONSUMPTION_ENABLED" Default="true" Mode="" Description="Enable importing hourly consumption from Hydro-Quebec (last 24h)" Type="Variable" Display="advanced" Required="true" Mask="false">true</Config>
+  <Config Name="Contract 0 Rate" Target="HQ2M_CONTRACTS_0_RATE" Default="D" Mode="" Description="Your rate" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Contract 0 Rate Option" Target="HQ2M_CONTRACTS_0_RATE_OPTION" Default="CPC" Mode="" Description="Rate option for the contract must be 'NONE' if you do not have one." Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Contract 0 Preheat duration" Target="HQ2M_CONTRACTS_0_PREHEAT_DURATION_MINUTES" Default="180" Mode="" Description="Duration of the pre-heat period in minute" Type="Variable" Display="advanced-hide" Required="false" Mask="false"></Config>
   <Config Name="Contract 0 Log Level" Target="HQ2M_CONTRACTS_0_LOG_LEVEL" Default="INFO" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">INFO</Config>
   <Config Name="Contract 0 HTTP Log Level" Target="HQ2M_CONTRACTS_0_HTTP_LOG_LEVEL" Default="WARNING" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">WARNING</Config>
-  <Changes>### 2020.09.30
+  <Changes>### 2025.01.07
+- Update to reflect the new requierments of v 2.0.0
+### 2022.09.30
 - Update registry
 - add changelog
 ### 2022.09.29

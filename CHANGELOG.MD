@@ -2,6 +2,12 @@
 
 All major changes to this project will be documented here.
 
+## 2025.01.07
+
+- **Hydroqc2MQTT**
+
+  - Update to reflect the new requierments of v 2.0.0
+
 ## 2024.12.27
 
 - **Nebula-sync**
