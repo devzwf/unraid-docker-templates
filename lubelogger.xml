@@ -24,13 +24,15 @@
   <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
   <Config Name="Config Directory" Target="/App/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/config</Config>
   <Config Name="Data Directory" Target="/App/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/data</Config>
-  <Config Name="Documents directory" Target="/App/wwwroot/documents" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/documents</Config>
-  <Config Name="Images directory" Target="/App/wwwroot/images" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/images</Config>
+  <Config Name="Documents directory" Target="/App/data/documents" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/documents</Config>
+  <Config Name="Images directory" Target="/App/data/images" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/images</Config>
   <Config Name="Logs Directory" Target="/App/log" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/log</Config>
   <Config Name="Keys Directory" Target="/root/.aspnet/DataProtection-Keys" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lubelogger/keys</Config>
   <Config Name="LC_ALL" Target="LC_ALL" Default="en_US.UTF-8" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">en_US.UTF-8</Config>
   <Config Name="LANG" Target="LANG" Default="en_US.UTF-8" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">en_US.UTF-8</Config>
-  <Changes>### 2024.01.11
+  <Changes>### 2025.01.13
+- Update target for documents and images directory to reflect change in 1.4.3
+### 2024.01.11
 - Adding support thread
 ### 2024.01.10
 - Fix typo on the some path - thanks @C4ArtZ
