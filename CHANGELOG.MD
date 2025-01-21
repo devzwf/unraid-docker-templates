@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2025.01.21
+
+- **HomeBox**
+  - Add project's Docker environment variables
+
 ## 2025.01.13
 
 - **LubeLogger**
