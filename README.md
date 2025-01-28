@@ -15,6 +15,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Cups-Airprint](#cups-airprint)
 - [Docmost](#docmost)
 - [DumbDo](#dumbdo)
+- [DumbDrop](#dumbdrop)
 - [DumbPad](#dumbpad)
 - [Glance](#glance)
 - [homebox](#homebox)
@@ -115,6 +116,22 @@ A stupidly simple todo list application that just works. No complex database, no
 **Application Site:** https://github.com/DumbWareio/DumbDo
 
 **Application Documentation:** https://github.com/DumbWareio/DumbDo
+
+**[`^back to top^`](#unraid-templates)**
+
+# DumbDrop
+
+![dumbdrop](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbdrop-logo.png)
+
+A stupid simple file upload application that provides a clean, modern interface for dragging and dropping files. Built with Node.js and vanilla JavaScript.
+
+**Application Name:** DumbDrop
+
+**Images repository** https://github.com/DumbWareio/DumbDrop
+
+**Application Site:** https://github.com/DumbWareio/DumbDrop
+
+**Application Documentation:** https://github.com/DumbWareio/DumbDrop
 
 **[`^back to top^`](#unraid-templates)**
 
