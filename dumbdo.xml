@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DumbDo</Name>
+  <Repository>dumbwareio/dumbdo:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/DumbWareio/DumbDo</Project>
+  <Overview>A stupidly simple todo list application that just works. No complex database, no unnecessary features - just todos.</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbdo-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738083275</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="The port on which the application will run." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="Data" Target="/app/data" Default="" Mode="rw" Description="Data Dir" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dumbdo</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2025.01.28
+-   Initial Release</Changes>
+</Container>
