@@ -15,6 +15,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Cups-Airprint](#cups-airprint)
 - [Docmost](#docmost)
 - [DumbDo](#dumbdo)
+- [DumbPad](#dumbpad)
 - [Glance](#glance)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
@@ -114,6 +115,22 @@ A stupidly simple todo list application that just works. No complex database, no
 **Application Site:** https://github.com/DumbWareio/DumbDo
 
 **Application Documentation:** https://github.com/DumbWareio/DumbDo
+
+**[`^back to top^`](#unraid-templates)**
+
+# DumbPad
+
+![dumbpad](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbpad-logo.png)
+
+A stupid simple, no auth (unless you want it!), modern notepad application with auto-save functionality and dark mode support.
+
+**Application Name:** DumbPad
+
+**Images repository** https://github.com/DumbWareio/DumbPad
+
+**Application Site:** https://github.com/DumbWareio/DumbPad
+
+**Application Documentation:** https://github.com/DumbWareio/DumbPad
 
 **[`^back to top^`](#unraid-templates)**
 

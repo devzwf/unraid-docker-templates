@@ -4,6 +4,10 @@ All major changes to this project will be documented here.
 
 ## 2025.01.28
 
+- **DumbPad**
+
+  - New addition
+
 - **DumbDo**
 
   - New addition
