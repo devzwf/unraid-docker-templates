@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>DumbDo</Name>
   <Repository>dumbwareio/dumbdo:latest</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/dumbwareio/dumbdo</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -24,6 +24,8 @@
   <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="The port on which the application will run." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="Data" Target="/app/data" Default="" Mode="rw" Description="Data Dir" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dumbdo</Config>
   <TailscaleStateDir/>
-  <Changes>### 2025.01.28
+  <Changes>### 2025.01.29
+-   Update the repository
+### 2025.01.28
 -   Initial Release</Changes>
 </Container>

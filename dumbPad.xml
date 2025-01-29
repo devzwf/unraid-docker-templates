@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>DumbPad</Name>
   <Repository>dumbwareio/dumbpad:latest</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/dumbwareio/dumbpad</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -25,6 +25,8 @@
   <Config Name="Data" Target="/app/data" Default="" Mode="rw" Description="Data Dir" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dumbpad</Config>
   <Config Name="PIN" Target="DUMBPAD_PIN" Default="" Mode="" Description="PIN protection" Type="Variable" Display="always" Required="false" Mask="true">1234</Config>
   <TailscaleStateDir/>
-  <Changes>### 2025.01.28
+  <Changes>### 2025.01.29
+-   Update the repository
+### 2025.01.28
 -   Initial Release</Changes>
 </Container>
