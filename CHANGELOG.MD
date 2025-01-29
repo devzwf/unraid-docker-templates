@@ -2,6 +2,7 @@
 
 All major changes to this project will be documented here.
 
+
 ## 2025.01.28
 
 - **DumbDrop**
@@ -16,6 +17,10 @@ All major changes to this project will be documented here.
 
   - New addition
 
+## 2025.01.21
+
+- **HomeBox**
+  - Add project's Docker environment variables
 
 ## 2025.01.13
 
