@@ -2,6 +2,16 @@
 
 All major changes to this project will be documented here.
 
+## 2025.01.29
+
+- **DumbWhoIs**
+  - New addition
+- **DumbDrop**
+  - update repository
+- **DumbPad**
+  - update repository
+- **DumbDo**
+  - update repository
 
 ## 2025.01.28
 

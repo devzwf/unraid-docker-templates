@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DumbWhoIs</Name>
+  <Repository>dumbwareio/dumbwhois:latest</Repository>
+  <Registry>https://hub.docker.com/r/dumbwareio/dumbwhois</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/185964-support-devzwf-dumbwareio-suite/</Support>
+  <Project>https://github.com/DumbWareio/DumbWhoIs</Project>
+  <Overview>A simple web application for looking up WHOIS, IP, and ASN information using free APIs. The application automatically detects the type of query and provides formatted results with a clean, modern UI that supports both light and dark modes.</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbdo-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738083275</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="The port on which the application will run." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2025.01.29
+-   Initial Release</Changes>
+</Container>

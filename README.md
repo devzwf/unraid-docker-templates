@@ -17,6 +17,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [DumbDo](#dumbdo)
 - [DumbDrop](#dumbdrop)
 - [DumbPad](#dumbpad)
+- [DumbWhoIs](#dumbwhois)
 - [Glance](#glance)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
@@ -148,6 +149,22 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 **Application Site:** https://github.com/DumbWareio/DumbPad
 
 **Application Documentation:** https://github.com/DumbWareio/DumbPad
+
+**[`^back to top^`](#unraid-templates)**
+
+# DumbWhoIs
+
+![dumbwhois](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbdo-logo.png)
+
+A simple web application for looking up WHOIS, IP, and ASN information using free APIs. The application automatically detects the type of query and provides formatted results with a clean, modern UI that supports both light and dark modes.
+
+**Application Name:** DumbWhoIS
+
+**Images repository** https://github.com/DumbWareio/DumbWhoIs
+
+**Application Site:** https://github.com/DumbWareio/DumbWhoIs
+
+**Application Documentation:** https://github.com/DumbWareio/DumbWhoIs
 
 **[`^back to top^`](#unraid-templates)**
 
