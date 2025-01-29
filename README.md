@@ -14,6 +14,9 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Blocky](#blocky)
 - [Cups-Airprint](#cups-airprint)
 - [Docmost](#docmost)
+- [DumbDo](#dumbdo)
+- [DumbDrop](#dumbdrop)
+- [DumbPad](#dumbpad)
 - [Glance](#glance)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
@@ -97,6 +100,54 @@ Ideal for managing your wiki, knowledge-base, documentation and a lot more.
 **Application Site:** https://docmost.com/
 
 **Application Documentation:** https://docmost.com/docs/
+
+**[`^back to top^`](#unraid-templates)**
+
+# DumbDo
+
+![dumbdo](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbdo-logo.png)
+
+A stupidly simple todo list application that just works. No complex database, no unnecessary features - just todos.
+
+**Application Name:** DumbDo
+
+**Images repository** https://github.com/DumbWareio/DumbDo
+
+**Application Site:** https://github.com/DumbWareio/DumbDo
+
+**Application Documentation:** https://github.com/DumbWareio/DumbDo
+
+**[`^back to top^`](#unraid-templates)**
+
+# DumbDrop
+
+![dumbdrop](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbdrop-logo.png)
+
+A stupid simple file upload application that provides a clean, modern interface for dragging and dropping files. Built with Node.js and vanilla JavaScript.
+
+**Application Name:** DumbDrop
+
+**Images repository** https://github.com/DumbWareio/DumbDrop
+
+**Application Site:** https://github.com/DumbWareio/DumbDrop
+
+**Application Documentation:** https://github.com/DumbWareio/DumbDrop
+
+**[`^back to top^`](#unraid-templates)**
+
+# DumbPad
+
+![dumbpad](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbpad-logo.png)
+
+A stupid simple, no auth (unless you want it!), modern notepad application with auto-save functionality and dark mode support.
+
+**Application Name:** DumbPad
+
+**Images repository** https://github.com/DumbWareio/DumbPad
+
+**Application Site:** https://github.com/DumbWareio/DumbPad
+
+**Application Documentation:** https://github.com/DumbWareio/DumbPad
 
 **[`^back to top^`](#unraid-templates)**
 
