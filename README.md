@@ -14,6 +14,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Blocky](#blocky)
 - [Cups-Airprint](#cups-airprint)
 - [Docmost](#docmost)
+- [DumbBudget](#dumbbudget)
 - [DumbDo](#dumbdo)
 - [DumbDrop](#dumbdrop)
 - [DumbPad](#dumbpad)
@@ -104,6 +105,22 @@ Ideal for managing your wiki, knowledge-base, documentation and a lot more.
 
 **[`^back to top^`](#unraid-templates)**
 
+# DumbBudget
+
+![dumbbudget](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbbudget-logo.png)
+
+A simple, secure personal budgeting app with PIN protection. Track your income and expenses with a clean, modern interface.
+
+**Application Name:** DumbBudget
+
+**Images repository** https://github.com/DumbWareio/DumbBudget
+
+**Application Site:** https://www.dumbware.io/
+
+**Application Documentation:** https://github.com/DumbWareio/DumbBudget
+
+**[`^back to top^`](#unraid-templates)**
+
 # DumbDo
 
 ![dumbdo](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbdo-logo.png)
@@ -114,7 +131,7 @@ A stupidly simple todo list application that just works. No complex database, no
 
 **Images repository** https://github.com/DumbWareio/DumbDo
 
-**Application Site:** https://github.com/DumbWareio/DumbDo
+**Application Site:** https://www.dumbware.io/
 
 **Application Documentation:** https://github.com/DumbWareio/DumbDo
 
@@ -130,7 +147,7 @@ A stupid simple file upload application that provides a clean, modern interface 
 
 **Images repository** https://github.com/DumbWareio/DumbDrop
 
-**Application Site:** https://github.com/DumbWareio/DumbDrop
+**Application Site:** https://www.dumbware.io/
 
 **Application Documentation:** https://github.com/DumbWareio/DumbDrop
 
@@ -146,7 +163,7 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 
 **Images repository** https://github.com/DumbWareio/DumbPad
 
-**Application Site:** https://github.com/DumbWareio/DumbPad
+**Application Site:** https://www.dumbware.io/
 
 **Application Documentation:** https://github.com/DumbWareio/DumbPad
 
@@ -162,7 +179,7 @@ A simple web application for looking up WHOIS, IP, and ASN information using fre
 
 **Images repository** https://github.com/DumbWareio/DumbWhoIs
 
-**Application Site:** https://github.com/DumbWareio/DumbWhoIs
+**Application Site:** https://www.dumbware.io/
 
 **Application Documentation:** https://github.com/DumbWareio/DumbWhoIs
 
