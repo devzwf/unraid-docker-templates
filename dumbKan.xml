@@ -24,6 +24,7 @@
   <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="The port on which the application will run." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="Data" Target="/app/uploads" Default="" Mode="rw" Description="Data Dir" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dumbdrop/local_uploads</Config>
   <Config Name="PIN" Target="DUMBKAN_PIN" Default="" Mode="" Description="PIN protection (4-10 digits)" Type="Variable" Display="always" Required="false" Mask="true">123456</Config>
-  <TailscaleStateDir/>### 2025.02.09
+  <TailscaleStateDir/>
+  <Changes>### 2025.02.09
 -   Initial Release</Changes>
 </Container>
