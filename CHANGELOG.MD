@@ -2,8 +2,13 @@
 
 All major changes to this project will be documented here.
 
-## 2025.02.07
+## 2025.02.09
 
+- **DumbKan**
+  - New addition
+
+## 2025.02.07
+  
 - **DumbBudget**
   - New addition
   

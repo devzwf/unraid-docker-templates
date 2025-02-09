@@ -17,6 +17,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [DumbBudget](#dumbbudget)
 - [DumbDo](#dumbdo)
 - [DumbDrop](#dumbdrop)
+- [DumbKan](#dumbkan)
 - [DumbPad](#dumbpad)
 - [DumbWhoIs](#dumbwhois)
 - [Glance](#glance)
@@ -150,6 +151,22 @@ A stupid simple file upload application that provides a clean, modern interface 
 **Application Site:** https://www.dumbware.io/
 
 **Application Documentation:** https://github.com/DumbWareio/DumbDrop
+
+**[`^back to top^`](#unraid-templates)**
+
+# DumbKan
+
+![dumbkan](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbkan-logo.png)
+
+A lightweight, mobile-friendly Kanban board application for managing tasks and projects. Built with vanilla JavaScript and Node.js.
+
+**Application Name:** DumbKan
+
+**Images repository** https://github.com/DumbWareio/DumbKan
+
+**Application Site:** https://www.dumbware.io/
+
+**Application Documentation:** https://github.com/DumbWareio/DumbKan
 
 **[`^back to top^`](#unraid-templates)**
 
