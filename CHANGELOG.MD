@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2025.02.12
+
+- **DumbKan**
+  - Fix Typo - Thanks wmbirken
+  
 ## 2025.02.09
 
 - **DumbKan**
