@@ -30,15 +30,17 @@
   <Config Name="Check For Github Releases" Target="HBOX_OPTIONS_CHECK_GITHUB_RELEASE" Default="true" Mode="" Description="check for new github releases" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="Mode" Target="HMOX_MODE" Default="production" Mode="" Description="application mode used for runtime behavior can be one of: development, production" Type="Variable" Display="advanced" Required="false" Mask="false">production</Config>
   <Config Name="Auto Increment Asset IDs" Target="HBOX_OPTIONS_AUTO_INCREMENT_ASSET_ID" Default="true" Mode="" Description="auto increments the asset_id field for new items" Type="Variable" Display="advanced" Required="false" Mask="false">true</Config>
-  <Config Name="Web Read Timeout" Target="HBOX_WEB_READ_TIMEOUT" Default="10" Mode="" Description="Read timeout of HTTP sever" Type="Variable" Display="advanced" Required="false" Mask="false">10</Config>
-  <Config Name="Web Write Timeout" Target="HBOX_WEB_WRITE_TIMEOUT" Default="10" Mode="" Description="Write timeout of HTTP server" Type="Variable" Display="advanced" Required="false" Mask="false">10</Config>
-  <Config Name="Web Idle Timeout" Target="HBOX_WEB_IDLE_TIMEOUT" Default="30" Mode="" Description="&#9;Idle timeout of HTTP server" Type="Variable" Display="advanced" Required="false" Mask="false">30</Config>
+  <Config Name="Web Read Timeout" Target="HBOX_WEB_READ_TIMEOUT" Default="10s" Mode="" Description="Read timeout of HTTP sever" Type="Variable" Display="advanced" Required="false" Mask="false">10s</Config>
+  <Config Name="Web Write Timeout" Target="HBOX_WEB_WRITE_TIMEOUT" Default="10s" Mode="" Description="Write timeout of HTTP server" Type="Variable" Display="advanced" Required="false" Mask="false">10s</Config>
+  <Config Name="Web Idle Timeout" Target="HBOX_WEB_IDLE_TIMEOUT" Default="30s" Mode="" Description="&#9;Idle timeout of HTTP server" Type="Variable" Display="advanced" Required="false" Mask="false">30s</Config>
   <Config Name="Mail Host" Target="HBOX_MAILER_HOST" Default="" Mode="" Description="email host to use, if not set no email provider will be used" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="Mailer Port" Target="HBOX_MAILER_PORT" Default="587" Mode="" Description="email port to use" Type="Variable" Display="advanced" Required="false" Mask="false">587</Config>
   <Config Name="Mailer Username" Target="HBOX_MAILER_USERNAME" Default="" Mode="" Description="email user to use" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="Mailer Password" Target="HBOX_MAILER_PASSWORD" Default="" Mode="" Description="email password to use" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="Mailer Sender Address" Target="HBOX_MAILER_FROM" Default="" Mode="" Description="email from address to use" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-  <Changes>### 2025.01.21
+  <Changes>### 2025.02.17
+- Fix value for TIMEOUT environment variables (adding s)
+### 2025.01.21
 - Add project's Docker environment variables
 ### 2024.06.19
 - reflect the change of maintainer (new repo)

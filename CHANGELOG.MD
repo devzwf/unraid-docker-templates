@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2025.02.17
+
+- **HomeBox**
+  - Fix value for TIMEOUT environment variables (adding s)
+  
 ## 2025.02.12
 
 - **DumbKan**
