@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Termix</Name>
+  <Repository>ghcr.io/lukegus/termix:latest</Repository>
+  <Registry>https://github.com/LukeGus/Termix/pkgs/container/termix</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/188040-support-devzwf-termix</Support>
+  <Project>https://github.com/LukeGus/Termix</Project>
+  <Overview>Termix is an open-source forever free self-hosted SSH (other protocols planned, see Planned Features) server management panel inspired by Nexterm. Its purpose is to provide an all-in-one docker-hosted web solution to manage your servers in one easy place. I'm using this project to help me learn React, Vite, and Docker but also because I could never settle on a server management software that I enjoyed to use.&#xD;
+&#xD;
+Warning&#xD;
+&#xD;
+This app is in the VERY early stages of development. Expect bugs, data loss, and unexplainable issues! For that reason, I recommend you securely tunnel your connection to Termix through a VPN.</Overview>
+  <Category>Productivity: Tools: Network:Web Network:Other</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/termix_logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1741786935</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Webui" Target="8080" Default="8080" Mode="tcp" Description="WebUI" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Changes>### 2025.03.12
+-   Initial Release</Changes>
+  <TailscaleStateDir/>
+</Container>

@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2025.03.12
+
+- **Termix**
+  - New addition
+
 ## 2025.02.17
 
 - **HomeBox**

@@ -39,6 +39,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [silverbullet](#silverbullet)
 - [speedtest-tracker](#speedtest-tracker)
 - [tasks.md](#tasksmd)
+- [termix](#termix)
 - [Vouchervault](#vouchervault)
 - [walos](#wallos)
 
@@ -479,6 +480,21 @@ A self-hosted, Markdown file based task management board.
 **Application Name:** tasks.md
 
 **Application Site:** https://github.com/BaldissaraMatheus/Tasks.md
+
+**[`^back to top^`](#unraid-templates)**
+
+# termix
+
+![termix](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/termix_logo.png)
+
+Termix is an open-source forever free self-hosted SSH (other protocols planned, see [Planned Features](#planned-features)) server management panel inspired by [Nexterm](https://github.com/gnmyt/Nexterm). Its purpose is to provide an all-in-one docker-hosted web solution to manage your servers in one easy place. I'm using this project to help me learn [React](https://github.com/facebook/react), [Vite](https://github.com/vitejs/vite-plugin-react), and [Docker](https://www.docker.com) but also because I could never settle on a server management software that I enjoyed to use.
+
+> [!WARNING]  
+> This app is in the VERY early stages of development. Expect bugs, data loss, and unexplainable issues! For that reason, I recommend you securely tunnel your connection to Termix through a VPN.
+
+**Application Name:** termix
+
+**Application Site:** https://github.com/LukeGus/Termix
 
 **[`^back to top^`](#unraid-templates)**
 
