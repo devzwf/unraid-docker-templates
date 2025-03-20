@@ -23,10 +23,14 @@
   <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires>Container expect a &quot;glance.yml&quot; file to be mounted at /app/glance.yml before running. See https://github.com/glanceapp/glance/blob/main/docs/configuration.md for more information.</Requires>
-  <Config Name="Timezone" Target="/etc/timezone" Default="/etc/timezone" Mode="ro" Description="" Type="Path" Display="always-hide" Required="true" Mask="false">/etc/timezone</Config>
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="" Type="Path" Display="always-hide" Required="true" Mask="false">/etc/localtime</Config>
-  <Config Name="Config File" Target="/app/config/glance.yml" Default="" Mode="rw" Description="Configuration File &#13;&#10;MUST EXIST BEFORE FIRST RUN" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/glance/glance.yml</Config>
+  <Config Name="Config Directory" Target="/app/config/" Default="/mnt/user/appdata/glance/config" Mode="rw" Description="Configuration Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/glance/config</Config>
+  <Config Name="Assets Directory" Target="/app/assets" Default="/mnt/user/appdata/glance/assets" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/glance/assets</Config>
   <Config Name="Web UI port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <Changes>### 2024.06.08
+  <Changes>### 2025.03.19
+- update the Config path
+- add the assets Directory
+- remove the timezone reference.
+### 2024.06.08
 -   Initial Release</Changes> 
 </Container>
