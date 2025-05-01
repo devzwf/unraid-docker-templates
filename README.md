@@ -31,6 +31,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [nebula-sync](#nebula-sync)
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
+- [pihole DoT/DoH V6](#pihole-dot-doh-v6)
 - [pihole-sync-receiver](#pihole-sync-receiver)
 - [pihole-sync-sender](#pihole-sync-sender)
 - [Postfix-Relay](#postfixrelay)
@@ -359,6 +360,18 @@ OneDev is an all-in-one DevOps platform that features Git repository management 
 Official pihole docker with both DoT (DNS over TLS) and DoH (DNS over HTTPS) clients. Don't browse the web securely and yet still send your DNS queries in plain text!
 
 **Application Name:** pihole DoT/DoH
+
+**Application Site:** https://github.com/devzwf/pihole-dot-doh
+
+**[`^back to top^`](#unraid-templates)**
+
+# pihole-dot-doh-v6
+
+![pihole-dot-doh-v6](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png)
+
+Official pihole docker with both DoT (DNS over TLS) and DoH (DNS over HTTPS) clients. Don't browse the web securely and yet still send your DNS queries in plain text!
+
+**Application Name:** pihole DoT/DoH V6
 
 **Application Site:** https://github.com/devzwf/pihole-dot-doh
 

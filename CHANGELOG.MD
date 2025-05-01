@@ -2,6 +2,11 @@
 
 All major changes to this project will be documented here.
 
+## 2025.05.01
+
+- **PiHole-DoT-DoH V6**
+  - New addition
+
 ## 2025.03.12
 
 - **Termix**
