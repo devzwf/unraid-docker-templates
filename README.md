@@ -14,6 +14,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Blocky](#blocky)
 - [Cups-Airprint](#cups-airprint)
 - [Docmost](#docmost)
+- [DumbAssets](#dumbassets)
 - [DumbBudget](#dumbbudget)
 - [DumbDo](#dumbdo)
 - [DumbDrop](#dumbdrop)
@@ -105,6 +106,22 @@ Ideal for managing your wiki, knowledge-base, documentation and a lot more.
 **Application Site:** https://docmost.com/
 
 **Application Documentation:** https://docmost.com/docs/
+
+**[`^back to top^`](#unraid-templates)**
+
+# DumbAssets
+
+![dumbassets](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbassets-logo.png)
+
+A stupid simple asset tracker for keeping track of your physical assets, their components, and applicable warranties and routine maintenance.
+
+**Application Name:** DumbAssets
+
+**Images repository** https://github.com/DumbWareio/DumbAssets
+
+**Application Site:** https://www.dumbware.io/
+
+**Application Documentation:** https://github.com/DumbWareio/DumbAssets
 
 **[`^back to top^`](#unraid-templates)**
 

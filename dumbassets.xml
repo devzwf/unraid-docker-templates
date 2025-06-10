@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DumbAssets</Name>
+  <Repository>dumbwareio/dumbassets:latest</Repository>
+  <Registry>https://hub.docker.com/r/dumbwareio/dumbassets</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/185964-support-devzwf-dumbwareio-suite/</Support>
+  <Project>https://github.com/DumbWareio/DumbAssets</Project>
+  <Overview>A stupid simple asset tracker for keeping track of your physical assets, their components, and applicable warranties and routine maintenance.</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/master/dumbdo.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbassets-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1749584366</DateInstalled>
+  <DonateText>Don&amp;amp;#39;t donate to me! Instead, please donate to the creators of the apps, but if you insist</DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="The port on which the application will run." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="Data" Target="/app/data" Default="" Mode="rw" Description="Data Dir" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dumbassets</Config>
+  <Config Name="PIN" Target="DUMBASSETS_PIN" Default="" Mode="" Description="PIN protection" Type="Variable" Display="always" Required="true" Mask="false">12345</Config>
+  <TailscaleStateDir/>
+</Container>

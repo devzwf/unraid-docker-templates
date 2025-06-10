@@ -1,6 +1,10 @@
 # Change Log
 
 All major changes to this project will be documented here.
+## 2025.06.10
+
+- **DumbAssets**
+  - New addition
 
 ## 2025.05.01
 
