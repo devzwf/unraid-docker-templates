@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Pihole-DoT-DoH</Name>
-  <Repository>devzwf/pihole-dot-doh:latest</Repository>
+  <Repository>devzwf/pihole-dot-doh:2024.07.0</Repository>
   <Registry>https://hub.docker.com/r/devzwf/pihole-dot-doh</Registry>
   <Network>br0</Network>
   <MyIP></MyIP>

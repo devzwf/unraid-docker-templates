@@ -6,6 +6,9 @@ All major changes to this project will be documented here.
 - **DumbAssets**
   - New addition
 
+- **PiHole-DoT-DoH**
+  - pin tag to 2024.07.0 
+
 ## 2025.05.01
 
 - **PiHole-DoT-DoH V6**
