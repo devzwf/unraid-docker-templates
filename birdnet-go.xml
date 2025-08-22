@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>birdnet-go</Name>
+  <Repository>ghcr.io/tphakala/birdnet-go:nightly</Repository>
+  <Registry>https://github.com/tphakala/birdnet-go/pkgs/container/birdnet-go</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/tphakala/birdnet-go</Project>
+  <Overview>BirdNET-Go is an AI solution for continuous avian monitoring and identification&#xD;
+&#xD;
+    24/7 realtime bird song analysis of soundcard capture, analysis output to log file, SQLite or MySQL&#xD;
+    Utilizes BirdNET AI model trained with more than 6500 bird species&#xD;
+    Local processing, Internet connectivity not required&#xD;
+    Easy to use Web user interface for data visualisation&#xD;
+    Supports over 40 languages for species names&#xD;
+    Advanced features like Deep Detection for improved accuracy and Live Audio Streaming.&#xD;
+    BirdWeather.com API integration&#xD;
+    Realtime log file output can be used as overlay in OBS for bird feeder streams etc.&#xD;
+    Minimal runtime dependencies, BirdNET Tensorflow Lite model is embedded in compiled binary&#xD;
+    Provides endpoint for Prometheus data scraping&#xD;
+    Runs on Windows, Linux and macOS&#xD;
+    Low resource usage, works on Raspberry Pi 3 and equivalent 64-bit single board computers&#xD;
+</Overview>
+  <Category>AI:</Category>
+  <WebUI>https://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/birdnet-go-logo.png</Icon>
+  <ExtraParams>--add-host="host.docker.internal:host-gateway"</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1755885580</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Config Dir" Target="/config" Default="" Mode="rw" Description="Config Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/birdnet-go/config</Config>
+  <Config Name="Data Directory" Target="/data" Default="" Mode="rw" Description="Data Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/birdnet-go/data</Config>
+  <Config Name="BIRDNET UID" Target="BIRDNET_UID" Default="99" Mode="" Description="Runs the container process with your host user's ID for correct file permissions." Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="BIRDNET GID" Target="BIRDNET_GID" Default="100" Mode="" Description="Runs the container process with your host user's group ID." Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="Time zone" Target="TZ" Default="" Mode="" Description="Sets the timezone inside the container. See Wikipedia list." Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
+  <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="The port on which the application will run." Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Changes>### 2025.08.22
+-   Initial Release</Changes>
+  <TailscaleStateDir/>
+</Container>

@@ -1,6 +1,11 @@
 # Change Log
 
 All major changes to this project will be documented here.
+## 2025.08.22
+
+- **BirdNET-Go**
+  - New addition
+  
 ## 2025.06.10
 
 - **DumbAssets**

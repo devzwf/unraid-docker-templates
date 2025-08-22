@@ -11,6 +11,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 # Unraid Templates
 
 - [Binner](#binner)
+- [BirdNET-Go](#birdnetgo)
 - [Blocky](#blocky)
 - [Cups-Airprint](#cups-airprint)
 - [Docmost](#docmost)
@@ -58,6 +59,33 @@ Binner is a free open-source parts inventory tracking system you can run locally
 **Images repository** https://github.com/replaysMike/Binner
 
 **Application Site:** https://binner.io/
+
+**[`^back to top^`](#unraid-templates)**
+
+# BirdNET-Go
+
+![birdnetgo](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/birdnet-go-logo.png)
+
+BirdNET-Go is an AI solution for continuous avian monitoring and identification
+
+    24/7 realtime bird song analysis of soundcard capture, analysis output to log file, SQLite or MySQL
+    Utilizes BirdNET AI model trained with more than 6500 bird species
+    Local processing, Internet connectivity not required
+    Easy to use Web user interface for data visualisation
+    Supports over 40 languages for species names
+    Advanced features like Deep Detection for improved accuracy and Live Audio Streaming.
+    BirdWeather.com API integration
+    Realtime log file output can be used as overlay in OBS for bird feeder streams etc.
+    Minimal runtime dependencies, BirdNET Tensorflow Lite model is embedded in compiled binary
+    Provides endpoint for Prometheus data scraping
+    Runs on Windows, Linux and macOS
+    Low resource usage, works on Raspberry Pi 3 and equivalent 64-bit single board computers
+
+**Application Name:** BirdNET-Go
+
+**Application repository** https://github.com/tphakala/birdnet-go
+
+**Application Site:** https://github.com/tphakala/birdnet-go
 
 **[`^back to top^`](#unraid-templates)**
 
