@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/192999-support-devzwf-birdnet-go/</Support>
   <Project>https://github.com/tphakala/birdnet-go</Project>
   <Overview>BirdNET-Go is an AI solution for continuous avian monitoring and identification&#xD;
 &#xD;
