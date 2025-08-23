@@ -32,8 +32,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1755885580</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="Config Dir" Target="/config" Default="" Mode="rw" Description="Config Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/birdnet-go/config</Config>
   <Config Name="Data Directory" Target="/data" Default="" Mode="rw" Description="Data Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/birdnet-go/data</Config>
