@@ -25,7 +25,7 @@
     Low resource usage, works on Raspberry Pi 3 and equivalent 64-bit single board computers&#xD;
 </Overview>
   <Category>AI:</Category>
-  <WebUI>https://[IP]:[PORT:8080]</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/birdnet-go-logo.png</Icon>
   <ExtraParams>--add-host="host.docker.internal:host-gateway"</ExtraParams>
