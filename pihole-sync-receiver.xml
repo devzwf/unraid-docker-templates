@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Pihole-Sync-receiver</Name>
+  <Deprecated>true</Deprecated>
   <Repository>shirom/pihole-sync:latest</Repository>
   <Registry>https://hub.docker.com/r/shirom/pihole-sync</Registry>
   <Network>bridge</Network>
@@ -32,7 +33,9 @@ NOTE: The sending and recieving container are only necessary for solving permiss
   <Config Name="Etc-ssh" Target="/etc/ssh" Default="" Mode="rw" Description="This is the directory in which the SSH server key files and the SSH daemon config will be stored, so it needs to be persistent." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Pi-Hole Path" Target="/mnt/etc-pihole" Default="" Mode="rw" Description="This is the /etc/pihole/ directory the Pi-Hole container writes to on the host filesystem. It is monitored and sychronized with the remote client directory. It should be set to the same as the /etc/pihole/ in the Pihole Docker container." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Pi-Hole DNSmasq path" Target="/mnt/etc-dnsmasq.d" Default="" Mode="rw" Description="This is the /etc/dnsmasq.d/ directory the Pi-Hole container writes to on the host filesystem. It is monitored and sychronized with the remote client directory. It should be set to the same as the /etc/dnsmasq.d/ in the Pihole Docker container." Type="Path" Display="always" Required="true" Mask="false"/>
-  <Changes>### 2022.12.14
+  <Changes>### 2025.08.23
+- Deprecating as pihole V6 is widely use now
+### 2022.12.14
 - Fix the default Node variable to be receiver
 ### 2022.11.29
 - Initial Release</Changes>

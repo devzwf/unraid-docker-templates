@@ -1,6 +1,10 @@
 # Change Log
 
 All major changes to this project will be documented here.
+## 2025.08.23
+
+- depracating PiHole Sync (sender and receiver)
+
 ## 2025.08.22
 
 - **BirdNET-Go**

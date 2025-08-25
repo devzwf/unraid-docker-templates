@@ -34,8 +34,6 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
 - [pihole DoT/DoH V6](#pihole-dot-doh-v6)
-- [pihole-sync-receiver](#pihole-sync-receiver)
-- [pihole-sync-sender](#pihole-sync-sender)
 - [Postfix-Relay](#postfixrelay)
 - [proxmox-backup-server](#proxmox-backup-server-dockerfiles)
 - [proxmox-datacenter-manager](#proxmox-datacenter-manager)
@@ -419,34 +417,6 @@ Official pihole docker with both DoT (DNS over TLS) and DoH (DNS over HTTPS) cli
 **Application Name:** pihole DoT/DoH V6
 
 **Application Site:** https://github.com/devzwf/pihole-dot-doh
-
-**[`^back to top^`](#unraid-templates)**
-
-# pihole-sync-receiver
-
-![pihole-sync-receiver](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png)
-
-A Pihole runs your entire network. If it goes down, your whole network goes down. If you have a family at home, they're going to be pretty annoyed that the wifi goes out everytime you want to do some maintainence. The only solution to this problem is to have a redundant pihole on your network, but you don't want to change your settings in two different places.
-
-This repo allows you to synchronize between two piholes where one is the master and one is the slave. I'll be adding support for more piholes in future. Just update one pihole and the rest automatically update. It supports the /etc/pihole/ and /etc/dnsmasq.d/ directories, excluding some directories which should be client-independent.
-
-**Application Name:** pihole-sync
-
-**Application Site:** https://github.com/ShiromMakkad/docker-pihole-sync
-
-**[`^back to top^`](#unraid-templates)**
-
-# pihole-sync-sender
-
-![pihole-sync-sender](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png)
-
-A Pihole runs your entire network. If it goes down, your whole network goes down. If you have a family at home, they're going to be pretty annoyed that the wifi goes out everytime you want to do some maintainence. The only solution to this problem is to have a redundant pihole on your network, but you don't want to change your settings in two different places.
-
-This repo allows you to synchronize between two piholes where one is the master and one is the slave. I'll be adding support for more piholes in future. Just update one pihole and the rest automatically update. It supports the /etc/pihole/ and /etc/dnsmasq.d/ directories, excluding some directories which should be client-independent.
-
-**Application Name:** pihole-sync
-
-**Application Site:** https://github.com/ShiromMakkad/docker-pihole-sync
 
 **[`^back to top^`](#unraid-templates)**
 
