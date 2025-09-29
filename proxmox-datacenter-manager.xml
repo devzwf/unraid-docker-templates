@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>proxmox-datacenter-manager</Name>
-  <Repository>devzwf/proxmox-datacenter-manager:2024.12.1alpha</Repository>
+  <Repository>devzwf/proxmox-datacenter-manager:latest</Repository>
   <Beta>True</Beta>
   <Registry>https://hub.docker.com/r/devzwf/proxmox-datacenter-manager</Registry>
   <Network>bridge</Network>
@@ -41,7 +41,9 @@ more info : https://forum.proxmox.com/threads/proxmox-datacenter-manager-first-a
   <Config Name="Logs" Target="/var/log/proxmox-datacenter-manager" Default="/mnt/user/appdata/proxmox-datacenter-manager/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/proxmox-datacenter-manager/logs</Config>
   <Config Name="Cgroup" Target="/sys/fs/cgroup" Default="/sys/fs/cgroup" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/sys/fs/cgroup</Config>
   <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
-  <Changes>### 2024.12.25
+  <Changes>### 2025.09.28
+- Upgrade to latest Beta
+### 2024.12.25
 - remove privileges mode as not needed
 ### 2024.12.21
 - Update project link

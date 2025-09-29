@@ -1,6 +1,11 @@
 # Change Log
 
 All major changes to this project will be documented here.
+## 2025.09.28
+
+- **Proxmox Datacenter Manager**
+  - Update to latest Beta
+
 ## 2025.08.23
 
 - depracating PiHole Sync (sender and receiver)
