@@ -9,6 +9,9 @@ All major changes to this project will be documented here.
 - **Proxmox Datacenter Manager**
   - Update Overview
 
+- **DumbTerm**
+  - New addition
+
 ## 2025.09.28
 
 - **Proxmox Datacenter Manager**

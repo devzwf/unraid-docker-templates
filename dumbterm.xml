@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DumbTerm</Name>
+  <Repository>dumbwareio/dumbterm:latest</Repository>
+  <Registry>https://hub.docker.com/r/dumbwareio/dumbterm</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/185964-support-devzwf-dumbwareio-suite/</Support>
+  <Project>https://github.com/DumbWareio/DumbTerm</Project>
+  <Overview>A stupidly simple web-based terminal emulator, with common tools and Starship enabled! &#x1F680;</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>ttps://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbterm-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1759240086</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="The port on which the application will run." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="Config" Target="/root/.config" Default="" Mode="rw" Description="Config Dir" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dumbterm/config</Config>
+  <Config Name="Data" Target="/root/data" Default="" Mode="rw" Description="Data Dir" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dumbterm/data</Config>
+  <Config Name="PIN" Target="DUMBTERM_PIN" Default="" Mode="" Description="PIN protection" Type="Variable" Display="always" Required="true" Mask="false">12345</Config>
+  <Config Name="Starship" Target="ENABLE_STARSHIP" Default="True" Mode="" Description="Enable Starship prompt" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+  <Config Name="Timezone" Target="TZ" Default="UTC" Mode="" Description="Set the timezone (e.g., 'America/New_York')" Type="Variable" Display="always" Required="false" Mask="false">merica/New_York</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2025.09.30
+-   Initial Release</Changes>
+</Container>

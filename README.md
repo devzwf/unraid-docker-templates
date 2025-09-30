@@ -21,6 +21,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [DumbDrop](#dumbdrop)
 - [DumbKan](#dumbkan)
 - [DumbPad](#dumbpad)
+- [DumbTerm](#dumbterm)
 - [DumbWhoIs](#dumbwhois)
 - [Glance](#glance)
 - [homebox](#homebox)
@@ -228,6 +229,22 @@ A stupid simple, no auth (unless you want it!), modern notepad application with 
 **Application Site:** https://www.dumbware.io/
 
 **Application Documentation:** https://github.com/DumbWareio/DumbPad
+
+**[`^back to top^`](#unraid-templates)**
+
+# DumbTerm
+
+![dumbterm](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbterm-logo.png)
+
+A stupidly simple web-based terminal emulator, with common tools and Starship enabled! &#x1F680;
+
+**Application Name:** DumbTerm
+
+**Images repository** https://github.com/DumbWareio/DumbTerm
+
+**Application Site:** https://www.dumbware.io/
+
+**Application Documentation:** https://www.dumbware.io/DumbTerm
 
 **[`^back to top^`](#unraid-templates)**
 
