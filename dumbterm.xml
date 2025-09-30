@@ -13,7 +13,7 @@
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
-  <Icon>ttps://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbterm-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbterm-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
