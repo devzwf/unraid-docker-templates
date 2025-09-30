@@ -19,11 +19,14 @@ A stand-alone API + GUI product with the following main features for multiple in
 &#xD;
 The Datacenter Manager project has been developed with the objective of providing a centralized overview of all your individual nodes and clusters. It also enables basic management like migrations of virtual guests without any cluster network requirements.&#xD;
 &#xD;
- ALPHA PREVIEW&#xD;
+ BETA Version&#xD;
 &#xD;
 default login  : root:pdmpdm   (please change)&#xD;
 &#xD;
-more info : https://forum.proxmox.com/threads/proxmox-datacenter-manager-first-alpha-release.159323</Overview>
+More info : https://forum.proxmox.com/threads/proxmox-datacenter-manager-0-9-beta-released.171742/&#xD;
+Roadmap   : https://pve.proxmox.com/wiki/Proxmox_Datacenter_Manager_Roadmap&#xD;
+Documentation: https://pve.proxmox.com/wiki/Proxmox_Datacenter_Manager_Beta_Documentation&#xD;
+</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
   <TemplateURL/>
@@ -41,7 +44,9 @@ more info : https://forum.proxmox.com/threads/proxmox-datacenter-manager-first-a
   <Config Name="Logs" Target="/var/log/proxmox-datacenter-manager" Default="/mnt/user/appdata/proxmox-datacenter-manager/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/proxmox-datacenter-manager/logs</Config>
   <Config Name="Cgroup" Target="/sys/fs/cgroup" Default="/sys/fs/cgroup" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/sys/fs/cgroup</Config>
   <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
-  <Changes>### 2025.09.28
+  <Changes>### 2025.09.30
+- Update Overview
+### 2025.09.28
 - Upgrade to latest Beta
 ### 2024.12.25
 - remove privileges mode as not needed

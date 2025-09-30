@@ -6,6 +6,9 @@ All major changes to this project will be documented here.
 - **HomeBox**
   - Fix Typo HBOX_MODE
 
+- **Proxmox Datacenter Manager**
+  - Update Overview
+
 ## 2025.09.28
 
 - **Proxmox Datacenter Manager**
