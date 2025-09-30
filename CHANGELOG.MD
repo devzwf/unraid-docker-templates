@@ -1,6 +1,11 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2025.09.30
+
+- **HomeBox**
+  - Fix Typo HBOX_MODE
+
 ## 2025.09.28
 
 - **Proxmox Datacenter Manager**
