@@ -488,7 +488,7 @@ Official pihole docker with both DoT (DNS over TLS) and DoH (DNS over HTTPS) cli
 
 # pulse
 
-![pulse](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pulse-logo.jpg)
+![pulse](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pulse-logo.png)
 
     Real-time monitoring for Proxmox VE, Proxmox Mail Gateway, PBS, and Docker infrastructure with alerts and webhooks.
     Monitor your hybrid Proxmox and Docker estate from a single dashboard. Get instant alerts when nodes go down, containers misbehave, backups fail, or storage fills up. Supports email, Discord, Slack, Telegram, and more.
