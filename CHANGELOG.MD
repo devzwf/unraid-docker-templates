@@ -1,6 +1,11 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2025.10.24
+
+- **Pulse**
+  - New addition
+
 ### 2025.09.30
 
 - **HomeBox**

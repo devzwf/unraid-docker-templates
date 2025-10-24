@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Pulse</Name>
+  <Repository>rcourtman/pulse:latest</Repository>
+  <Registry>https://hub.docker.com/r/rcourtman/pulse</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/194484-support-devzwf-pulse/</Support>
+  <Project>https://github.com/rcourtman/Pulse</Project>
+  <Overview>Real-time monitoring for Proxmox VE, Proxmox Mail Gateway, PBS, and Docker infrastructure with alerts and webhooks.&#xD;
+&#xD;
+Monitor your hybrid Proxmox and Docker estate from a single dashboard. Get instant alerts when nodes go down, containers misbehave, backups fail, or storage fills up. Supports email, Discord, Slack, Telegram, and more.&#xD;
+&#xD;
+Try the live demo: https://demo.pulserelay.pro/ (read-only with mock data)
+</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:7655]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pulse-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1761339994</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WEBUI" Target="7655" Default="7655" Mode="tcp" Description="Web Interface port" Type="Port" Display="always" Required="true" Mask="false">7655</Config>
+  <Config Name="Data Directory" Target="/data" Default="/mnt/user/appdata/pulse" Mode="rw" Description="Data Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pulse</Config>
+  <Config Name="WEB admin user" Target="PULSE_AUTH_USER" Default="admin" Mode="" Description="Username for web UI login" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>
+  <Config Name="Admin password" Target="PULSE_AUTH_PASS" Default="" Mode="" Description="Plain text or bcrypt hash (auto-hashed if plain)" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <TailscaleStateDir/>
+  <Changes>### 2025.10.24
+-   Initial Release</Changes>
+</Container>

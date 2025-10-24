@@ -38,6 +38,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Postfix-Relay](#postfixrelay)
 - [proxmox-backup-server](#proxmox-backup-server-dockerfiles)
 - [proxmox-datacenter-manager](#proxmox-datacenter-manager)
+- [pulse](#pulse)
 - [silverbullet](#silverbullet)
 - [speedtest-tracker](#speedtest-tracker)
 - [tasks.md](#tasksmd)
@@ -485,6 +486,20 @@ Official pihole docker with both DoT (DNS over TLS) and DoH (DNS over HTTPS) cli
 
 **[`^back to top^`](#unraid-templates)**
 
+# pulse
+
+![pulse](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pulse-logo.jpg)
+
+    Real-time monitoring for Proxmox VE, Proxmox Mail Gateway, PBS, and Docker infrastructure with alerts and webhooks.
+    Monitor your hybrid Proxmox and Docker estate from a single dashboard. Get instant alerts when nodes go down, containers misbehave, backups fail, or storage fills up. Supports email, Discord, Slack, Telegram, and more.
+
+    [Try the live demo](https://demo.pulserelay.pro/)  (read-only with mock data)
+
+**Application Name:** Pulse
+**Application Site:** https://github.com/rcourtman/Pulse
+
+
+**[`^back to top^`](#unraid-templates)**
 
 # silverbullet
 
