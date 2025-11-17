@@ -1,7 +1,12 @@
 # Change Log
 
 All major changes to this project will be documented here.
-### 2025.10.24
+### 2025.11.17
+
+- **Termix**
+  - Added persistent Data directory mappingß
+
+### 2025.10.24ß
 
 - **Pulse**
   - New addition

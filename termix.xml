@@ -26,7 +26,10 @@ This app is in the VERY early stages of development. Expect bugs, data loss, and
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="Webui" Target="8080" Default="8080" Mode="tcp" Description="WebUI" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <Changes>### 2025.03.12
+  <Config Name="DataDir" Target="/app/data" Default="/mnt/user/appdata/termix/data" Mode="rw" Description="Persistent Data Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/termix/data</Config>
+  <Changes>### 2025.11.17
+- Updated to add persistent Data directory mapping
+### 2025.03.12
 -   Initial Release</Changes>
   <TailscaleStateDir/>
 </Container>
