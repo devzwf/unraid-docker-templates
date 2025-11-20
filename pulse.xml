@@ -30,7 +30,10 @@ Try the live demo: https://demo.pulserelay.pro/ (read-only with mock data)
   <Config Name="Data Directory" Target="/data" Default="/mnt/user/appdata/pulse" Mode="rw" Description="Data Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pulse</Config>
   <Config Name="WEB admin user" Target="PULSE_AUTH_USER" Default="admin" Mode="" Description="Username for web UI login" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>
   <Config Name="Admin password" Target="PULSE_AUTH_PASS" Default="" Mode="" Description="Plain text or bcrypt hash (auto-hashed if plain)" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Log level" Target="LOG_LEVEL" Default="info" Mode="" Description="Log level: debug/info/warn/error (default: info)" Type="Variable" Display="always" Required="false" Mask="false">info</Config>
   <TailscaleStateDir/>
-  <Changes>### 2025.10.24
+  <Changes>### 2025.11.20
+- Added Log Level environment variable
+### 2025.10.24
 -   Initial Release</Changes>
 </Container>

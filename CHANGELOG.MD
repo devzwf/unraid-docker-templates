@@ -1,6 +1,11 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2025.11.20
+
+- **Pulse**
+  - Added Log Level environment variable
+  
 ### 2025.11.17
 
 - **Termix**
