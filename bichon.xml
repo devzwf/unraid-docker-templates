@@ -16,7 +16,7 @@ Default Credentials&#13;
     Initial Password: root&#13;
   </Overview>
   <Category>Productivity: Tools: Other:</Category>
-  <WebUI>https://[IP]:[PORT:8090]</WebUI>
+  <WebUI>https://[IP]:[PORT:15630]</WebUI>
   <TemplateURL/>
    <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bichon-logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
