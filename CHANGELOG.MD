@@ -1,6 +1,11 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2025.12.06
+
+- **Bichon**
+  - New addition
+
 ### 2025.11.20
 
 - **Pulse**

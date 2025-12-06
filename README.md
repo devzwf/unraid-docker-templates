@@ -10,6 +10,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 
 # Unraid Templates
 
+- [Bichon](#bichon) 
 - [Binner](#binner)
 - [BirdNET-Go](#birdnet-go)
 - [Blocky](#blocky)
@@ -47,6 +48,17 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [walos](#wallos)
 
 ---
+# Bichon
+
+![bichon](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bichon-logo.png)
+
+Bichon is an open-source email archiving system that synchronizes emails from IMAP servers, indexes them for full-text search, and provides a REST API for programmatic access. Unlike email clients, Bichon is designed for archiving and searching rather than sending/receiving emails. It runs as a standalone server application that continuously synchronizes configured email accounts and maintains a searchable local archive. Built in Rust, it requires no external dependencies and provides fast, efficient email archiving, management, and search through a built-in WebUI. 
+
+**Application Name:** Bichon
+
+**Images repository** https://github.com/rustmailer/bichon
+
+**[`^back to top^`](#unraid-templates)**
 
 # Binner
 
