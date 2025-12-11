@@ -31,7 +31,7 @@ LightNVR provides a lightweight yet powerful solution for recording and managing
   <Config Name="go2rtc configuration persistence" Target="GO2RTC_CONFIG_PERSIST" Default="True" Mode="" Description="Set to 'false' to let go2rtc regenerate config on each restart" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
   <Config Name="Auto-initialize configuration files on first run" Target="LIGHTNVR_AUTO_INIT" Default="True" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
   <Config Name="Configuration files" Target="/etc/lightnvr" Default="/mnt/user/appdata/lightnvr/config" Mode="rw" Description="-  lightnvr.ini - Main configuration&#13;&#10;-  go2rtc/go2rtc.yaml - go2rtc WebRTC/RTSP configuration&#13;&#10;" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lightnvr/config</Config>
-  <Config Name="Data Dir - Persistent data" Target="/var/lib/lightnvr/data" Default="" Mode="rw" Description="- database/ - SQLite database&#13;&#10;- recordings/ - Video recordings (HLS and MP4)&#13;&#10;- models/ - Object detection models&#13;&#10;Note : recommend a share for this" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Data Dir - Persistent data" Target="/var/lib/lightnvr/data" Default="" Mode="rw" Description="- database/ - SQLite database&#13;&#10;- recordings/ - Video recordings (HLS and MP4)&#13;&#10;- models/ - Object detection models&#13;&#10;Note : recommend a share on your array for this" Type="Path" Display="always" Required="true" Mask="false"/>
   <TailscaleStateDir/>
   <Changes>### 2025.12.11
 -   Initial Release</Changes>
