@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>lightnvr</Name>
+  <Repository>ghcr.io/opensensor/lightnvr</Repository>
+  <Registry>https://github.com/opensensor/lightNVR</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/opensensor/lightNVR</Project>
+  <Overview>LightNVR is a tiny, memory-optimized Network Video Recorder software written in C. While originally designed for resource-constrained devices like the Ingenic A1 SoC with only 256MB of RAM, it can run on any Linux system.&#13;
+LightNVR provides a lightweight yet powerful solution for recording and managing IP camera streams. It's designed to run efficiently on low-power, memory-constrained devices while still providing essential NVR functionality with a modern, responsive web interface.</Overview>
+  <Category>Security:</Category>
+   <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/lightnvr-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1765478346</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WEBUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="RTSP" Target="8554" Default="8554" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8554</Config>
+  <Config Name="WebRTC TCP" Target="8555" Default="8555" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8555</Config>
+  <Config Name="WebRTC UDP" Target="8555" Default="8555" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">8555</Config>
+  <Config Name="go2rtc API" Target="1984" Default="1984" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">1984</Config>
+  <Config Name="Time Zone" Target="TZ" Default="UTC" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">America/New_York</Config>
+  <Config Name="go2rtc configuration persistence" Target="GO2RTC_CONFIG_PERSIST" Default="True" Mode="" Description="Set to 'false' to let go2rtc regenerate config on each restart" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+  <Config Name="Auto-initialize configuration files on first run" Target="LIGHTNVR_AUTO_INIT" Default="True" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+  <Config Name="Configuration files" Target="/etc/lightnvr" Default="/mnt/user/appdata/lightnvr/config" Mode="rw" Description="-  lightnvr.ini - Main configuration&#13;&#10;-  go2rtc/go2rtc.yaml - go2rtc WebRTC/RTSP configuration&#13;&#10;" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lightnvr/config</Config>
+  <Config Name="Data Dir - Persistent data" Target="/var/lib/lightnvr/data" Default="" Mode="rw" Description="- database/ - SQLite database&#13;&#10;- recordings/ - Video recordings (HLS and MP4)&#13;&#10;- models/ - Object detection models&#13;&#10;Note : recommend a share for this" Type="Path" Display="always" Required="true" Mask="false"/>
+  <TailscaleStateDir/>
+  <Changes>### 2025.12.11
+-   Initial Release</Changes>
+</Container>

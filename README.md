@@ -29,6 +29,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [hydroqc2mqtt](#hydroqc2mqtt)
 - [iventoy](#iventoy)
 - [juicepass2mqtt](#juicepass2mqtt)
+- [lightNVR](#lightnvr)
 - [LubeLogger](#lubelogger)
 - [M.I.M.O.S.A](#mimosa)
 - [Myspeed.dev](#myspeeddev)
@@ -345,6 +346,21 @@ It is required that both your JuiceBox and the machine you are running juicepass
 **Application Site:** https://github.com/snicker/juicepassproxy
 
 **[`^back to top^`](#unraid-templates)**
+
+
+# LightNVR
+
+![lightnvr](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/lightnvr-logo.png)
+
+LightNVR is a tiny, memory-optimized Network Video Recorder software written in C. While originally designed for resource-constrained devices like the Ingenic A1 SoC with only 256MB of RAM, it can run on any Linux system.&#13;
+
+LightNVR provides a lightweight yet powerful solution for recording and managing IP camera streams. It's designed to run efficiently on low-power, memory-constrained devices while still providing essential NVR functionality with a modern, responsive web interface.
+**Application Name:** LightNVR
+
+**Application Site:** https://github.com/opensensor/lightNVR
+
+**[`^back to top^`](#unraid-templates)**
+
 
 # LubeLogger
 
