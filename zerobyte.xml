@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>zerobyte</Name>
+  <Repository>ghcr.io/nicotsx/zerobyte:v0.19</Repository>
+  <Registry>https://github.com/nicotsx/zerobyte</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/nicotsx/zerobyte</Project>
+  <Overview>Zerobyte is a backup automation tool that helps you save your data across multiple storage backends. Built on top of Restic, it provides an modern web interface to schedule, manage, and monitor encrypted backups of your remote storage.&#13;
+Features:&#13;
+      - Automated backups with encryption, compression and retention policies powered by Restic&#13;
+      - Flexible scheduling For automated backup jobs with fine-grained retention policies&#13;
+      - End-to-end encryption ensuring your data is always protected&#13;
+      - Multi-protocol support: Backup from NFS, SMB, WebDAV, or local directories&#13;
+&#13;
+&#13;
+Warning&#13;
+Zerobyte is still in version 0.x.x and is subject to major changes from version to version. I am developing the core features and collecting feedbacks. Expect bugs! Please open issues or feature requests&#13;
+</Overview>
+  <Category>Backup:</Category>
+  <WebUI>http://[IP]:[PORT:4096]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/zerobyte-logo.png</Icon>
+  <ExtraParams>--cap-add=SYS_ADMIN --restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1766108087</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WEBUI" Target="4096" Default="4096" Mode="tcp" Description="Web UI" Type="Port" Display="always" Required="true" Mask="false">4096</Config>
+  <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="" Description="Time Zone" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
+  <Config Name="Zerobyte" Target="/var/lib/zerobyte" Default="/mnt/user/appdata/zerobyte/lib" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/zerobyte/lib</Config>
+  <Config Name="Fuse" Target="/dev/fuse" Default="" Mode="" Description="" Type="Device" Display="always" Required="true" Mask="false">/dev/fuse</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2025.12.18
+-   Initial Release</Changes>
+</Container>

@@ -47,6 +47,8 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [termix](#termix)
 - [Vouchervault](#vouchervault)
 - [walos](#wallos)
+- [Zerobyte](#zerobyte)
+
 
 ---
 # Bichon
@@ -609,5 +611,24 @@ Wallos is a powerful, open-source, and self-hostable web application designed to
 **Application Name:** wallos
 
 **Application Site:** https://github.com/ellite/Wallos
+
+**[`^back to top^`](#unraid-templates)**
+
+# zerobyte
+
+![zerobyte](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/zerobyte-logo.png)
+
+Zerobyte is a backup automation tool that helps you save your data across multiple storage backends. Built on top of Restic, it provides an modern web interface to schedule, manage, and monitor encrypted backups of your remote storage.
+
+Features
+
+- Automated backups with encryption, compression and retention policies powered by Restic
+- Flexible scheduling For automated backup jobs with fine-grained retention policies
+- End-to-end encryption ensuring your data is always protected
+- Multi-protocol support: Backup from NFS, SMB, WebDAV, or local directories
+
+**Application Name:** Zerobyte
+
+**Application Site:** https://github.com/nicotsx/zerobyte
 
 **[`^back to top^`](#unraid-templates)**

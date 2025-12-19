@@ -1,6 +1,11 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2025.12.18
+
+- **Zerobyte**
+  - New addition
+
 ### 2025.12.11
 
 - **LightNVR**
