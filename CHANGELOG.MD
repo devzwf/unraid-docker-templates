@@ -1,6 +1,12 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2025.12.20
+
+- **Proxmox Datacenter Manager**
+  - Update to latest stable version 1.0.1
+  - remove beta tag
+
 ### 2025.12.18
 
 - **Zerobyte**
