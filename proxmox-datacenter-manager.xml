@@ -39,11 +39,13 @@ Documentation: https://www.proxmox.com/en/products/proxmox-datacenter-manager/ov
   <Config Name="Config" Target="/etc/proxmox-datacenter-manager" Default="/mnt/user/appdata/proxmox-datacenter-manager/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/proxmox-datacenter-manager/config</Config>
   <Config Name="Data" Target="/var/lib/proxmox-datacenter-manager" Default="/mnt/user/appdata/proxmox-datacenter-manager/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/proxmox-datacenter-manager/data</Config>
   <Config Name="Logs" Target="/var/log/proxmox-datacenter-manager" Default="/mnt/user/appdata/proxmox-datacenter-manager/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/proxmox-datacenter-manager/logs</Config>
+  <Config Name="Root" Target="/root" Default="/mnt/user/appdata/proxmox-datacenter-manager/root" Mode="rw" Description="Root home (optional, for shell history etc)" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/proxmox-datacenter-manager/root</Config>
   <Config Name="Cgroup" Target="/sys/fs/cgroup" Default="/sys/fs/cgroup" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/sys/fs/cgroup</Config>
   <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
   <Changes>### 2025.12.20
 - Upgrade to latest Stable 1.0.1
 - remove beta tag
+- add optional root home mapping
 ### 2025.09.30
 - Update Overview
 ### 2025.09.28

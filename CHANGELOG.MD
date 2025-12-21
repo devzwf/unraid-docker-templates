@@ -6,6 +6,7 @@ All major changes to this project will be documented here.
 - **Proxmox Datacenter Manager**
   - Update to latest stable version 1.0.1
   - remove beta tag
+  - add optional root home mapping
 
 ### 2025.12.18
 
