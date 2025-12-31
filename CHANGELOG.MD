@@ -1,6 +1,10 @@
 # Change Log
 
 All major changes to this project will be documented here.
+## 2025.12.30
+- **Zerobyte**
+  - use latest as tag instead of specific version
+
 ### 2025.12.20
 
 - **Proxmox Datacenter Manager**

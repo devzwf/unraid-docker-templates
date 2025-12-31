@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>zerobyte</Name>
-  <Repository>ghcr.io/nicotsx/zerobyte:v0.19</Repository>
+  <Repository>ghcr.io/nicotsx/zerobyte:latest</Repository>
   <Registry>https://github.com/nicotsx/zerobyte</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -36,6 +36,8 @@ Zerobyte is still in version 0.x.x and is subject to major changes from version 
   <Config Name="Zerobyte" Target="/var/lib/zerobyte" Default="/mnt/user/appdata/zerobyte/lib" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/zerobyte/lib</Config>
   <Config Name="Fuse" Target="/dev/fuse" Default="" Mode="" Description="" Type="Device" Display="always" Required="true" Mask="false">/dev/fuse</Config>
   <TailscaleStateDir/>
-  <Changes>### 2025.12.18
+  <Changes>### 2025.12.30
+- use latest as tag instead of specific version
+### 2025.12.18
 -   Initial Release</Changes>
 </Container>
