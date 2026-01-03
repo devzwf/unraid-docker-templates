@@ -11,9 +11,9 @@
   <Project>https://github.com/rustmailer/bichon</Project>
   <Overview>Bichon is an open-source email archiving system that synchronizes emails from IMAP servers, indexes them for full-text search, and provides a REST API for programmatic access. Unlike email clients, Bichon is designed for archiving and searching rather than sending/receiving emails. It runs as a standalone server application that continuously synchronizes configured email accounts and maintains a searchable local archive. Built in Rust, it requires no external dependencies and provides fast, efficient email archiving, management, and search through a built-in WebUI.&#13;
 &#13;
-Default Credentials&#13;
-    Initial Login Account: root&#13;
-    Initial Password: root&#13;
+Default credentials:&#13;
+    Username: admin&#13;
+    Password: admin@bichon&#13;
   </Overview>
   <Category>Productivity: Tools: Other:</Category>
   <WebUI>https://[IP]:[PORT:15630]</WebUI>
@@ -32,7 +32,9 @@ Default Credentials&#13;
   <Config Name="Web UI" Target="15630" Default="15630" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">15630</Config>
   <Config Name="Data Directory" Target="/data" Default="/mnt/user/appdata/bichon/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bichon/data</Config>
   <Config Name="Cors Origin" Target="BICHON_CORS_ORIGINS" Default="" Mode="" Description="You need to add the exact address you use in your browser&#13;&#10;http:// or https:// is mandatory &#13;&#10;If you want to access Bichon in multiple ways, include all of them separated by commas." Type="Variable" Display="always" Required="true" Mask="false">http://192.168.254.158:15630</Config>
-  <Changes>### 2025.12.06
+  <Changes>### 2026.01.03
+- Updated default credentials in Overview section to reflect latest changes from Bichon project.
+### 2025.12.06
 -   Initial Release</Changes>
   <TailscaleStateDir/>
 </Container>
