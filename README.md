@@ -15,6 +15,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [BirdNET-Go](#birdnet-go)
 - [Blocky](#blocky)
 - [Cups-Airprint](#cups-airprint)
+- [Databasement](#databasement)
 - [Docmost](#docmost)
 - [DumbAssets](#dumbassets)
 - [DumbBudget](#dumbbudget)
@@ -131,6 +132,22 @@ This Image is based on openprinting
 **Images repository** https://github.com/chuckcharlie/cups-avahi-airprint
 
 **Application Site:** https://openprinting.github.io/cups/index.html
+
+**[`^back to top^`](#unraid-templates)**
+
+# Databasement
+
+![databasement](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/databasement-logo.png)
+
+Databasement is a web application for managing database server backups. It allows you to register database servers (MySQL, PostgreSQL, MariaDB), test connections, schedule automated backups, and restore snapshots to any registered server.
+
+**Application Name:** Databasement
+
+**Images repository** https://github.com/David-Crty/databasement
+
+**Application Site:** https://david-crty.github.io/databasement/
+
+**Application Documentation:** https://david-crty.github.io/databasement/
 
 **[`^back to top^`](#unraid-templates)**
 
