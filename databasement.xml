@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/196348-support-devzwf-databasement/</Support>
   <Project>https://github.com/David-Crty/databasement</Project>
   <Overview>Databasement is a web application for managing database server backups. It allows you to register database servers (MySQL, PostgreSQL, MariaDB), test connections, schedule automated backups, and restore snapshots to any registered server.&#13;
 &#13;
@@ -38,6 +38,8 @@ Copy the output (e.g., base64:xxxx...) and set it as APP_KEY.&#13;
   <Config Name="ENABLE_QUEUE_WORKER" Target="ENABLE_QUEUE_WORKER" Default="True" Mode="" Description="The ENABLE_QUEUE_WORKER=true environment variable enables the background queue worker inside the container. This is required for processing backup and restore jobs. When using Docker Compose, the worker runs as a separate service instead." Type="Variable" Display="always" Required="true" Mask="false">True</Config>
   <Config Name="TRUSTED_PROXIES" Target="TRUSTED_PROXIES" Default="*" Mode="" Description="    127.0.0.1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,::1') - This covers all RFC 1918 private ranges&#13;&#10;    * - Trust all proxies (suitable for Kubernetes/Docker where proxy IPs are dynamic)&#13;&#10;    Comma-separated IPs: 10.0.0.1,192.168.1.0/24 - Trust specific proxies&#13;&#10;    Empty - Trust no proxies" Type="Variable" Display="always" Required="false" Mask="false">*</Config>
   <TailscaleStateDir/>
-  <Changes>### 2026.01.05
+  <Changes>### 2026.01.08
+- Added support thread
+### 2026.01.05
 -   Initial Release</Changes>
 </Container>
