@@ -11,7 +11,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 # Unraid Templates
 
 - [Bambubuddy](#bambubuddy)
-= [Bichon](#bichon) 
+- [Bichon](#bichon) 
 - [Binner](#binner)
 - [BirdNET-Go](#birdnet-go)
 - [Blocky](#blocky)
