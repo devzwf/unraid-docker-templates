@@ -1,6 +1,10 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2026.01.21
+- **Bambubuddy**
+  - New addition
+
 ### 2026.01.05
 - **Databesemnet**
   - New addition

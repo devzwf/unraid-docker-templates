@@ -1,0 +1,31 @@
+<Container version="2">
+  <Name>Bambubudy</Name>
+  <Repository>ghcr.io/maziggy/bambuddy:latest</Repository>
+  <Registry>https://github.com/maziggy/bambuddy</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://bambuddy.cool/index.html</Project>
+  <Overview>A powerful, self-hosted print archive and management system for Bambu Lab 3D printers. No cloud dependency, complete privacy, full control. </Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bambubuddy-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1769028600</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="" Description="Time zone" Type="Variable" Display="always" Required="true" Mask="false">America/Toronto</Config>
+  <Config Name="Web UI" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
+  <Config Name="Data" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambubuddy/data</Config>
+  <Config Name="Logs" Target="/app/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambubuddy/logs</Config>
+  <Config Name="Host Path 3" Target="/app/data/virtual_printer" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambybuddy/virtual_printer</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2026.01.21
+-   Initial Release</Changes>
+</Container>
