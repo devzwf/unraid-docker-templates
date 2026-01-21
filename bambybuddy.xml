@@ -6,7 +6,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/196691-support-devzwf-bambubuddy/</Support>
   <Project>https://bambuddy.cool/index.html</Project>
   <Overview>A powerful, self-hosted print archive and management system for Bambu Lab 3D printers. No cloud dependency, complete privacy, full control. </Overview>
   <Category>Productivity: Tools:</Category>
