@@ -1,6 +1,9 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2026.01.22
+- **bambuddy**
+  - Fix port for webui issue
 ### 2026.01.21
 - **bambuddy**
   - New addition
