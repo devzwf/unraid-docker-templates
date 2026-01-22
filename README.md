@@ -10,7 +10,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 
 # Unraid Templates
 
-- [Bambubuddy](#bambubuddy)
+- [Bambuddy](#bambuddy)
 - [Bichon](#bichon) 
 - [Binner](#binner)
 - [BirdNET-Go](#birdnet-go)
@@ -53,13 +53,13 @@ The docker containers referenced in this repo point to Docker Containers maintai
 
 
 ---
-# Bambubuddy
+# Bambuddy
 
-![bambubuddy](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bambubuddy-logo.png)
+![bambuddy](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bambuddy-logo.png)
 
 A powerful, self-hosted print archive and management system for Bambu Lab 3D printers. No cloud dependency, complete privacy, full control. 
 
-**Application Name:** Bambubuddy
+**Application Name:** bambuddy
 
 **Images repository** https://github.com/maziggy/bambuddy
 
