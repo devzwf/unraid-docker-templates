@@ -21,7 +21,7 @@
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="" Description="Time zone" Type="Variable" Display="always" Required="true" Mask="false">America/Toronto</Config>
-  <Config Name="Web UI" Target="PORT" Default="8000" Mode="" Description="Web Ui Port" Type="Variable" Display="always" Required="true" Mask="false">8000</Config>
+  <Config Name="Web UI" Target="PORT" Default="8000" Mode="" Description="Web Ui Port&#13;&#10;due the the fact this container run in host mode &#13;&#10;if you change the value here you must change it in the field WEBUI as well" Type="Variable" Display="always" Required="true" Mask="false">8000</Config>
   <Config Name="Data" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambuddy/data</Config>
   <Config Name="Logs" Target="/app/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambuddy/logs</Config>
   <Config Name="Host Path 3" Target="/app/data/virtual_printer" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambuddy/virtual_printer</Config>
