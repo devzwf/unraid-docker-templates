@@ -24,7 +24,7 @@
   <Config Name="Web UI" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
   <Config Name="Data" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambuddy/data</Config>
   <Config Name="Logs" Target="/app/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambuddy/logs</Config>
-  <Config Name="Host Path 3" Target="/app/data/virtual_printer" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambybuddy/virtual_printer</Config>
+  <Config Name="Host Path 3" Target="/app/data/virtual_printer" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bambuddy/virtual_printer</Config>
   <TailscaleStateDir/>
   <Changes>### 2026.01.21
 -   Initial Release</Changes>
