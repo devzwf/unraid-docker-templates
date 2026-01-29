@@ -33,10 +33,14 @@ Zerobyte is still in version 0.x.x and is subject to major changes from version 
   <Requires/>
   <Config Name="WEBUI" Target="4096" Default="4096" Mode="tcp" Description="Web UI" Type="Port" Display="always" Required="true" Mask="false">4096</Config>
   <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="" Description="Time Zone" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
+  <Config Name="Base URL" Target="BASE_URL" Default="http://localhost:4096" Mode="" Description="URL you will use to access Zerobyte" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="App Secret" Target="APP_SECRET" Default="" Mode="" Description="Required. A random secret key (32+ chars) used to encrypt sensitive data in the database. Generate with `openssl rand -hex 32`" Type="Variable" Display="always" Required="true" Mask="true"></Config>
   <Config Name="Zerobyte" Target="/var/lib/zerobyte" Default="/mnt/user/appdata/zerobyte/lib" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/zerobyte/lib</Config>
   <Config Name="Fuse" Target="/dev/fuse" Default="" Mode="" Description="" Type="Device" Display="always" Required="true" Mask="false">/dev/fuse</Config>
   <TailscaleStateDir/>
-  <Changes>### 2025.12.30
+  <Changes>### 2026.01.29
+- added 2 Env Variable configs: Base URL and App Secret
+### 2025.12.30
 - use latest as tag instead of specific version
 ### 2025.12.18
 -   Initial Release</Changes>
