@@ -18,7 +18,7 @@ Hawser is a lightweight Go agent that enables Dockhand to manage Docker hosts in
   <Category>Tools: Other: Network:Other</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/zerobyte-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/hawser-logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>

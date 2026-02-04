@@ -328,12 +328,12 @@ A simple web application for looking up WHOIS, IP, and ASN information using fre
 
 # Hawser
 
-![hawser](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/hawser_logo.png)
+![hawser](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/hawser-logo.png)
 
-Remote Docker agent for [Dockhand](https://dockhand.pro) - manage Docker hosts anywhere.
-Hawser is a lightweight Go agent that enables Dockhand to manage Docker hosts in various network configurations. It supports two operational modes:
+    Remote Docker agent for [Dockhand](https://dockhand.pro) - manage Docker hosts anywhere.
+    Hawser is a lightweight Go agent that enables Dockhand to manage Docker hosts in various network configurations. It supports two operational modes:
 
-- **Standard Mode**: Agent listens for incoming connections (ideal for LAN/homelab with static IPs)
+    - **Standard Mode**: Agent listens for incoming connections (ideal for LAN/homelab with static IPs)
 **Application Name:** Hawser
 
 **Application Site:** https://github.com/Finsys/hawser
