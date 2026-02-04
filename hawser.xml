@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Hawser</Name>
+  <Repository>ghcr.io/finsys/hawser:latest</Repository>
+  <Registry>https://github.com/Finsys/hawser</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>hhttps://dockhand.pro/</Project>
+  <ReadMe>https://dockhand.pro/manual/#hawser</ReadMe>
+  <Overview>Remote Docker agent for (https://dockhand.pro) - manage Docker hosts anywhere.&#13;
+Hawser is a lightweight Go agent that enables Dockhand to manage Docker hosts in various network configurations. It supports two operational modes:&#13;
+&#13;
+- **Standard Mode**: Agent listens for incoming connections (ideal for LAN/homelab with static IPs)&#13;
+</Overview>
+  <Category>Tools: Other: Network:Other</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/zerobyte-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1770222772</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="Docker Socket" Type="Path" Display="always" Required="true" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="Com port" Target="2376" Default="2376" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">2376</Config>
+  <Config Name="TOKEN" Target="TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <TailscaleStateDir/>
+  <Changes>### 2026.02.04
+-   Initial Release</Changes>
+</Container>

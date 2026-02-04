@@ -27,6 +27,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [DumbTerm](#dumbterm)
 - [DumbWhoIs](#dumbwhois)
 - [Glance](#glance)
+- [Hawser](#hawser)
 - [homebox](#homebox)
 - [hydroqc2mqtt](#hydroqc2mqtt)
 - [iventoy](#iventoy)
@@ -322,6 +323,20 @@ A simple web application for looking up WHOIS, IP, and ASN information using fre
 **Application Name:** Glance
 
 **Application Site:** https://github.com/glanceapp/glance
+
+**[`^back to top^`](#unraid-templates)**
+
+# Hawser
+
+![hawser](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/hawser_logo.png)
+
+Remote Docker agent for [Dockhand](https://dockhand.pro) - manage Docker hosts anywhere.
+Hawser is a lightweight Go agent that enables Dockhand to manage Docker hosts in various network configurations. It supports two operational modes:
+
+- **Standard Mode**: Agent listens for incoming connections (ideal for LAN/homelab with static IPs)
+**Application Name:** Hawser
+
+**Application Site:** https://github.com/Finsys/hawser
 
 **[`^back to top^`](#unraid-templates)**
 

@@ -1,6 +1,9 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2026.02.04
+- **Hawser**
+  - New addition
 ### 2026.01.29
 - **Zerobyte**
   - added 2 Env Variable configs: Base URL and App Secret
