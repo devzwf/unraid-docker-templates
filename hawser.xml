@@ -8,7 +8,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>hhttps://dockhand.pro/</Project>
+  <Project>https://dockhand.pro/</Project>
   <ReadMe>https://dockhand.pro/manual/#hawser</ReadMe>
   <Overview>Remote Docker agent for (https://dockhand.pro) - manage Docker hosts anywhere.&#13;
 Hawser is a lightweight Go agent that enables Dockhand to manage Docker hosts in various network configurations. It supports two operational modes:&#13;
