@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/197006-support-devzwf-hawser/</Support>
   <Project>https://dockhand.pro/</Project>
   <ReadMe>https://dockhand.pro/manual/#hawser</ReadMe>
   <Overview>Remote Docker agent for (https://dockhand.pro) - manage Docker hosts anywhere.&#13;
