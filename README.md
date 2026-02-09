@@ -39,7 +39,6 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [nebula-sync](#nebula-sync)
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
-- [pihole DoT/DoH V6](#pihole-dot-doh-v6)
 - [Postfix-Relay](#postfixrelay)
 - [proxmox-backup-server](#proxmox-backup-server-dockerfiles)
 - [proxmox-datacenter-manager](#proxmox-datacenter-manager)
@@ -496,24 +495,16 @@ OneDev is an all-in-one DevOps platform that features Git repository management 
 ![pihole-dot-doh](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png)
 
 Official pihole docker with both DoT (DNS over TLS) and DoH (DNS over HTTPS) clients. Don't browse the web securely and yet still send your DNS queries in plain text!
-
+This image also support unbound
+nscrypt-proxy for DoH - 127.1.1.1#5153. Uses Cloudflare Security (1.1.1.2 )
+stubby for DoT - 127.2.2.2#5253 Uses google (8.8.8.8 / 8.8.4.4) by default
+unbound for recursive - 127.0.0.1#5335
 **Application Name:** pihole DoT/DoH
 
 **Application Site:** https://github.com/devzwf/pihole-dot-doh
 
 **[`^back to top^`](#unraid-templates)**
 
-# pihole-dot-doh-v6
-
-![pihole-dot-doh-v6](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png)
-
-Official pihole docker with both DoT (DNS over TLS) and DoH (DNS over HTTPS) clients. Don't browse the web securely and yet still send your DNS queries in plain text!
-
-**Application Name:** pihole DoT/DoH V6
-
-**Application Site:** https://github.com/devzwf/pihole-dot-doh
-
-**[`^back to top^`](#unraid-templates)**
 
 # postfixrelay
 

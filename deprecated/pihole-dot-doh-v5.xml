@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Pihole-DoT-DoH</Name>
-  <Repository>devzwf/pihole-dot-doh:latest-v6</Repository>
+  <Name>Pihole-DoT-DoH-v5</Name>
+  <Repository>devzwf/pihole-dot-doh:2024.07.0</Repository>
   <Registry>https://hub.docker.com/r/devzwf/pihole-dot-doh</Registry>
   <Network>br0</Network>
   <MyIP></MyIP>
@@ -9,27 +9,29 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/132037-support-devzwf-pihole-dotdoh/</Support>
   <Project>https://docs.pi-hole.net/guides/dns-over-https/</Project>
-  <Overview>Pi-Hole V6 - let's block those pesky ads! Now with DNS-over-HTTPS and DNS-over-TLS! pihole.doh!&#13;
-    Don't send your DNS queries in plain text.&#13;
-    &#13;
-    YOU MUST ASSIGN A STATIC IP TO THE DOCKER FOR PIHOLE TO WORK.&#13;
-    &#13;
-    You must set FTLCONF_dns_upstreams variables to 127.1.1.1#5153 (DoH) and/or 127.2.2.2#5253 (DoT) and/or 127.0.0.1#5335 (Unbound). &#13;
-&#13;
-    Otherwise, same instructions as official Pi-Hole.&#13;
-    &#13;
-        NOTE 1: Port 53 can only be used with custom br0/br1 network and a static IP address.&#13;
-        NOTE 2: DNS lookup rarely ever works with ports other than 53 i.e. see note above about static IP.&#13;
-        NOTE 3: UnRaid network settings DNS server cannot point to a docker IP.
+  <Overview>&#xD;
+    Pi-Hole V5 - let's block those pesky ads! Now with DNS-over-HTTPS and DNS-over-TLS! pihole.doh!&#xD;
+    Don't send your DNS queries in plain text.&#xD;
+    &#xD;
+    YOU MUST ASSIGN A STATIC IP TO THE DOCKER FOR PIHOLE TO WORK.&#xD;
+    &#xD;
+    You must set both DNS1 and DNS2 variables to 127.1.1.1#5153 (DoH) and/or 127.2.2.2#5253 (DoT). To use just DoH or just DoT, set both DNS1 and DNS2 to the same value.&#xD;
+    &#xD;
+    Otherwise, same instructions as official Pi-Hole.&#xD;
+    &#xD;
+        NOTE 1: Port 53 can only be used with custom br0/br1 network and a static IP address.&#xD;
+        NOTE 2: DNS lookup rarely ever works with ports other than 53 i.e. see note above about static IP.&#xD;
+        NOTE 3: UnRaid network settings DNS server cannot point to a docker IP.&#xD;
+        NOTE 4: This should be drop-in replacement for the now deprecated FLIPPINTURT Template.&#xD;
   </Overview>
   <Category>Security: Other: Network:DNS Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:80]/admin</WebUI>
-  <TemplateURL>https://github.com/devzwf/unraid-docker-templates/blob/main/pihole-dot-doh.xml</TemplateURL>
+  <TemplateURL>https://github.com/devzwf/unraid-docker-templates/blob/main/pihole-dot-doh-v5.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
   <ExtraParams>--cap-add=NET_ADMIN --restart=unless-stopped --hostname ns</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled></DateInstalled>
+  <DateInstalled>1670387701</DateInstalled>
   <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
@@ -41,13 +43,19 @@
   <Config Name="pihole config" Target="/etc/pihole/" Default="/mnt/user/appdata/pihole-dot-doh/pihole/" Mode="rw,slave" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pihole-dot-doh/pihole/</Config>
   <Config Name="dnsmasq config" Target="/etc/dnsmasq.d/" Default="/mnt/user/appdata/pihole-dot-doh/dnsmasq.d/" Mode="rw,slave" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pihole-dot-doh/dnsmasq.d/</Config>
   <Config Name="DoT DoH config" Target="/config/" Default="/mnt/user/appdata/pihole-dot-doh/config/" Mode="rw,slave" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/pihole-dot-doh/config/</Config>
-  <Config Name="DNS upstream" Target="FTLCONF_dns_upstreams" Default="127.1.1.1#5153;127.2.2.2#5253" Mode="" Description="Upstream DNS server(s) for Pi-hole to forward queries to, separated by a semicolon.&#13;&#10;&#13;&#10;Supports non-standard ports with: #[port number], e.g 127.0.0.1#5053;8.8.8.8;8.8.4.4." Type="Variable" Display="always" Required="true" Mask="false">127.1.1.1#5153</Config>
+  <Config Name="DNS 1" Target="DNS1" Default="127.1.1.1#5153" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">127.1.1.1#5153</Config>
+  <Config Name="DNS 2" Target="DNS2" Default="127.2.2.2#5253" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">127.2.2.2#5253</Config>
   <Config Name="TimeZone" Target="TZ" Default="Europe/London" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
-  <Config Name="Web api Password" Target="FTLCONF_webserver_api_password" Default="password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="Network Interface" Target="FTLCONF_dns_interface" Default="eth0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">eth0</Config>
-  <Config Name="DNSMASQ Listening" Target="FTLCONF_dns_listeningMode" Default="all" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
+  <Config Name="Web Password" Target="WEBPASSWORD" Default="password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Network Interface" Target="INTERFACE" Default="eth0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">eth0</Config>
+  <Config Name="IPv4" Target="ServerIP" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="IPv6" Target="ServerIPv6" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable IPv6" Target="IPv6" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Config Name="DNSMASQ Listening" Target="DNSMASQ_LISTENING" Default="all" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
   <Changes>### 2026.02.08
-- Update to V6 , the latest version of pihole
-### 2025.05.01
+- rename to V5 to avoid any ambiguity
+### 2022.12.22
+- populate the following path (pihole config, dnsmasq config, DoT DoH config)
+### 2022.12.06
 - Initial Release</Changes>
 </Container>

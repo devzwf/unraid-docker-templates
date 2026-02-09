@@ -1,6 +1,9 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2026.02.08
+- **Pihole-DoT-DoH**
+  - Re-organisation and update
 ### 2026.02.04
 - **Hawser**
   - New addition
