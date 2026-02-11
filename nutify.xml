@@ -18,7 +18,7 @@ to grants extended privileges to the container for hardware access&#13;
 if you dont need to use the usb , you can run it unpriledge&#13;
   </Overview>
   <Category>Tools: Other:</Category>
-  <WebUI>http://[IP]:[PORT:4096]</WebUI>
+  <WebUI>http://[IP]:[PORT:5050]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/nutify-logo.png</Icon>
   <ExtraParams>--cap-add=SYS_ADMIN --cap-add=SYS_RAWIO --cap-add=MKNOD --device-cgroup-rule='c 189:* rwm' --restart=unless-stopped</ExtraParams>
