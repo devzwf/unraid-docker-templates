@@ -37,6 +37,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [M.I.M.O.S.A](#mimosa)
 - [Myspeed.dev](#myspeeddev)
 - [nebula-sync](#nebula-sync)
+- [Nutify](#nutify)
 - [Onedev](#onedev)
 - [pihole DoT/DoH](#pihole-dot-doh)
 - [Postfix-Relay](#postfixrelay)
@@ -473,6 +474,20 @@ Reminder Pihole V6 is still under heavy development
 **Application Name:** nebula-sync
 
 **Application Site:** https://github.com/lovelaze/nebula-sync
+
+**[`^back to top^`](#unraid-templates)**
+
+# Nutify
+
+![nutify](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/nutify-logo.png)
+
+Nutify is a comprehensive monitoring system designed to track the health and performance of your Uninterruptible Power Supply (UPS) devices. It provides real-time insights into critical UPS metrics, allowing you to ensure the continuous operation and protection of your valuable equipment. Nutify collects data, generates detailed reports, and visualizes key parameters through interactive charts, all accessible via a user-friendly web interface.
+
+**Application Name:** Nutify
+
+**Images repository** https://github.com/DartSteven/Nutify
+
+**Documentation**  https://github.com/DartSteven/Nutify/wiki
 
 **[`^back to top^`](#unraid-templates)**
 

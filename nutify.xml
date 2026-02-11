@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Nutify</Name>
+  <Repository>dartsteven/nutify:amd64-latest</Repository>
+  <Registry>https://hub.docker.com/r/dartsteven/nutify</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support/>
+  <Project>https://github.com/DartSteven/Nutify</Project>
+  <ReadMe>https://github.com/DartSteven/Nutify/wiki</ReadMe>
+  <Overview>Nutify is a comprehensive monitoring system designed to track the health and performance of your Uninterruptible Power Supply (UPS) devices. It provides real-time insights into critical UPS metrics, allowing you to ensure the continuous operation and protection of your valuable equipment. Nutify collects data, generates detailed reports, and visualizes key parameters through interactive charts, all accessible via a user-friendly web interface.&#13;
+&#13;
+**** WARNING ****&#13;
+this is a priviledge container&#13;
+to grants extended privileges to the container for hardware access&#13;
+if you dont need to use the usb , you can run it unpriledge&#13;
+  </Overview>
+  <Category>Tools: Other:</Category>
+  <WebUI>http://[IP]:[PORT:4096]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/nutify-logo.png</Icon>
+  <ExtraParams>--cap-add=SYS_ADMIN --cap-add=SYS_RAWIO --cap-add=MKNOD --device-cgroup-rule='c 189:* rwm' --restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1770774344</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="HTTPS port" Target="443" Default="9443" Mode="tcp" Description="HTTPS port (when SSL_ENABLED=true)" Type="Port" Display="always" Required="true" Mask="false">9443</Config>
+  <Config Name="WEB UI" Target="5050" Default="5050" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5050</Config>
+  <Config Name="NUT server port" Target="3493" Default="3493" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3493</Config>
+  <Config Name="UDEV" Target="UDEV" Default="1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">1</Config>
+  <Config Name="Secret Key" Target="SECRET_KEY" Default="" Mode="" Description="for password encryption and decryption in the database" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Dev Directory" Target="/dev" Default="/dev" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/dev</Config>
+  <Config Name="Logs Directory" Target="/app/nutify/logs" Default="/mnt/user/appdata/nutify/logs" Mode="rw" Description="Logs directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nutify/logs</Config>
+  <Config Name="Instance directory" Target="/app/nutify/instance" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nutify/instance</Config>
+  <Config Name="SSL directory" Target="/app/ssl" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nutify/ssl</Config>
+  <Config Name="Nut Config directory" Target="/etc/nut" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nutify/etc/nut</Config>
+  <Config Name="UDEV" Target="/run/udev" Default="/run/udev" Mode="ro" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/run/udev</Config>
+  <Config Name="USB" Target="/dev/bus/usb" Default="" Mode="" Description="" Type="Device" Display="always" Required="true" Mask="false">/dev/bus/usb</Config>
+  <Config Name="Dev Directory" Target="/dev" Default="/dev" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/dev</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2026.02.10
+-   Initial Release</Changes>
+</Container>
