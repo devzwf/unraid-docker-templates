@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/197304-support-devzwf-unifi-toolkit/</Support>
   <Project>https://github.com/Crosstalk-Solutions/unifi-toolkit</Project>
   <ReadMe/>
   <Overview>A comprehensive suite of tools for UniFi network management and monitoring.</Overview>
