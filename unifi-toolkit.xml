@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>unifi-toolkit</Name>
+  <Repository>ghcr.io/crosstalk-solutions/unifi-toolkit:latest</Repository>
+  <Registry>https://github.com/Crosstalk-Solutions/unifi-toolkit</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/Crosstalk-Solutions/unifi-toolkit</Project>
+  <ReadMe/>
+  <Overview>A comprehensive suite of tools for UniFi network management and monitoring.</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/crosstalk-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1771524181</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Webui" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
+  <Config Name="Data Dir" Target="/app/data" Default="/mnt/user/appdata/unifi-toolkit" Mode="rw" Description=" IMPORTANT: Create this directory on the host first with correct permissions:&#13;&#10;      #   chown 777 /mnt/user/appdata/unifi-toolkit" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/unifi-toolkit</Config>
+  <Config Name="Encryption Key" Target="ENCRYPTION_KEY" Default="" Mode="" Description="Encryption key for securing UniFi credentials stored in the database&#13;&#10;Generate with: python -c " Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="Log Level" Target="LOG_LEVEL" Default="INFO" Mode="" Description="Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL" Type="Variable" Display="always" Required="true" Mask="false">INFO</Config>
+  <Config Name="Database URL" Target="DATABASE_URL" Default="sqlite+aiosqlite:///./data/unifi_toolkit.db" Mode="" Description="Database URL (default uses SQLite in data/ directory)" Type="Variable" Display="always" Required="true" Mask="false">sqlite+aiosqlite:///./data/unifi_toolkit.db</Config>
+  <Config Name="Type of deployement" Target="DEPLOYMENT_TYPE" Default="local" Mode="" Description="Deployment type: local or production&#13;&#10;- local: No authentication, access via http://localhost:8000&#13;&#10;- production: Authentication required, HTTPS via Caddy" Type="Variable" Display="always" Required="true" Mask="false">local</Config>
+  <Config Name="STALKER_REFRESH_INTERVAL" Target="STALKER_REFRESH_INTERVAL" Default="60" Mode="" Description="Wi-Fi Stalker: Device refresh interval in seconds" Type="Variable" Display="always" Required="false" Mask="false">60</Config>
+  <Config Name="Username" Target="AUTH_USERNAME" Default="" Mode="" Description="Admin credentials (production only)&#13;&#10;" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="password hash" Target="AUTH_PASSWORD_HASH" Default="" Mode="" Description="Admin credentials (production only)&#13;&#10;Generate with ./reset_password.sh" Type="Variable" Display="advanced-hide" Required="false" Mask="true"/>
+  <TailscaleStateDir/>
+  <Changes>#### 2026.02.19
+-   Initial Release</Changes>
+</Container>

@@ -48,6 +48,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [speedtest-tracker](#speedtest-tracker)
 - [tasks.md](#tasksmd)
 - [termix](#termix)
+- [Unifi-toolkit](#unifi-toolkit)
 - [Vouchervault](#vouchervault)
 - [walos](#wallos)
 - [Zerobyte](#zerobyte)
@@ -638,6 +639,18 @@ Termix is an open-source forever free self-hosted SSH (other protocols planned, 
 **Application Name:** termix
 
 **Application Site:** https://github.com/LukeGus/Termix
+
+**[`^back to top^`](#unraid-templates)**
+
+# Unifi-toolkit
+
+![unifi-toolkit](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/crosstalk-logo.png)
+
+A comprehensive suite of tools for UniFi network management and monitoring.
+
+**Application Name:** Unifi-toolkit
+
+**Images repository** https://github.com/Crosstalk-Solutions/unifi-toolkit
 
 **[`^back to top^`](#unraid-templates)**
 
