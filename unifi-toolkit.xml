@@ -21,7 +21,7 @@
   <DateInstalled>1771524181</DateInstalled>
   <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
-  <Requires>IMPORTANT: Create this directory on the host first with correct permissions:&amp;amp;#13;&amp;amp;#10;      #   chown 1000:1000/mnt/user/appdata/unifi-toolkit"</Requires>
+  <Requires>IMPORTANT: Create this directory on the host first with correct permissions:&amp;amp;#13;&amp;amp;#10;      #   chown 1000:1000 /mnt/user/appdata/unifi-toolkit"</Requires>
   <Config Name="Webui" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
   <Config Name="Data Dir" Target="/app/data" Default="/mnt/user/appdata/unifi-toolkit" Mode="rw" Description=" IMPORTANT: Create this directory on the host first with correct permissions:&#13;&#10;      #   chown 1000:1000 /mnt/user/appdata/unifi-toolkit" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/unifi-toolkit</Config>
   <Config Name="Encryption Key" Target="ENCRYPTION_KEY" Default="" Mode="" Description="Encryption key for securing UniFi credentials stored in the database" Type="Variable" Display="always" Required="true" Mask="true">test</Config>
