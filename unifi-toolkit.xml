@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/197304-support-devzwf-unifi-toolkit/</Support>
   <Project>https://github.com/Crosstalk-Solutions/unifi-toolkit</Project>
-  <ReadMe/>
+  <ReadMe>https://github.com/devzwf/unraid-docker-templates/blob/main/guides/Quick-Start-Guide-Unifi-toolkit.md</ReadMe>
   <Overview>A comprehensive suite of tools for UniFi network management and monitoring.</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
@@ -32,6 +32,8 @@
   <Config Name="Username" Target="AUTH_USERNAME" Default="" Mode="" Description="Admin credentials (production only)&#13;&#10;" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="password hash" Target="AUTH_PASSWORD_HASH" Default="" Mode="" Description="Admin credentials (production only)&#13;&#10;Generate with ./reset_password.sh" Type="Variable" Display="advanced-hide" Required="false" Mask="true"/>
   <TailscaleStateDir/>
-  <Changes>#### 2026.02.19
+  <Changes>#### 2026.02.21
+-   Add a quick guide link
+#### 2026.02.19
 -   Initial Release</Changes>
 </Container>
