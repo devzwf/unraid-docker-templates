@@ -16,7 +16,6 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [BirdNET-Go](#birdnet-go)
 - [Blocky](#blocky)
 - [Bootimus](#bootimus)
-- [Cups-Airprint
 - [Cups-Airprint](#cups-airprint)
 - [Databasement](#databasement)
 - [Docmost](#docmost)
