@@ -1,6 +1,9 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2026.04.24
+- **Bootimus**
+  - New addition
 ### 2026.02.21
 - **Unifi-toolkit**
   - Add a quick guide link

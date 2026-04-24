@@ -15,6 +15,8 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Binner](#binner)
 - [BirdNET-Go](#birdnet-go)
 - [Blocky](#blocky)
+- [Bootimus](#bootimus)
+- [Cups-Airprint
 - [Cups-Airprint](#cups-airprint)
 - [Databasement](#databasement)
 - [Docmost](#docmost)
@@ -134,6 +136,22 @@ Create new config.yaml with your configuration ( see https://0xerr0r.github.io/b
 **Images repository** https://github.com/0xERR0R/blocky
 
 **Application Site:**https://0xerr0r.github.io/blocky
+
+**[`^back to top^`](#unraid-templates)**
+
+# Bootimus
+
+![bootimus](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/booyimus.png)
+
+A production-ready, self-contained PXE and HTTP boot server written in Go with embedded iPXE bootloaders, SQLite/PostgreSQL support, and a full-featured web admin interface. Deploy in seconds with a single binary or Docker container.
+
+There Be Dragons!
+
+This is an early-stage work-in-progress project - there may be bugs. Please raise an issue for any unexpected behaviour you encounter.
+
+**Images repository** https://github.com/garybowers/bootimus
+
+**Application Site:** https://bootimus.com/
 
 **[`^back to top^`](#unraid-templates)**
 
