@@ -141,7 +141,7 @@ Create new config.yaml with your configuration ( see https://0xerr0r.github.io/b
 
 # Bootimus
 
-![bootimus](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/booyimus.png)
+![bootimus](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bootimus.png)
 
 A production-ready, self-contained PXE and HTTP boot server written in Go with embedded iPXE bootloaders, SQLite/PostgreSQL support, and a full-featured web admin interface. Deploy in seconds with a single binary or Docker container.
 
