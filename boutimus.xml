@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Bootimus</Name>
+  <Repository>garybowers/bootimus:latest</Repository>
+  <Registry>ttps://hub.docker.com/r/garybowers/bootimus</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/198435-support-devzwf-bootimus/</Support>
+  <Project>https://bootimus.com/</Project>
+  <ReadMe/>
+  <Overview>A production-ready, self-contained PXE and HTTP boot server written in Go with embedded iPXE bootloaders, SQLite/PostgreSQL support, and a full-featured web admin interface. Deploy in seconds with a single binary or Docker container.&#13;
+&#13;
+There Be Dragons!&#13;
+&#13;
+This is an early-stage work-in-progress project - there may be bugs. Please raise an issue for any unexpected behaviour you encounter.</Overview>
+  <WebUI>http://[IP]:[PORT:8081]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bootimus.png</Icon>
+  <ExtraParams>--cap-add NET_BIND_SERVICE --restart always</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1777059060</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="TFTP Server Port" Target="69" Default="69" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">69</Config>
+  <Config Name="Web UI" Target="8081" Default="8081" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8081</Config>
+  <Config Name="Data Directory" Target="/data" Default="/mnt/user/appdata/bootimus/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bootimus/data</Config>
+  <Config Name="Isos Directory" Target="/data/isos" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/isos/</Config>
+  <Config Name="PXE HTTP port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2026.04.24
+- Initial Release</Changes>
+</Container>
