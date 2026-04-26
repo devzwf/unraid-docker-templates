@@ -1,6 +1,11 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2026.04.25
+- **Bootimus**
+  - fix restart policy to unless-stopped
+  - added BOOTIMUS_PROXY_DHCP_ENABLED env variable config for proxyDHCP coexistence
+  - added BOOTIMUS_WINDOWS_SMB_ENABLED env variable config to enable Windows SMB support
 ### 2026.04.24
 - **Bootimus**
   - New addition

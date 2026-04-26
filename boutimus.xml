@@ -18,7 +18,7 @@ This is an early-stage work-in-progress project - there may be bugs. Please rais
   <WebUI>http://[IP]:[PORT:8081]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bootimus.png</Icon>
-  <ExtraParams>--cap-add NET_BIND_SERVICE --restart always</ExtraParams>
+  <ExtraParams>--cap-add=NET_BIND_SERVICE --restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1777059060</DateInstalled>
@@ -30,7 +30,13 @@ This is an early-stage work-in-progress project - there may be bugs. Please rais
   <Config Name="Data Directory" Target="/data" Default="/mnt/user/appdata/bootimus/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bootimus/data</Config>
   <Config Name="Isos Directory" Target="/data/isos" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/isos/</Config>
   <Config Name="PXE HTTP port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="BOOTIMUS_PROXY_DHCP_ENABLED" Target="BOOTIMUS_PROXY_DHCP_ENABLED" Default="FALSE" Mode="" Description="proxyDHCP coexistence" Type="Variable" Display="advanced" Required="false" Mask="false">FALSE</Config>
+  <Config Name="BOOTIMUS_WINDOWS_SMB_ENABLED" Target="BOOTIMUS_WINDOWS_SMB_ENABLED" Default="FALSE" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">FALSE</Config>
   <TailscaleStateDir/>
-  <Changes>### 2026.04.24
+  <Changes>### 2026.04.25
+- fix restart policy to unless-stopped
+- added BOOTIMUS_PROXY_DHCP_ENABLED env variable config for proxyDHCP coexistence
+- added BOOTIMUS_WINDOWS_SMB_ENABLED env variable config to enable Windows SMB support
+### 2026.04.24
 - Initial Release</Changes>
 </Container>
