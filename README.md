@@ -18,6 +18,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [Bootimus](#bootimus)
 - [Cups-Airprint](#cups-airprint)
 - [Databasement](#databasement)
+- [Dbackup](#dbackup)
 - [Docmost](#docmost)
 - [DumbAssets](#dumbassets)
 - [DumbBudget](#dumbbudget)
@@ -182,6 +183,22 @@ Databasement is a web application for managing database server backups. It allow
 **Application Site:** https://david-crty.github.io/databasement/
 
 **Application Documentation:** https://david-crty.github.io/databasement/
+
+**[`^back to top^`](#unraid-templates)**
+
+# Dbackup
+
+![dbackup](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dbackup-logo.png)
+
+Self-hosted solution for automating database backups with encryption, compression, and smart retention policies.
+
+**Application Name:** Dbackup
+
+**Images repository** https://github.com/Skyfay/DBackup
+
+**Application Site:** https://dbackup.app/
+
+**Application Documentation:** https://docs.dbackup.app/
 
 **[`^back to top^`](#unraid-templates)**
 
