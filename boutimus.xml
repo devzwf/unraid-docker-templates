@@ -15,6 +15,7 @@
 There Be Dragons!&#13;
 &#13;
 This is an early-stage work-in-progress project - there may be bugs. Please raise an issue for any unexpected behaviour you encounter.</Overview>
+  <Category>Productivity: Tools: Network:Other</Category>
   <WebUI>http://[IP]:[PORT:8081]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bootimus.png</Icon>
