@@ -1,6 +1,13 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2026.06.13
+- **Homebox**
+  - added HBOX_AUTH_API_KEY_PEPPER env variable config
+### 2026.05.29
+- **Bambuddy**
+  - Optimised database shutdown handling with extended 30s stop timeout.
+  - Dynamic WebUI port routing alignment.
 ### 2026.04.24
 - **DBackup**
   - New addition
