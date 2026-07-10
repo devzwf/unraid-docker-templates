@@ -8,7 +8,7 @@
   <MyMAC/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/199824-support-devzwf-sketchforge/</Support>
   <Project>https://github.com/Formsmith746/SketchForge-3D</Project>
   <ReadMe/>
   <Overview>A local-first 3D design editor that runs in your browser.&#13;
@@ -26,5 +26,6 @@ Build shapes, cut holes, group parts, import STL files, and export models withou
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="WEBUI" Target="80" Default="3000" Mode="tcp" Description="WEBUI " Type="Port" Display="always" Required="true" Mask="false">3000</Config>
-  <TailscaleStateDir/>
+  <Changes>### 2026.07.11
+-   Initial Release</Changes>
 </Container>
