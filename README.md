@@ -47,6 +47,7 @@ The docker containers referenced in this repo point to Docker Containers maintai
 - [proxmox-datacenter-manager](#proxmox-datacenter-manager)
 - [pulse](#pulse)
 - [silverbullet](#silverbullet)
+- [SketchForge](#sketchforge)
 - [speedtest-tracker](#speedtest-tracker)
 - [tasks.md](#tasksmd)
 - [termix](#termix)
@@ -630,6 +631,22 @@ SilverBullet is a note-taking application optimized for people with a [hacker mi
 **Application Site:** https://github.com/silverbulletmd/silverbullet
 
 **Documentation** https://silverbullet.md/
+
+**[`^back to top^`](#unraid-templates)**
+
+# sketchforge
+
+![SketchForge](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/SketchForge-logo.png)
+
+A local-first 3D design editor that runs in your browser.
+
+Build shapes, cut holes, group parts, import STL files, and export models without accounts, cloud lock-in, or heavyweight CAD setup. 
+
+**Application Name:** SketchForge
+
+**Application Site:** https://github.com/Formsmith746/SketchForge-3D
+
+**Demo** https://sketchforge3d.com/
 
 **[`^back to top^`](#unraid-templates)**
 

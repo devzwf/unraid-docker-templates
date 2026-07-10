@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>SketchForge</Name>
+  <Repository>ghcr.io/formsmith746/sketchforge-3d:latest</Repository>
+  <Registry>https://github.com/Formsmith746/SketchForge-3D/pkgs/container/sketchforge-3d</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/Formsmith746/SketchForge-3D</Project>
+  <ReadMe/>
+  <Overview>A local-first 3D design editor that runs in your browser.&#13;
+&#13;
+Build shapes, cut holes, group parts, import STL files, and export models without accounts, cloud lock-in, or heavyweight CAD setup. </Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/sketchforge-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1783723347</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="WEBUI" Target="80" Default="3000" Mode="tcp" Description="WEBUI " Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <TailscaleStateDir/>
+</Container>

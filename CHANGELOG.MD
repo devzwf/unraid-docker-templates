@@ -1,6 +1,9 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2026.07.11
+- **SketchForge**
+  - New addition
 ### 2026.06.13
 - **Homebox**
   - added HBOX_AUTH_API_KEY_PEPPER env variable config
