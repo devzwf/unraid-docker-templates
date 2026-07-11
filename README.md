@@ -636,7 +636,7 @@ SilverBullet is a note-taking application optimized for people with a [hacker mi
 
 # sketchforge
 
-![SketchForge](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/SketchForge-logo.png)
+![SketchForge](https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/sketchforge-logo.png)
 
 A local-first 3D design editor that runs in your browser.
 

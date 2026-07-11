@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>SketchForge</Name>
+  <Name>sketchforge</Name>
   <Repository>ghcr.io/formsmith746/sketchforge-3d:latest</Repository>
   <Registry>https://github.com/Formsmith746/SketchForge-3D/pkgs/container/sketchforge-3d</Registry>
   <Network>bridge</Network>
