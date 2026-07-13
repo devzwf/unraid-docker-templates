@@ -26,6 +26,9 @@ Build shapes, cut holes, group parts, import STL files, and export models withou
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="WEBUI" Target="80" Default="3000" Mode="tcp" Description="WEBUI " Type="Port" Display="always" Required="true" Mask="false">3000</Config>
-  <Changes>### 2026.07.11
+  <TailscaleStateDir/>
+  <Changes>### 2026.07.13
+- Fix some minor issues with the template
+### 2026.07.11
 -   Initial Release</Changes>
 </Container>

@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>Bootimus</Name>
   <Repository>garybowers/bootimus:latest</Repository>
-  <Registry>ttps://hub.docker.com/r/garybowers/bootimus</Registry>
+  <Registry>https://hub.docker.com/r/garybowers/bootimus</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
