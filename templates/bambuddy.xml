@@ -12,8 +12,8 @@
   <Overview>A powerful, self-hosted print archive and management system for Bambu Lab 3D printers. No cloud dependency, complete privacy, full control. NOTE: This container MUST run in HOST network mode for printer auto-discovery and local slicer integrations to work properly.</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[Config:PORT]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/bambuddy.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/bambuddy-logo.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/bambuddy.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bambuddy-logo.png</Icon>
   <ExtraParams>--restart=unless-stopped --stop-timeout 30</ExtraParams>
   <PostArgs/>
   <CPUset/>

@@ -12,7 +12,7 @@
   <Overview>A stupid simple, no auth (unless you want it!), modern notepad application with auto-save functionality and dark mode support..</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/dumbpad-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbpad-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -28,5 +28,5 @@
 -   Update the repository
 ### 2025.01.28
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/dumbPad.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/dumbPad.xml</TemplateURL>
 </Container>

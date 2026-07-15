@@ -16,7 +16,7 @@ See Documentation&#xD;
 https://code.onedev.io/projects/162/files</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:6610]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/onedev-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/onedev-logo.png</Icon>
   <ExtraParams>--restart always</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -32,5 +32,5 @@ https://code.onedev.io/projects/162/files</Overview>
 -   Add support link
 ### 2022.11.10
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/onedev.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/onedev.xml</TemplateURL>
 </Container>

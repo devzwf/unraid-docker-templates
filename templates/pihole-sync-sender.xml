@@ -18,7 +18,7 @@ Note: after starting this container the first time please check the log for the 
   </Overview>
   <Category>Network:DNS</Category>
   <WebUI/>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -39,5 +39,5 @@ Note: after starting this container the first time please check the log for the 
 - Adding support thread
 ### 2022.10.03
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/pihole-sync-sender.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/pihole-sync-sender.xml</TemplateURL>
 </Container>

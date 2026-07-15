@@ -24,7 +24,7 @@ The core features should work, but there are ones do not work due to container a
        PAM authentication: since containers are by definition ephemeral and no /etc/ configs are being persisted</Overview>
   <Category>Backup:</Category>
   <WebUI>https://[IP]:[PORT:8007]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/pbs-logo.jpg</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pbs-logo.jpg</Icon>
   <ExtraParams>--restart unless-stopped --memory=2g --mount type=tmpfs,destination=/run</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -41,5 +41,5 @@ The core features should work, but there are ones do not work due to container a
 - Update to latest container image
 ### 2023.01.02
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/proxmox-backup-server.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/proxmox-backup-server.xml</TemplateURL>
 </Container>

@@ -17,7 +17,7 @@ Main Video: youtu.be/7C4i-2IqSS4&#xD;
 Step by step Video: https://youtu.be/QOd1apc0Lpo</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/mimosa-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/mimosa-logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -33,5 +33,5 @@ Step by step Video: https://youtu.be/QOd1apc0Lpo</Overview>
 -   Fix a typo in WEBUI 
 ### 2024.07.23
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/mimosa.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/mimosa.xml</TemplateURL>
 </Container>

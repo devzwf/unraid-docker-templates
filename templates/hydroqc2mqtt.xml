@@ -16,7 +16,7 @@ This module use the hydroqc library to fetch all pertinent account information a
 It also includes a separate logic that sends the hourly consumption statistics to Home-Assitant via websocket</Overview>
   <Category>HomeAutomation:</Category>
   <WebUI/>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/hydroqc-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/hydroqc-logo.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -49,5 +49,5 @@ It also includes a separate logic that sends the hourly consumption statistics t
 - add changelog
 ### 2022.09.29
 -   Initial Release</Changes>  
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/hydroqc2mqtt.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/hydroqc2mqtt.xml</TemplateURL>
 </Container>

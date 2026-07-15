@@ -17,7 +17,7 @@ Try the live demo: https://demo.pulserelay.pro/ (read-only with mock data)
 </Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:7655]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/pulse-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pulse-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -35,5 +35,5 @@ Try the live demo: https://demo.pulserelay.pro/ (read-only with mock data)
 - Added Log Level environment variable
 ### 2025.10.24
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/pulse.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/pulse.xml</TemplateURL>
 </Container>

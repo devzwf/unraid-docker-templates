@@ -16,7 +16,7 @@ Warning&#xD;
 This app is in the VERY early stages of development. Expect bugs, data loss, and unexplainable issues! For that reason, I recommend you securely tunnel your connection to Termix through a VPN.</Overview>
   <Category>Productivity: Tools: Network:Web Network:Other</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/termix_logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/termix_logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -31,5 +31,5 @@ This app is in the VERY early stages of development. Expect bugs, data loss, and
 ### 2025.03.12
 -   Initial Release</Changes>
   <TailscaleStateDir/>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/termix.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/termix.xml</TemplateURL>
 </Container>

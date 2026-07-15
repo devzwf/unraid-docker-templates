@@ -19,7 +19,7 @@ Require before deploying:&#xD;
    - redis</Overview>
   <Category>Productivity: Tools: Status:Beta</Category>
   <WebUI>https://[IP]:[PORT:3000]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/docmost-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/docmost-logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -37,5 +37,5 @@ Require before deploying:&#xD;
 - adding support forum
 ### 2024.07.20
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/docmost.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/docmost.xml</TemplateURL>
 </Container>

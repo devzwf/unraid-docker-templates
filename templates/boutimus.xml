@@ -17,7 +17,7 @@ There Be Dragons!&#13;
 This is an early-stage work-in-progress project - there may be bugs. Please raise an issue for any unexpected behaviour you encounter.</Overview>
   <Category>Productivity: Tools: Network:Other</Category>
   <WebUI>http://[IP]:[PORT:8081]/</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/bootimus.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bootimus.png</Icon>
   <ExtraParams>--cap-add=NET_BIND_SERVICE --restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -39,5 +39,5 @@ This is an early-stage work-in-progress project - there may be bugs. Please rais
 - added BOOTIMUS_WINDOWS_SMB_ENABLED env variable config to enable Windows SMB support
 ### 2026.04.24
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/boutimus.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/boutimus.xml</TemplateURL>
 </Container>

@@ -18,7 +18,7 @@ NOTE: The sending and recieving container are only necessary for solving permiss
   </Overview>
   <Category>Network:DNS</Category>
   <WebUI/>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -38,5 +38,5 @@ NOTE: The sending and recieving container are only necessary for solving permiss
 - Fix the default Node variable to be receiver
 ### 2022.11.29
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/pihole-sync-receiver.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/pihole-sync-receiver.xml</TemplateURL>
 </Container>

@@ -22,7 +22,7 @@ Zerobyte is still in version 0.x.x and is subject to major changes from version 
 </Overview>
   <Category>Backup:</Category>
   <WebUI>http://[IP]:[PORT:4096]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/zerobyte-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/zerobyte-logo.png</Icon>
   <ExtraParams>--cap-add=SYS_ADMIN --restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -43,5 +43,5 @@ Zerobyte is still in version 0.x.x and is subject to major changes from version 
 - use latest as tag instead of specific version
 ### 2025.12.18
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/zerobyte.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/zerobyte.xml</TemplateURL>
 </Container>

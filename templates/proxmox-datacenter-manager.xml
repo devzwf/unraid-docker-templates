@@ -26,7 +26,7 @@ Documentation: https://www.proxmox.com/en/products/proxmox-datacenter-manager/ov
 </Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/pdm-logo.jpg</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pdm-logo.jpg</Icon>
   <ExtraParams>--restart unless-stopped  --cgroupns=host --mount type=tmpfs,destination=/run --mount type=tmpfs,destination=/run/lock</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -56,5 +56,5 @@ Documentation: https://www.proxmox.com/en/products/proxmox-datacenter-manager/ov
 - Update description
 ### 2024.12.20
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/proxmox-datacenter-manager.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/proxmox-datacenter-manager.xml</TemplateURL>
 </Container>

@@ -14,7 +14,7 @@
                               Glance </Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/glance_logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/glance_logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -32,5 +32,5 @@
 - remove the timezone reference.
 ### 2024.06.08
 -   Initial Release</Changes> 
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/glance.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/glance.xml</TemplateURL>
 </Container>

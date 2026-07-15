@@ -19,7 +19,7 @@ You must already have a account on an external SMTP server (e.g., Gmail, AWS SES
 Your external SMTP server must be using encryption (i.e., plaintext is not allowed)</Overview>
   <Category>Productivity: Network:Other</Category>
   <WebUI/>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/postfix-logo.gif</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/postfix-logo.gif</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -46,5 +46,5 @@ Your external SMTP server must be using encryption (i.e., plaintext is not allow
 - Adding support thread
 ### 2022.11.13
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/postfixrelay.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/postfixrelay.xml</TemplateURL>
 </Container>

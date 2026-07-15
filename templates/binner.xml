@@ -12,7 +12,7 @@
   <Overview>Binner is a free open-source parts inventory tracking system you can run locally in Windows or Unix environments. It was created for makers (like myself), hobbyists or professionals to keep track of your parts inventory.</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>https://[IP]:[PORT:8090]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/binner-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/binner-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -27,5 +27,5 @@
 - Adding support thread
 ### 2022.11.02
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/binner.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/binner.xml</TemplateURL>
 </Container>

@@ -15,7 +15,7 @@
 Create new config.yaml with your configuration ( see https://0xerr0r.github.io/blocky/configuration/ for more details and all configuration options).</Overview>
   <Category>Security: Tools: Network:DNS</Category>
   <WebUI/>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/blocky-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/blocky-logo.png</Icon>
   <ExtraParams>--cap-add=NET_ADMIN --restart=unless-stopped --hostname blocky</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -33,5 +33,5 @@ Create new config.yaml with your configuration ( see https://0xerr0r.github.io/b
   <Changes>### 2023.04.23
 -   Update support thread
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/blocky.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/blocky.xml</TemplateURL>
 </Container>

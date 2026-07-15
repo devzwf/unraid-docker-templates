@@ -21,7 +21,7 @@ Copy the output (e.g., base64:xxxx...) and set it as APP_KEY.&#13;
 </Overview>
   <Category>Backup: Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:2226]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/databasement-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/databasement-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -41,5 +41,5 @@ Copy the output (e.g., base64:xxxx...) and set it as APP_KEY.&#13;
 - Added support thread
 ### 2026.01.05
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/databasement.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/databasement.xml</TemplateURL>
 </Container>

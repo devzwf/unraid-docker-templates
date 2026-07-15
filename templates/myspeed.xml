@@ -14,7 +14,7 @@
 It automatically creates speedtests based on your schedule and displays them in a list.</Overview>
   <Category>Tools: Network:Other</Category>
   <WebUI>http://[IP]:[PORT:5216]/</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/myspeed_logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/myspeed_logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -26,5 +26,5 @@ It automatically creates speedtests based on your schedule and displays them in 
   <Config Name="Data Dir" Target="/myspeed/data" Default="/mnt/user/appdata/myspeed" Mode="rw" Description="Data Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/myspeed</Config>
   <Changes>### 2024.06.19
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/myspeed.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/myspeed.xml</TemplateURL>
 </Container>

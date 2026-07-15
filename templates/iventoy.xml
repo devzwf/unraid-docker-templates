@@ -16,7 +16,7 @@ iVentoy supports x86 Legacy BIOS, IA32 UEFI, x86_64 UEFI and ARM64 UEFI mode at 
 iVentoy support 110+ common types of OS (Windows/WinPE/Linux/VMware) </Overview>
   <Category>Productivity: Tools: Network:Other</Category>
   <WebUI>http://[IP]:[PORT:26000]/</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/iventoy.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/iventoy.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -36,5 +36,5 @@ iVentoy support 110+ common types of OS (Windows/WinPE/Linux/VMware) </Overview>
 - Fix Iso Directory
 ### 2023.11.15
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/iventoy.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/iventoy.xml</TemplateURL>
 </Container>

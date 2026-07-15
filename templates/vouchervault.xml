@@ -22,7 +22,7 @@ You must adjust the share permissions manually:&#xD;
 for more instructions please  have a look to : https://github.com/l4rm4nd/VoucherVault/wiki/01-&#x2010;-Installation#unraid-installation</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/vouchervault-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/vouchervault-logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -50,5 +50,5 @@ for more instructions please  have a look to : https://github.com/l4rm4nd/Vouche
 - fix issue with /etc/timezone
 ### 2024.07.28
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/vouchervault.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/vouchervault.xml</TemplateURL>
 </Container>

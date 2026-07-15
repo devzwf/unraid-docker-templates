@@ -15,7 +15,7 @@ Hopefully we won't need this if EnelX fixes their API!&#xD;
 It is required that both your JuiceBox and the machine you are running juicepassproxy on have internal static IPs on your intranet.</Overview>
   <Category>HomeAutomation: Tools: Network:Proxy Network:Other</Category>
   <WebUI/>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/juicenet.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/juicenet.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -41,5 +41,5 @@ It is required that both your JuiceBox and the machine you are running juicepass
 - Update the config env accordingly
 ### 2023.11.08
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/juicepass2mqtt.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/juicepass2mqtt.xml</TemplateURL>
 </Container>

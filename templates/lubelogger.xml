@@ -12,7 +12,7 @@
   <Overview>A self-hosted, open-source vehicle service records and maintainence tracker.</Overview>
   <Category>Tools: Other:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/lubelogger_logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/lubelogger_logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -37,5 +37,5 @@
 - Fix typo on the some path - thanks @C4ArtZ
 ### 2024.01.08
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/lubelogger.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/lubelogger.xml</TemplateURL>
 </Container>

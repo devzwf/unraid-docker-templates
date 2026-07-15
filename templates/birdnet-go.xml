@@ -26,7 +26,7 @@
 </Overview>
   <Category>AI:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/birdnet-go-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/birdnet-go-logo.png</Icon>
   <ExtraParams>--add-host="host.docker.internal:host-gateway"</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -43,5 +43,5 @@
   <Changes>### 2025.08.22
 -   Initial Release</Changes>
   <TailscaleStateDir/>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/birdnet-go.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/birdnet-go.xml</TemplateURL>
 </Container>

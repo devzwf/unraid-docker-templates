@@ -25,8 +25,8 @@ Or, you can find preconfigured stamps for many popular resolvers here: https://g
   </Overview>
   <Category>Security: Other: Network:DNS Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:80]/admin</WebUI>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/pihole-dot-doh.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/pihole-dot-doh.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
   <ExtraParams>--cap-add=NET_ADMIN --restart=unless-stopped --hostname ns</ExtraParams>
   <PostArgs/>
   <CPUset/>

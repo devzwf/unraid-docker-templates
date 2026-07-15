@@ -12,7 +12,7 @@
   <Overview>A simple, secure personal budgeting app with PIN protection. Track your income and expenses with a clean, modern interface.</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/dumbbudget-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbbudget-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -27,5 +27,5 @@
   <TailscaleStateDir/>
   <Changes>### 2025.02.07
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/dumbbudget.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/dumbbudget.xml</TemplateURL>
 </Container>

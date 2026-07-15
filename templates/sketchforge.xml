@@ -30,5 +30,5 @@ Build shapes, cut holes, group parts, import STL files, and export models withou
 - Fix some minor issues with the template
 ### 2026.07.11
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/sketchforge.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/sketchforge.xml</TemplateURL>
 </Container>

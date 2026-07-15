@@ -12,7 +12,7 @@
   <Overview>A self-hosted, Markdown file based task management board.</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/tasks_md_logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/tasks_md_logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -25,5 +25,5 @@
   <Config Name="Config Dir" Target="/config" Default="/mnt/user/appdata/tasks-md/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/tasks-md/config</Config>
   <Config Name="Tasks Directory" Target="/tasks" Default="/mnt/user/appdata/tasks-md/tasks" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/tasks-md/tasks</Config>
   <Config Name="Web UI port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/tasks-md.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/tasks-md.xml</TemplateURL>
 </Container>

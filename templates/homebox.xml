@@ -12,7 +12,7 @@
   <Overview>Homebox is the inventory and organization system built for the Home User! With a focus on simplicity and ease of use, Homebox is the perfect solution for your home inventory, organization, and management needs</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:7745]/</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/homebox_logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/homebox_logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -56,5 +56,5 @@
 -   Add Support thread Link
 ### 2022.10.11
 -   Initial Release</Changes> 
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/homebox.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/homebox.xml</TemplateURL>
 </Container>

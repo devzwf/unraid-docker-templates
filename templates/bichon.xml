@@ -17,7 +17,7 @@ Default credentials:&#13;
   </Overview>
   <Category>Productivity: Tools: Other:</Category>
   <WebUI>https://[IP]:[PORT:15630]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/bichon-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/bichon-logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -36,5 +36,5 @@ Default credentials:&#13;
 ### 2025.12.06
 -   Initial Release</Changes>
   <TailscaleStateDir/>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/bichon.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/bichon.xml</TemplateURL>
 </Container>

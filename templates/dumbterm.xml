@@ -12,7 +12,7 @@
   <Overview>A stupidly simple web-based terminal emulator, with common tools and Starship enabled! &#x1F680;</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/dumbterm-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dumbterm-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -31,5 +31,5 @@
   <TailscaleStateDir/>
   <Changes>### 2025.09.30
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/dumbterm.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/dumbterm.xml</TemplateURL>
 </Container>

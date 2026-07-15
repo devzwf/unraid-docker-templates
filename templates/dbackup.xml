@@ -17,7 +17,7 @@ Whether you're running a single MySQL database or managing multiple PostgreSQL, 
 No vendor lock-in by design - every backup is a standard database dump (SQL, BSON, RDB, etc.) encrypted with open AES-256-GCM. If DBackup is ever unavailable, you can decrypt and restore your backups with a single Node.js script and the key from your Recovery Kit. No proprietary formats, no dependencies on DBackup itself.</Overview>
   <Category>Backup:</Category>
   <WebUI>https://[IP]:[PORT:3000]/</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/dbackup-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/dbackup-logo.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -35,5 +35,5 @@ No vendor lock-in by design - every backup is a standard database dump (SQL, BSO
   <TailscaleStateDir/>
    <Changes>### 2026.05.12
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/dbackup.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/dbackup.xml</TemplateURL>
 </Container>

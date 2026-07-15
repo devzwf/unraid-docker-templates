@@ -20,7 +20,7 @@ To add printers: visit the WebUI =&amp;gt; Administration =&amp;gt; Printers =&a
 The default admin credential : admin/admin (please Change when setting up your container)</Overview>
   <Category>Tools: Network:Other</Category>
   <WebUI>http://[IP]:[PORT:631]/</WebUI>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/cups-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/cups-logo.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -37,5 +37,5 @@ The default admin credential : admin/admin (please Change when setting up your c
 -   Add Support thread Link
 ### 2022.10.19
 -   Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/cups-airprint.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/cups-airprint.xml</TemplateURL>
 </Container>

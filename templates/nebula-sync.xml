@@ -22,7 +22,7 @@ Features&#xD;
 Reminder Pihole V6 is still under heavy development </Overview>
   <Category>Tools: Network:DNS</Category>
   <WebUI/>
-  <Icon>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/pihole-logo-bw.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -39,5 +39,5 @@ Reminder Pihole V6 is still under heavy development </Overview>
 - adding support forum
 ### 2024.12.26
 - Initial Release</Changes>
-  <TemplateURL>https://raw.githubusercontent.comt.com/devzwf/unraid-docker-templates/main/templates/nebula-sync.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/nebula-sync.xml</TemplateURL>
 </Container>
