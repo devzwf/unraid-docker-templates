@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Name>Printbuddy</Name>
+  <Repository>docker.io/vmhomelabde/printbuddy:latest</Repository>
+  <Registry>https://github.com/vmhomelab/printbuddy</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Project>hhttps://wiki.printbuddy.tech/</Project>
+  <Overview>Printbuddy is a self-hosted command center for your 3D-printer fleet.
+Monitor Bambu Lab, Klipper/Moonraker, and PrusaLink printers, track filament, archive print jobs, and understand your print history from one clean interface.</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[Config:PORT]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/printbuddy.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/printbuddy-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped --cap-add=NET_BIND_SERVICE</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1769028600</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="env" Description="Set the operational time zone for print logs and scheduled tasks." Type="Variable" Display="always" Required="true" Mask="false">America/Toronto</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="env" Description="The user ID for the container process. This should match the user ID of the Unraid user that owns the appdata folder." Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="env" Description="The group ID for the container process. This should match the group ID of the Unraid user that owns the appdata folder." Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+  <Config Name="Web UI Port" Target="PORT" Default="8000" Mode="env" Description="The internal port Printbuddy uses for its web dashboard server. Since Network Mode is locked to 'host', changing this value directly alters the port used on your Unraid host (e.g. http://your-unraid-ip:8000)." Type="Variable" Display="always" Required="true" Mask="false">8000</Config>
+  <Config Name="Data" Target="/app/data" Default="/mnt/user/appdata/printbuddy/data" Mode="rw" Description="Persistent storage location for your SQLite database, custom settings, and print farm configurations." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/printbuddy/data</Config>
+  <Config Name="Logs" Target="/app/logs" Default="/mnt/user/appdata/printbuddy/logs" Mode="rw" Description="Persistent storage folder where application runtime and printer connection logs are saved." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/printbuddy/logs</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2026.07.25
+- Initial Release</Changes>
+</Container>
