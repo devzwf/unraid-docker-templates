@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
   <Name>Printbuddy</Name>
-  <Repository>docker.io/vmhomelabde/printbuddy:latest</Repository>
+  <Repository>vmhomelabde/printbuddy:latest</Repository>
   <Registry>https://github.com/vmhomelab/printbuddy</Registry>
   <Network>host</Network>
   <MyIP/>
