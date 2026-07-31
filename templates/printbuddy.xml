@@ -7,7 +7,8 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Project>hhttps://wiki.printbuddy.tech/</Project>
+  <Support>https://forums.unraid.net/topic/200066-support-devzwf-printbuddy/</Support>
+  <Project>https://wiki.printbuddy.tech/</Project>
   <Overview>Printbuddy is a self-hosted command center for your 3D-printer fleet.
 Monitor Bambu Lab, Klipper/Moonraker, and PrusaLink printers, track filament, archive print jobs, and understand your print history from one clean interface.</Overview>
   <Category>Productivity: Tools:</Category>
@@ -28,6 +29,8 @@ Monitor Bambu Lab, Klipper/Moonraker, and PrusaLink printers, track filament, ar
   <Config Name="Data" Target="/app/data" Default="/mnt/user/appdata/printbuddy/data" Mode="rw" Description="Persistent storage location for your SQLite database, custom settings, and print farm configurations." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/printbuddy/data</Config>
   <Config Name="Logs" Target="/app/logs" Default="/mnt/user/appdata/printbuddy/logs" Mode="rw" Description="Persistent storage folder where application runtime and printer connection logs are saved." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/printbuddy/logs</Config>
   <TailscaleStateDir/>
-  <Changes>### 2026.07.25
+  <Changes>### 2026.07.30
+- Add support thread
+### 2026.07.25
 - Initial Release</Changes>
 </Container>
