@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Name>CertWarden</Name>
+  <Repository>ghcr.io/gregtwallace/certwarden:latest</Repository>
+  <Registry>https://github.com/gregtwallace/certwarden/pkgs/container/certwarden</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://www.certwarden.com/</Project>
+  <Overview>Cert Warden is a centralized ACME (Let's Encrypt) certificate manager. It obtains and renews certificates in one place, then lets your clients and servers fetch them over an API, or pushes them out automatically. Supports http-01, dns-01 (Cloudflare, ACME-DNS, acme.sh, custom scripts...) and dns-01 aliasing.
+Initial login: admin / password (change it immediately). Once a certificate named 'serverdefault' exists, the web UI is also served over HTTPS on port 4055.</Overview>
+  <Category>Security: Network:Management</Category>
+  <WebUI>http://[IP]:[PORT:4050]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/certwarden.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/certwarden-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1792640342</DateInstalled>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="env" Description="Time zone used for logs and scheduled tasks (renewals, backups)." Type="Variable" Display="always" Required="true" Mask="false">America/Toronto</Config>
+  <Config Name="HTTP Port" Target="4050" Default="4050" Mode="tcp" Description="Primary HTTP server (web UI and API). Redirects to HTTPS once the 'serverdefault' certificate is configured." Type="Port" Display="always" Required="true" Mask="false">4050</Config>
+  <Config Name="HTTPS Port" Target="4055" Default="4055" Mode="tcp" Description="Primary HTTPS server (web UI and API). Active once the 'serverdefault' certificate is configured." Type="Port" Display="always" Required="true" Mask="false">4055</Config>
+  <Config Name="HTTP-01 Challenge Port" Target="4060" Default="4060" Mode="tcp" Description="Internal http-01 challenge server. Port 80 of your domain(s) must be forwarded / proxied to this port when using the http-01 challenge. Not needed if you only use dns-01." Type="Port" Display="always" Required="false" Mask="false">4060</Config>
+  <Config Name="pprof HTTP Port" Target="4065" Default="" Mode="tcp" Description="pprof debug server (HTTP). Disabled by default (enable_pprof in config.yaml). Leave empty unless debugging." Type="Port" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="pprof HTTPS Port" Target="4070" Default="" Mode="tcp" Description="pprof debug server (HTTPS). Disabled by default (enable_pprof in config.yaml). Leave empty unless debugging." Type="Port" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Data" Target="/app/data" Default="/mnt/user/appdata/certwarden/data" Mode="rw" Description="Persistent storage for the database, config.yaml, backups and logs." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/certwarden/data</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2026.10.21
+- Initial Release</Changes>
+</Container>
