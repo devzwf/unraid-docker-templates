@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/201091-support-devzwf-cert-warden/</Support>
   <Project>https://www.certwarden.com/</Project>
   <Overview>Cert Warden is a centralized ACME (Let's Encrypt) certificate manager. It obtains and renews certificates in one place, then lets your clients and servers fetch them over an API, or pushes them out automatically. Supports http-01, dns-01 (Cloudflare, ACME-DNS, acme.sh, custom scripts...) and dns-01 aliasing.
 Initial login: admin / password (change it immediately). Once a certificate named 'serverdefault' exists, the web UI is also served over HTTPS on port 4055.</Overview>
@@ -30,6 +30,8 @@ Initial login: admin / password (change it immediately). Once a certificate name
   <Config Name="pprof HTTPS Port" Target="4070" Default="" Mode="tcp" Description="pprof debug server (HTTPS). Disabled by default (enable_pprof in config.yaml). Leave empty unless debugging." Type="Port" Display="advanced" Required="false" Mask="false"/>
   <Config Name="Data" Target="/app/data" Default="/mnt/user/appdata/certwarden/data" Mode="rw" Description="Persistent storage for the database, config.yaml, backups and logs." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/certwarden/data</Config>
   <TailscaleStateDir/>
-  <Changes>### 2026.10.21
+  <Changes>### 2026.10.28
+- Add support thread
+### 2026.10.21
 - Initial Release</Changes>
 </Container>
