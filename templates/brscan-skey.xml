@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Name>brscan-skey</Name>
+  <Repository>devzwf/brscan-skey:latest</Repository>
+  <Registry>https://hub.docker.com/r/devzwf/brscan-skey</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/devzwf/brscan-skey-docker/issues</Support>
+  <Project>https://github.com/devzwf/brscan-skey-docker</Project>
+  <Overview>Press SCAN → Scan to PC on a Brother network scanner and get a multi-page PDF in a folder, such as the Paperless-ngx consume folder or a share. Useful on models without a Scan to FTP / Network menu (many North American models). The container runs Brother's brscan-skey daemon. It takes every page in the document feeder (or the glass when the feeder is empty) and writes compact PDFs atomically, owned by nobody:users by default.
+REQUIREMENTS: host networking (already set), and on the device web page Network → Network → Protocol → SNMP → "SNMP v1/v2c read-write access". Otherwise the device shows "No PC found". If you set a custom Set community there, enter it below.
+amd64 only (Brother ships x86 drivers only). To list supported models: docker run --rm --entrypoint list-models devzwf/brscan-skey</Overview>
+  <Category>Tools:Utilities Productivity:</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/brscan-skey.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/brscan-skey-logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires>On the Brother device: SNMP v1/v2c read-write access must be enabled (Network → Network → Protocol → SNMP).</Requires>
+  <Config Name="Output folder" Target="/output" Default="/mnt/user/appdata/paperless-ngx/consume" Mode="rw" Description="Folder where the PDFs are written, for example the Paperless-ngx consume folder." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Scanner IP" Target="SCANNER_IP" Default="" Mode="env" Description="IP address of the Brother device. Use a static lease." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Scanner model" Target="SCANNER_MODEL" Default="" Mode="env" Description="Exact model name, e.g. DCP-L2550DW, MFC-L2710DW, HL-L2395DW. The container refuses to start with an unsupported model." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Name shown on the device" Target="SKEY_USER" Default="Paperless" Mode="env" Description="Name of this PC in the Scan to PC menu of the device." Type="Variable" Display="always" Required="false" Mask="false">Paperless</Config>
+  <Config Name="Page size" Target="SCAN_PAGE_SIZE" Default="Letter|A4|Legal" Mode="env" Description="Scan area: Letter, A4 or Legal." Type="Variable" Display="always" Required="false" Mask="false">Letter</Config>
+  <Config Name="Resolution (dpi)" Target="SCAN_RESOLUTION" Default="300|100|150|200|400|600" Mode="env" Description="300 dpi is recommended for OCR." Type="Variable" Display="always" Required="false" Mask="false">300</Config>
+  <Config Name="Scan mode" Target="SCAN_MODE" Default="True Gray|24bit Color[Fast]|Black &amp; White|Gray[Error Diffusion]" Mode="env" Description="Colour mode. The available values depend on the model." Type="Variable" Display="always" Required="false" Mask="false">True Gray</Config>
+  <Config Name="Time Zone" Target="TZ" Default="America/Toronto" Mode="env" Description="Time zone, used for file names and logs." Type="Variable" Display="always" Required="false" Mask="false">America/Toronto</Config>
+  <Config Name="SNMP write community" Target="SNMP_COMMUNITY" Default="internal" Mode="env" Description="Must match the Set community on the device (Brother default: internal)." Type="Variable" Display="advanced" Required="false" Mask="true">internal</Config>
+  <Config Name="File name prefix" Target="FILENAME_PREFIX" Default="scan" Mode="env" Description="Files are named PREFIX_YYYY-MM-DD_HHMMSS.pdf." Type="Variable" Display="advanced" Required="false" Mask="false">scan</Config>
+  <Config Name="JPEG quality" Target="JPEG_QUALITY" Default="80" Mode="env" Description="JPEG quality inside the PDF (gray and colour)." Type="Variable" Display="advanced" Required="false" Mask="false">80</Config>
+  <Config Name="Scan width (mm)" Target="SCAN_WIDTH_MM" Default="" Mode="env" Description="Optional custom width; overrides Page size. Max usually 211.9." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Scan height (mm)" Target="SCAN_HEIGHT_MM" Default="" Mode="env" Description="Optional custom height; overrides Page size." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="env" Description="Owner of the created files (99 = nobody)." Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="env" Description="Group of the created files (100 = users)." Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <TailscaleStateDir/>
+  <Changes>### 2026.11.07
+- Initial Release</Changes>
+</Container>

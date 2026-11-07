@@ -1,6 +1,9 @@
 # Change Log
 
 All major changes to this project will be documented here.
+### 2026.11.07
+- **brscan-skey**
+  - New addition
 ### 2026.10.21
 - **CertWarden**
   - New addition
