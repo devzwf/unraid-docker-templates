@@ -19,7 +19,7 @@ amd64 only (Brother ships x86 drivers only). To list supported models: docker ru
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateText>This container is made and maintained by me. If it saves you some time, you can support my work here </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires>On the Brother device: SNMP v1/v2c read-write access must be enabled (Network → Network → Protocol → SNMP).</Requires>
   <Config Name="Output folder" Target="/output" Default="/mnt/user/appdata/paperless-ngx/consume" Mode="rw" Description="Folder where the PDFs are written, for example the Paperless-ngx consume folder." Type="Path" Display="always" Required="true" Mask="false"/>
