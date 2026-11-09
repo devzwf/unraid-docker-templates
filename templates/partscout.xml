@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Name>PartScout</Name>
+  <Repository>devzwf/partscout:latest</Repository>
+  <Registry>https://hub.docker.com/r/devzwf/partscout</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/devzwf/partscout/issues</Support>
+  <Project>https://github.com/devzwf/partscout</Project>
+  <Overview>PartScout searches several electronic component suppliers at once from a web interface: prices, stock, photos and BOMs, with multiple users and a French or English interface. You need your own API keys from each supplier. Derived from Win-PartsFinder by Ian Johnston; personal and non-commercial use only (see LICENSE and NOTICE.md in the project).
+Generate the Master Key and the Setup Token in the Unraid terminal with: openssl rand -base64 32
+Keep the Master Key somewhere safe, outside appdata: if you lose it, you will have to enter your API keys again. The image has no shell, so the Console button does not work.</Overview>
+  <Category>Tools:Utilities Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/templates/partscout.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/devzwf/unraid-docker-templates/main/images/partscout-logo.png</Icon>
+  <ExtraParams>--user 99:100 --restart=unless-stopped --read-only --tmpfs /tmp --cap-drop=ALL --security-opt=no-new-privileges</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateLink>https://ko-fi.com/devzwf</DonateLink>
+  <Requires/>
+  <Config Name="Web UI Port" Target="8080" Default="5070" Mode="tcp" Description="Web interface. Avoid 5060 and 5061, which browsers block." Type="Port" Display="always" Required="true" Mask="false">5070</Config>
+  <Config Name="Data" Target="/data" Default="/mnt/user/appdata/partscout/data" Mode="rw" Description="Database, settings and daily backups. Unraid creates this folder. If you choose an existing one, it must belong to nobody:users (99:100)." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/partscout/data</Config>
+  <Config Name="Master Key" Target="PARTSCOUT_MASTER_KEY" Default="" Mode="" Description="Encrypts your supplier API keys. Generate it with: openssl rand -base64 32. If you lose it, you will have to enter your API keys again." Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Setup Token" Target="PARTSCOUT_SETUP_TOKEN" Default="" Mode="" Description="Asked for once, when the password is created. Generate it with: openssl rand -base64 32" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Trusted Proxy IP" Target="PARTSCOUT_TRUSTED_PROXY" Default="" Mode="" Description="Behind a reverse proxy: its IP address, the only source trusted for X-Forwarded-* headers. Leave empty otherwise." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <TailscaleStateDir/>
+  <Changes>### 2026.11.08
+- Initial Release</Changes>
+</Container>
