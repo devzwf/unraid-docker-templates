@@ -27,7 +27,8 @@ Keep the Master Key somewhere safe, outside appdata: if you lose it, you will ha
   <Config Name="Master Key" Target="PARTSCOUT_MASTER_KEY" Default="" Mode="" Description="Encrypts your supplier API keys. Generate it with: openssl rand -base64 32. If you lose it, you will have to enter your API keys again." Type="Variable" Display="always" Required="true" Mask="true"/>
   <Config Name="Setup Token" Target="PARTSCOUT_SETUP_TOKEN" Default="" Mode="" Description="Asked for once, when the password is created. Generate it with: openssl rand -base64 32" Type="Variable" Display="always" Required="true" Mask="true"/>
   <Config Name="Trusted Proxy IP" Target="PARTSCOUT_TRUSTED_PROXY" Default="" Mode="" Description="Behind a reverse proxy: its IP address, the only source trusted for X-Forwarded-* headers. Leave empty otherwise." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Secure Cookie" Target="PARTSCOUT_COOKIE_SECURE" Default="auto" Mode="" Description="always: the session cookie is only ever sent over HTTPS. Set it when PartScout is reached through HTTPS (reverse proxy). auto: Secure only when the request is HTTPS, so plain HTTP keeps working on your LAN." Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <TailscaleStateDir/>
-  <Changes>### 2026.11.08
+  <Changes>### 2026.11.16
 - Initial Release</Changes>
 </Container>
