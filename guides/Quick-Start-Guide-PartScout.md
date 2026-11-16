@@ -4,7 +4,7 @@
 
 [PartScout](https://github.com/devzwf/partscout) searches several electronic component suppliers at once (DigiKey, Mouser, element14, TME…) and compares stock, prices, price breaks, MOQ, lifecycle and datasheets, from a web interface in English or French.
 
-Support thread: *(link to the Unraid forum thread)* · Bugs: [GitHub issues](https://github.com/devzwf/partscout/issues)
+Support thread: [Unraid forum](https://forums.unraid.net/topic/201313-support-devzwf-partscout/) · Bugs: [GitHub issues](https://github.com/devzwf/partscout/issues)
 
 ---
 
