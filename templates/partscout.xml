@@ -19,7 +19,7 @@ Keep the Master Key somewhere safe, outside appdata: if you lose it, you will ha
   <ExtraParams>--user 99:100 --restart=unless-stopped --read-only --tmpfs /tmp --cap-drop=ALL --security-opt=no-new-privileges</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DonateText>Don't donate to me! Instead, please donate the creators of the apps, but if you insist </DonateText>
+  <DonateText>PartScout is made and maintained by me, based on Win-PartsFinder by Ian Johnston. If it saves you some time, you can support my work here </DonateText>
   <DonateLink>https://ko-fi.com/devzwf</DonateLink>
   <Requires/>
   <Config Name="Web UI Port" Target="8080" Default="5070" Mode="tcp" Description="Web interface. Avoid 5060 and 5061, which browsers block." Type="Port" Display="always" Required="true" Mask="false">5070</Config>
