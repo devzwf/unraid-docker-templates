@@ -117,6 +117,8 @@ This repository contains quick-start and configuration guides in the `guides/` f
     - See `guides/Quick-Start-Guide-Docmost.md`
 - [Quick Start: UniFi Toolkit](guides/Quick-Start-Guide-Unifi-toolkit.md) — Install UniFi Toolkit, set permissions, generate an encryption key, and finalize setup with optional video walkthrough.  
     - See `guides/Quick-Start-Guide-Unifi-toolkit.md`
+- [Quick Start: PartScout](guides/Quick-Start-Guide-PartScout.md) — Generate the secrets, install from Community Applications, first sign-in, reverse proxy, backups and restore.  
+    - See `guides/Quick-Start-Guide-PartScout.md`
 - [Quick Start: Pi-hole Sync](guides/Quick-Start-Guide-pihole-sync.md) — Guide to install and configure Pi-hole sync sender/receiver containers, SSH key setup, and using symlinks for production sync.  
     - See `guides/Quick-Start-Guide-pihole-sync.md`
 
