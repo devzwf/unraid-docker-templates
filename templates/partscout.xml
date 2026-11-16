@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/devzwf/partscout/issues</Support>
+  <Support>https://forums.unraid.net/topic/201313-support-devzwf-partscout/</Support>
   <Project>https://github.com/devzwf/partscout</Project>
   <Overview>PartScout searches several electronic component suppliers at once from a web interface: prices, stock, photos and BOMs, with multiple users and a French or English interface. You need your own API keys from each supplier. Derived from Win-PartsFinder by Ian Johnston; personal and non-commercial use only (see LICENSE and NOTICE.md in the project).
 Generate the Master Key and the Setup Token in the Unraid terminal with: openssl rand -base64 32
